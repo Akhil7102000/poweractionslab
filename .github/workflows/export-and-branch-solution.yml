@@ -19,7 +19,7 @@ jobs:
     - name: who-am-i action
       uses: microsoft/powerplatform-actions/who-am-i@v0
       with:
-        environment-url: 'https://org3014c3a3.crm8.dynamics.com'
+        environment-url: 'https://dev-org3014c3a3.crm8.dynamics.com'
         user-name: 'vaishalijindal@zoxima.com'
         password-secret: ${{ secrets.password }}
 

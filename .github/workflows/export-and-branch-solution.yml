@@ -20,7 +20,7 @@ jobs:
       uses: microsoft/powerplatform-actions/who-am-i@v0
       with:
         environment-url: 'https://org3014c3a3.crm8.dynamics.com/'
-        user-name: 'vaishalijindal@zoxima.com'
+        user-name: 'vaishali.jindal@zoxima.com'
         password-secret: ${{ secrets.password }}
 
     - name: export-solution action

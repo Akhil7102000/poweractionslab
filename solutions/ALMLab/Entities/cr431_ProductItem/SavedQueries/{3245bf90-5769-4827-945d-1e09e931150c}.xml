@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{3245bf90-5769-4827-945d-1e09e931150c}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="cr431_name" select="1" icon="1" preview="1">
+        <row name="result" id="cr431_productitemid">
+          <cell name="cr431_name" width="107" />
+          <cell name="cr431_productname" width="115" />
+          <cell name="cr431_company" width="100" />
+          <cell name="cr431_pg1" width="100" />
+          <cell name="cr431_availablequantity" width="100" />
+          <cell name="cr431_sizesavailability" width="100" />
+          <cell name="cr431_division" width="100" />
+          <cell name="createdon" width="100" />
+          <cell name="cr431_tireindustry" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="cr431_productitem">
+          <attribute name="cr431_productitemid" />
+          <attribute name="cr431_name" />
+          <order attribute="cr431_name" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="cr431_productname" />
+          <attribute name="cr431_pg1" />
+          <attribute name="cr431_company" />
+          <attribute name="createdon" />
+          <attribute name="cr431_availablequantity" />
+          <attribute name="cr431_sizesavailability" />
+          <attribute name="cr431_division" />
+          <attribute name="cr431_tireindustry" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Product Items" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{2cc89d50-6a2e-ed11-9db0-002248d5df9a}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="cr431_name" select="1" icon="1" preview="1">
+        <row name="result" id="cr431_stockid">
+          <cell name="cr431_name" width="200" />
+          <cell name="a_55739f41558449799f12871192fa6602.cr431_accounttype" width="188" />
+          <cell name="cr431_account" width="100" />
+          <cell name="cr431_product" width="100" />
+          <cell name="cr431_productgroup" width="144" />
+          <cell name="cr431_totalinventory" width="146" />
+          <cell name="createdon" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical" distinct="true">
+        <entity name="cr431_stock">
+          <attribute name="cr431_name" />
+          <attribute name="cr431_stockid" />
+          <filter type="and">
+            <condition attribute="cr431_inventoryvalidto" operator="next-x-days" value="3" />
+            <condition attribute="cr431_totalinventory" operator="lt" value="1000" />
+          </filter>
+          <link-entity alias="a_55739f41558449799f12871192fa6602" name="account" to="cr431_account" from="accountid" link-type="outer" visible="false">
+            <attribute name="cr431_accounttype" />
+          </link-entity>
+          <attribute name="cr431_account" />
+          <attribute name="cr431_productgroup" />
+          <attribute name="cr431_product" />
+          <attribute name="cr431_totalinventory" />
+          <attribute name="createdon" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Understocks" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

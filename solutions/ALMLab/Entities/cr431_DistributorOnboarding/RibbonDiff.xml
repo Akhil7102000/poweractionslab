@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RibbonDiffXml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <CustomActions>
+    <CustomAction Id="cr431.cr431_distributoronboarding.Button2.Approve.CustomAction" Location="Mscrm.Form.cr431_distributoronboarding.MainTab.Save.Controls._children" Sequence="45">
+      <CommandUIDefinition>
+        <Button Command="cr431.cr431_distributoronboarding.Command0.Approve" Id="cr431.cr431_distributoronboarding.Button2.Approve" LabelText="$LocLabels:cr431.cr431_distributoronboarding.Button2.Approve.LabelText" Sequence="45" TemplateAlias="o2" ToolTipTitle="$LocLabels:cr431.cr431_distributoronboarding.Button2.Approve.ToolTipTitle" />
+      </CommandUIDefinition>
+    </CustomAction>
+    <CustomAction Id="cr431.cr431_distributoronboarding.Button3.Reject.CustomAction" Location="Mscrm.Form.cr431_distributoronboarding.MainTab.Save.Controls._children" Sequence="48">
+      <CommandUIDefinition>
+        <Button Command="cr431.cr431_distributoronboarding.Command1.Reject" Id="cr431.cr431_distributoronboarding.Button3.Reject" LabelText="$LocLabels:cr431.cr431_distributoronboarding.Button3.Reject.LabelText" Sequence="48" TemplateAlias="o2" ToolTipTitle="$LocLabels:cr431.cr431_distributoronboarding.Button3.Reject.ToolTipTitle" />
+      </CommandUIDefinition>
+    </CustomAction>
+  </CustomActions>
+  <Templates>
+    <RibbonTemplates Id="Mscrm.Templates"></RibbonTemplates>
+  </Templates>
+  <CommandDefinitions>
+    <CommandDefinition Id="cr431.cr431_distributoronboarding.Command0.Approve">
+      <EnableRules />
+      <DisplayRules />
+      <Actions>
+        <JavaScriptFunction FunctionName="ApprovalButton" Library="$webresource:cr431_ApprovalAndRejectButton">
+          <CrmParameter Value="PrimaryControl" />
+        </JavaScriptFunction>
+      </Actions>
+    </CommandDefinition>
+    <CommandDefinition Id="cr431.cr431_distributoronboarding.Command1.Reject">
+      <EnableRules />
+      <DisplayRules />
+      <Actions>
+        <JavaScriptFunction FunctionName="RejectButton" Library="$webresource:cr431_ApprovalAndRejectButton">
+          <CrmParameter Value="PrimaryControl" />
+        </JavaScriptFunction>
+      </Actions>
+    </CommandDefinition>
+  </CommandDefinitions>
+  <RuleDefinitions>
+    <TabDisplayRules />
+    <DisplayRules />
+    <EnableRules />
+  </RuleDefinitions>
+  <LocLabels>
+    <LocLabel Id="cr431.cr431_distributoronboarding.Button2.Approve.LabelText">
+      <Titles>
+        <Title description="Approve" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="cr431.cr431_distributoronboarding.Button2.Approve.ToolTipTitle">
+      <Titles>
+        <Title description="Approve" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="cr431.cr431_distributoronboarding.Button3.Reject.LabelText">
+      <Titles>
+        <Title description="Reject" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="cr431.cr431_distributoronboarding.Button3.Reject.ToolTipTitle">
+      <Titles>
+        <Title description="Reject" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+  </LocLabels>
+</RibbonDiffXml>

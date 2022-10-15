@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{1201d27c-5de5-4546-8364-55847e0ffef1}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="cr431_name" select="1" icon="1" preview="1">
+        <row name="result" id="cr431_usertrainingactivitiesid">
+          <cell name="cr431_name" width="73" />
+          <cell name="cr431_user" width="100" />
+          <cell name="cr431_trainingprogramactivities" width="100" />
+          <cell name="cr431_usertrainingactivitystatus" width="100" />
+          <cell name="createdon" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="cr431_usertrainingactivities">
+          <attribute name="cr431_usertrainingactivitiesid" />
+          <attribute name="cr431_name" />
+          <order attribute="cr431_name" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="cr431_trainingprogramactivities" />
+          <attribute name="cr431_user" />
+          <attribute name="cr431_usertrainingactivitystatus" />
+          <attribute name="createdon" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active User Training Activities" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

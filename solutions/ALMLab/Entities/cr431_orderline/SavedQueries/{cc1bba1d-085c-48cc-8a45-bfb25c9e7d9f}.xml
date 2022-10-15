@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{cc1bba1d-085c-48cc-8a45-bfb25c9e7d9f}</savedqueryid>
+    <layoutxml>
+      <grid name="cr431_orderlines" jump="cr431_name" select="1" icon="1" preview="1">
+        <row name="cr431_orderline" id="cr431_orderlineid">
+          <cell name="cr431_name" width="147" />
+          <cell name="cr431_salesorderno" width="100" />
+          <cell name="cr431_productitem" width="100" />
+          <cell name="cr431_uom" width="100" />
+          <cell name="cr431_quantity" width="100" />
+          <cell name="cr431_itemprice" width="100" />
+          <cell name="cr431_totalitemprice" width="100" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>2</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="cr431_orderline">
+          <attribute name="cr431_orderlineid" />
+          <attribute name="cr431_name" />
+          <attribute name="createdon" />
+          <order attribute="cr431_name" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="cr431_salesorderno" />
+          <attribute name="cr431_productitem" />
+          <attribute name="cr431_uom" />
+          <attribute name="cr431_quantity" />
+          <attribute name="cr431_itemprice" />
+          <attribute name="cr431_totalitemprice" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Order Line Associated View" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

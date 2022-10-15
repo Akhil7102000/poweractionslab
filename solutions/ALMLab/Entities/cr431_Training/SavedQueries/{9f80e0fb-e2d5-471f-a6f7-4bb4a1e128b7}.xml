@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{9f80e0fb-e2d5-471f-a6f7-4bb4a1e128b7}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="cr431_name" select="1" icon="1" preview="1">
+        <row name="result" id="cr431_trainingid">
+          <cell name="cr431_name" width="111" />
+          <cell name="cr431_purpose" width="300" />
+          <cell name="cr431_trainingsite" width="141" />
+          <cell name="statecode" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="cr431_training">
+          <attribute name="cr431_trainingid" />
+          <attribute name="cr431_name" />
+          <order attribute="cr431_name" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="cr431_purpose" />
+          <attribute name="cr431_trainingsite" />
+          <attribute name="statecode" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Trainings" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

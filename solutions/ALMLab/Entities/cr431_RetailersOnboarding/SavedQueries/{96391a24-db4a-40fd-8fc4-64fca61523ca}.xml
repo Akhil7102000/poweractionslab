@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{96391a24-db4a-40fd-8fc4-64fca61523ca}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="cr431_name" select="1" icon="1" preview="1">
+        <row name="result" id="cr431_retailersonboardingid">
+          <cell name="cr431_name" width="167" />
+          <cell name="cr431_yearofestablishment" width="177" />
+          <cell name="cr431_creditlimitinrs" width="151" />
+          <cell name="cr431_mobileno" width="100" />
+          <cell name="cr431_state" width="100" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="cr431_retailersonboarding">
+          <attribute name="cr431_retailersonboardingid" />
+          <attribute name="cr431_name" />
+          <attribute name="createdon" />
+          <order attribute="cr431_name" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="cr431_yearofestablishment" />
+          <attribute name="cr431_creditlimitinrs" />
+          <attribute name="cr431_mobileno" />
+          <attribute name="cr431_state" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Retailers Onboardings" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

@@ -1,27 +1,27 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ImportExportXml version="9.2.22092.174" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<ImportExportXml version="9.2.22094.162" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <SolutionManifest>
-    <UniqueName>powertest</UniqueName>
+    <UniqueName>ApolloChangeEnv</UniqueName>
     <LocalizedNames>
-      <LocalizedName description="powertest" languagecode="1033" />
+      <LocalizedName description="Apollo Change Env" languagecode="1033" />
     </LocalizedNames>
     <Descriptions />
     <Version>1.0.0.0</Version>
     <Managed>0</Managed>
     <Publisher>
-      <UniqueName>zoxima</UniqueName>
+      <UniqueName>Cr2acdc</UniqueName>
       <LocalizedNames>
-        <LocalizedName description="Zoxima" languagecode="1033" />
+        <LocalizedName description="CDS Default Publisher" languagecode="1033" />
       </LocalizedNames>
       <Descriptions />
       <EMailAddress xsi:nil="true"></EMailAddress>
       <SupportingWebsiteUrl xsi:nil="true"></SupportingWebsiteUrl>
-      <CustomizationPrefix>new</CustomizationPrefix>
-      <CustomizationOptionValuePrefix>10000</CustomizationOptionValuePrefix>
+      <CustomizationPrefix>cr431</CustomizationPrefix>
+      <CustomizationOptionValuePrefix>25446</CustomizationOptionValuePrefix>
       <Addresses>
         <Address>
           <AddressNumber>1</AddressNumber>
-          <AddressTypeCode>1</AddressTypeCode>
+          <AddressTypeCode xsi:nil="true"></AddressTypeCode>
           <City xsi:nil="true"></City>
           <County xsi:nil="true"></County>
           <Country xsi:nil="true"></Country>
@@ -37,7 +37,7 @@
           <PostalCode xsi:nil="true"></PostalCode>
           <PostOfficeBox xsi:nil="true"></PostOfficeBox>
           <PrimaryContactName xsi:nil="true"></PrimaryContactName>
-          <ShippingMethodCode>1</ShippingMethodCode>
+          <ShippingMethodCode xsi:nil="true"></ShippingMethodCode>
           <StateOrProvince xsi:nil="true"></StateOrProvince>
           <Telephone1 xsi:nil="true"></Telephone1>
           <Telephone2 xsi:nil="true"></Telephone2>
@@ -49,7 +49,7 @@
         </Address>
         <Address>
           <AddressNumber>2</AddressNumber>
-          <AddressTypeCode>1</AddressTypeCode>
+          <AddressTypeCode xsi:nil="true"></AddressTypeCode>
           <City xsi:nil="true"></City>
           <County xsi:nil="true"></County>
           <Country xsi:nil="true"></Country>
@@ -65,7 +65,7 @@
           <PostalCode xsi:nil="true"></PostalCode>
           <PostOfficeBox xsi:nil="true"></PostOfficeBox>
           <PrimaryContactName xsi:nil="true"></PrimaryContactName>
-          <ShippingMethodCode>1</ShippingMethodCode>
+          <ShippingMethodCode xsi:nil="true"></ShippingMethodCode>
           <StateOrProvince xsi:nil="true"></StateOrProvince>
           <Telephone1 xsi:nil="true"></Telephone1>
           <Telephone2 xsi:nil="true"></Telephone2>
@@ -78,14 +78,335 @@
       </Addresses>
     </Publisher>
     <RootComponents>
-      <RootComponent type="1" schemaName="new_test1" behavior="0" />
-      <RootComponent type="62" schemaName="new_testapp" behavior="0" />
-      <RootComponent type="80" schemaName="new_testapp" behavior="0" />
+      <RootComponent type="1" schemaName="account" behavior="0" />
+      <RootComponent type="1" schemaName="cr431_accountgroup" behavior="0" />
+      <RootComponent type="1" schemaName="cr431_area" behavior="0" />
+      <RootComponent type="1" schemaName="cr431_attendence" behavior="0" />
+      <RootComponent type="1" schemaName="cr431_beats" behavior="0" />
+      <RootComponent type="1" schemaName="cr431_beatsplanned" behavior="0" />
+      <RootComponent type="1" schemaName="cr431_beneficiaries" behavior="0" />
+      <RootComponent type="1" schemaName="cr431_bestroutesequence" behavior="0" />
+      <RootComponent type="1" schemaName="cr431_brandingmaterial" behavior="0" />
+      <RootComponent type="1" schemaName="cr431_category" behavior="0" />
+      <RootComponent type="1" schemaName="cr431_certificate" behavior="0" />
+      <RootComponent type="1" schemaName="cr431_competitor" behavior="0" />
+      <RootComponent type="1" schemaName="cr431_competitorbrandvisibilityinfo" behavior="0" />
+      <RootComponent type="1" schemaName="cr431_complaints" behavior="0" />
+      <RootComponent type="1" schemaName="cr431_customerfeedbacks" behavior="0" />
+      <RootComponent type="1" schemaName="cr431_customerledger" behavior="0" />
+      <RootComponent type="1" schemaName="cr431_daytype" behavior="0" />
+      <RootComponent type="1" schemaName="cr431_dealerindent" behavior="0" />
+      <RootComponent type="1" schemaName="cr431_dealerindentline" behavior="0" />
+      <RootComponent type="1" schemaName="cr431_dealers" behavior="0" />
+      <RootComponent type="1" schemaName="cr431_distributoronboarding" behavior="0" />
+      <RootComponent type="1" schemaName="cr431_employeetype" behavior="0" />
+      <RootComponent type="1" schemaName="cr431_enquiry" behavior="0" />
+      <RootComponent type="1" schemaName="cr431_enrollments" behavior="0" />
+      <RootComponent type="1" schemaName="cr431_event" behavior="0" />
+      <RootComponent type="1" schemaName="cr431_eventparticipant" behavior="0" />
+      <RootComponent type="1" schemaName="cr431_expenseheader" behavior="0" />
+      <RootComponent type="1" schemaName="cr431_expenseline" behavior="0" />
+      <RootComponent type="1" schemaName="cr431_farmeronboarding" behavior="0" />
+      <RootComponent type="1" schemaName="cr431_farmers" behavior="0" />
+      <RootComponent type="1" schemaName="cr431_geographicaltown" behavior="0" />
+      <RootComponent type="1" schemaName="cr431_geotownareamapping" behavior="0" />
+      <RootComponent type="1" schemaName="cr431_gtm" behavior="0" />
+      <RootComponent type="1" schemaName="cr431_imageurl" behavior="0" />
+      <RootComponent type="1" schemaName="cr431_influencer" behavior="0" />
+      <RootComponent type="1" schemaName="cr431_invoice" behavior="0" />
+      <RootComponent type="1" schemaName="cr431_invoiceline" behavior="0" />
+      <RootComponent type="1" schemaName="cr431_issuecertificates" behavior="0" />
+      <RootComponent type="1" schemaName="cr431_lead" behavior="0" />
+      <RootComponent type="1" schemaName="cr431_loyalty" behavior="0" />
+      <RootComponent type="1" schemaName="cr431_loyaltypointsdefination" behavior="0" />
+      <RootComponent type="1" schemaName="cr431_loyaltyrewardsmaster" behavior="0" />
+      <RootComponent type="1" schemaName="cr431_loyaltytiermaster" behavior="0" />
+      <RootComponent type="1" schemaName="cr431_loyaltytransactions" behavior="0" />
+      <RootComponent type="1" schemaName="cr431_maplocationsequence" behavior="0" />
+      <RootComponent type="1" schemaName="cr431_marketingmaterial" behavior="0" />
+      <RootComponent type="1" schemaName="cr431_options" behavior="0" />
+      <RootComponent type="1" schemaName="cr431_orderline" behavior="0" />
+      <RootComponent type="1" schemaName="cr431_payment" behavior="0" />
+      <RootComponent type="1" schemaName="cr431_payout" behavior="0" />
+      <RootComponent type="1" schemaName="cr431_pjp" behavior="0" />
+      <RootComponent type="1" schemaName="cr431_pjptown" behavior="0" />
+      <RootComponent type="1" schemaName="cr431_productdetails" behavior="0" />
+      <RootComponent type="1" schemaName="cr431_productimages" behavior="0" />
+      <RootComponent type="1" schemaName="cr431_productitem" behavior="0" />
+      <RootComponent type="1" schemaName="cr431_productmaster" behavior="0" />
+      <RootComponent type="1" schemaName="cr431_productpricelist" behavior="0" />
+      <RootComponent type="1" schemaName="cr431_productvariant" behavior="0" />
+      <RootComponent type="1" schemaName="cr431_purchaseindentsheader" behavior="0" />
+      <RootComponent type="1" schemaName="cr431_purchaseindentsline" behavior="0" />
+      <RootComponent type="1" schemaName="cr431_question" behavior="0" />
+      <RootComponent type="1" schemaName="cr431_repository" behavior="0" />
+      <RootComponent type="1" schemaName="cr431_response" behavior="0" />
+      <RootComponent type="1" schemaName="cr431_retailerorderotp" behavior="0" />
+      <RootComponent type="1" schemaName="cr431_retailersonboarding" behavior="0" />
+      <RootComponent type="1" schemaName="cr431_returnrequest" behavior="0" />
+      <RootComponent type="1" schemaName="cr431_returnrequestline" behavior="0" />
+      <RootComponent type="1" schemaName="cr431_salesorderlines" behavior="0" />
+      <RootComponent type="1" schemaName="cr431_salesterritory" behavior="0" />
+      <RootComponent type="1" schemaName="cr431_salesterritoryandusermapping" behavior="0" />
+      <RootComponent type="1" schemaName="cr431_sales_order" behavior="0" />
+      <RootComponent type="1" schemaName="cr431_schemedefination" behavior="0" />
+      <RootComponent type="1" schemaName="cr431_schemeinvoicelinetable" behavior="0" />
+      <RootComponent type="1" schemaName="cr431_schemeinvoicetable" behavior="0" />
+      <RootComponent type="1" schemaName="cr431_schemeperformance" behavior="0" />
+      <RootComponent type="1" schemaName="cr431_schemeproductdetail" behavior="0" />
+      <RootComponent type="1" schemaName="cr431_schemeproductgroup" behavior="0" />
+      <RootComponent type="1" schemaName="cr431_schemeslabs" behavior="0" />
+      <RootComponent type="1" schemaName="cr431_servicerequest" behavior="0" />
+      <RootComponent type="1" schemaName="cr431_shipment" behavior="0" />
+      <RootComponent type="1" schemaName="cr431_shippingaddress" behavior="0" />
+      <RootComponent type="1" schemaName="cr431_shippinglines" behavior="0" />
+      <RootComponent type="1" schemaName="cr431_siteproducts" behavior="0" />
+      <RootComponent type="1" schemaName="cr431_sites" behavior="0" />
+      <RootComponent type="1" schemaName="cr431_sptargets" behavior="0" />
+      <RootComponent type="1" schemaName="cr431_stock" behavior="0" />
+      <RootComponent type="1" schemaName="cr431_survey" behavior="0" />
+      <RootComponent type="1" schemaName="cr431_surveyquestion" behavior="0" />
+      <RootComponent type="1" schemaName="cr431_task" behavior="0" />
+      <RootComponent type="1" schemaName="cr431_teamtownmapping" behavior="0" />
+      <RootComponent type="1" schemaName="cr431_training" behavior="0" />
+      <RootComponent type="1" schemaName="cr431_trainingactvities" behavior="0" />
+      <RootComponent type="1" schemaName="cr431_trainingprogram" behavior="0" />
+      <RootComponent type="1" schemaName="cr431_trainingprogramactvities" behavior="0" />
+      <RootComponent type="1" schemaName="cr431_userspointstransactions" behavior="0" />
+      <RootComponent type="1" schemaName="cr431_usertrainingactivities" behavior="0" />
+      <RootComponent type="1" schemaName="cr431_venuemaster" behavior="0" />
+      <RootComponent type="1" schemaName="cr431_visit" behavior="0" />
+      <RootComponent type="1" schemaName="cr431_visitbrandinfo" behavior="0" />
+      <RootComponent type="1" schemaName="cr431_visitinfo" behavior="0" />
+      <RootComponent type="1" schemaName="cr431_visitrules" behavior="0" />
+      <RootComponent type="1" schemaName="cr431_warehouse" behavior="0" />
+      <RootComponent type="1" schemaName="email" behavior="0" />
+      <RootComponent type="1" schemaName="new_complaints" behavior="0" />
+      <RootComponent type="1" schemaName="new_distributoronboarding" behavior="0" />
+      <RootComponent type="1" schemaName="new_farmer_onboarding" behavior="0" />
+      <RootComponent type="1" schemaName="new_leadsstatus" behavior="0" />
+      <RootComponent type="1" schemaName="new_retailerbpf" behavior="0" />
+      <RootComponent type="1" schemaName="new_salesorder" behavior="0" />
+      <RootComponent type="1" schemaName="new_shipment" behavior="0" />
+      <RootComponent type="1" schemaName="team" behavior="2" />
+      <RootComponent type="9" schemaName="cr431_accounttype" behavior="0" />
+      <RootComponent type="9" schemaName="cr431_acounttype" behavior="0" />
+      <RootComponent type="9" schemaName="cr431_ap" behavior="0" />
+      <RootComponent type="9" schemaName="cr431_approval" behavior="0" />
+      <RootComponent type="9" schemaName="cr431_approvals" behavior="0" />
+      <RootComponent type="9" schemaName="cr431_approvalstatus" behavior="0" />
+      <RootComponent type="9" schemaName="cr431_approvalststus" behavior="0" />
+      <RootComponent type="9" schemaName="cr431_ch" behavior="0" />
+      <RootComponent type="9" schemaName="cr431_customercategory" behavior="0" />
+      <RootComponent type="9" schemaName="cr431_dd" behavior="0" />
+      <RootComponent type="9" schemaName="cr431_dddddd" behavior="0" />
+      <RootComponent type="9" schemaName="cr431_details" behavior="0" />
+      <RootComponent type="9" schemaName="cr431_eventstatus" behavior="0" />
+      <RootComponent type="9" schemaName="cr431_eventtype" behavior="0" />
+      <RootComponent type="9" schemaName="cr431_indus" behavior="0" />
+      <RootComponent type="9" schemaName="cr431_invoicestatus" behavior="0" />
+      <RootComponent type="9" schemaName="cr431_jobcategory" behavior="0" />
+      <RootComponent type="9" schemaName="cr431_metcallwith1" behavior="0" />
+      <RootComponent type="9" schemaName="cr431_mmchoice" behavior="0" />
+      <RootComponent type="9" schemaName="cr431_modeofclosure" behavior="0" />
+      <RootComponent type="9" schemaName="cr431_natureoftask1" behavior="0" />
+      <RootComponent type="9" schemaName="cr431_orderstatuschoice" behavior="0" />
+      <RootComponent type="9" schemaName="cr431_ordertype" behavior="0" />
+      <RootComponent type="9" schemaName="cr431_partytype" behavior="0" />
+      <RootComponent type="9" schemaName="cr431_pm" behavior="0" />
+      <RootComponent type="9" schemaName="cr431_ps" behavior="0" />
+      <RootComponent type="9" schemaName="cr431_purchaseindentorderstatus" behavior="0" />
+      <RootComponent type="9" schemaName="cr431_repositorystatuschoice" behavior="0" />
+      <RootComponent type="9" schemaName="cr431_rewardtype" behavior="0" />
+      <RootComponent type="9" schemaName="cr431_sponsorship" behavior="0" />
+      <RootComponent type="9" schemaName="cr431_substatus" behavior="0" />
+      <RootComponent type="9" schemaName="cr431_taskstatus1" behavior="0" />
+      <RootComponent type="9" schemaName="cr431_tier" behavior="0" />
+      <RootComponent type="9" schemaName="cr431_trainingactivitystatus" behavior="0" />
+      <RootComponent type="9" schemaName="cr431_trainingtype" behavior="0" />
+      <RootComponent type="9" schemaName="cr431_typeoftask" behavior="0" />
+      <RootComponent type="9" schemaName="cr431_visibilitylevel" behavior="0" />
+      <RootComponent type="9" schemaName="cr431_weekdays" behavior="0" />
+      <RootComponent type="9" schemaName="cr431_yesno" behavior="0" />
+      <RootComponent type="29" id="{0f05c2ab-1930-ed11-9db0-002248d5df9a}" behavior="0" />
+      <RootComponent type="29" id="{1d42c4d7-2030-ed11-9db0-002248d5df9a}" behavior="0" />
+      <RootComponent type="29" id="{3e49a070-0030-ed11-9db0-002248d5d232}" behavior="0" />
+      <RootComponent type="29" id="{5e60bba3-2530-ed11-9db0-002248d5d232}" behavior="0" />
+      <RootComponent type="29" id="{968dd86a-3e33-ed11-9db1-002248d5d232}" behavior="0" />
+      <RootComponent type="29" id="{bdf5fb6c-1c30-ed11-9db0-002248d5d232}" behavior="0" />
+      <RootComponent type="29" id="{dfa12756-0530-ed11-9db0-002248d5d232}" behavior="0" />
+      <RootComponent type="60" id="{27704615-a62d-ed11-9db0-002248d5df9a}" />
+      <RootComponent type="61" schemaName="cr431_ApprovalAndRejectButton" behavior="0" />
+      <RootComponent type="61" schemaName="cr431_cretercrd" behavior="0" />
+      <RootComponent type="61" schemaName="cr431_distributor" behavior="0" />
+      <RootComponent type="61" schemaName="cr431_hidemultiplerecords" behavior="0" />
+      <RootComponent type="61" schemaName="cr431_HideTabs" behavior="0" />
+      <RootComponent type="61" schemaName="cr431_Identity-Card2.svg" behavior="0" />
+      <RootComponent type="61" schemaName="cr431_lockedfield" behavior="0" />
+      <RootComponent type="61" schemaName="cr431_Meeting-01-WF.svg" behavior="0" />
+      <RootComponent type="61" schemaName="cr431_salesorderstatusupdation" behavior="0" />
+      <RootComponent type="61" schemaName="cr431_shippmentcreate" behavior="0" />
+      <RootComponent type="61" schemaName="cr431_Sites.svg" behavior="0" />
+      <RootComponent type="61" schemaName="cr431_Vists_creation" behavior="0" />
+      <RootComponent type="61" schemaName="new_Bill.svg" behavior="0" />
+      <RootComponent type="61" schemaName="new_Complaint-Box.svg" behavior="0" />
+      <RootComponent type="61" schemaName="new_InformationIndicator1-WF.svg" behavior="0" />
+      <RootComponent type="61" schemaName="new_PaidInvoice3-WF.svg" behavior="0" />
+      <RootComponent type="61" schemaName="new_Receipt-WF.svg" behavior="0" />
+      <RootComponent type="61" schemaName="new_Sales-Order.svg" behavior="0" />
+      <RootComponent type="300" schemaName="new_sfaapollotyres_f4969" behavior="0" />
+      <RootComponent type="372" id="{656c6b32-8a9f-4f90-9781-c70151d215fb}" schemaName="new_whatsapp" behavior="0" />
     </RootComponents>
     <MissingDependencies>
       <MissingDependency>
-        <Required type="61" schemaName="msdyn_/Images/AppModule_Default_Icon.png" displayName="msdyn_/Images/AppModule_Default_Icon.png" solution="AppModuleWebResources (2.5)" />
-        <Dependent type="80" schemaName="new_testapp" displayName="testapp" />
+        <Required type="1" schemaName="aaduser" displayName="AAD User" solution="MetadataExtension (1.0.2.23)" />
+        <Dependent type="10" schemaName="cr431_aaduser_cr431_productpricelist_Status" displayName="cr431_aaduser_cr431_productpricelist_Status" parentSchemaName="aaduser" parentDisplayName="AAD User" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="adx_invitation" displayName="Invitation" solution="MicrosoftPortalBase (9.2.2103.1)">
+          <package>msdyn_community_anchor (9.2.220607.2)</package>
+        </Required>
+        <Dependent type="1" schemaName="account" displayName="Account" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="environmentvariabledefinition" displayName="Environment Variable Definition" solution="EnvironmentVariables (1.0.2.141)" />
+        <Dependent type="300" schemaName="new_sfaapollotyres_f4969" displayName="SFA - Apollo Tyres" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="environmentvariablevalue" displayName="Environment Variable Value" solution="EnvironmentVariables (1.0.2.141)" />
+        <Dependent type="300" schemaName="new_sfaapollotyres_f4969" displayName="SFA - Apollo Tyres" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="aaduserid" displayName="AAD user id" parentSchemaName="aaduser" parentDisplayName="AAD User" solution="MetadataExtension (1.0.2.23)" />
+        <Dependent type="10" schemaName="cr431_aaduser_cr431_productpricelist_Status" displayName="cr431_aaduser_cr431_productpricelist_Status" parentSchemaName="aaduser" parentDisplayName="AAD User" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="displayname" displayName="Display Name" parentSchemaName="aaduser" parentDisplayName="AAD User" solution="MetadataExtension (1.0.2.23)" />
+        <Dependent type="10" schemaName="cr431_aaduser_cr431_productpricelist_Status" displayName="cr431_aaduser_cr431_productpricelist_Status" parentSchemaName="aaduser" parentDisplayName="AAD User" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msa_managingpartnerid" displayName="Managing Partner" parentSchemaName="account" parentDisplayName="Account" solution="MicrosoftPortalDependencies (9.2.2103.0)">
+          <package>msdyn_community_anchor (9.2.220607.2)</package>
+        </Required>
+        <Dependent type="10" schemaName="msa_account_managingpartner" displayName="msa_account_managingpartner" parentSchemaName="account" parentDisplayName="Account" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="acceptingentityid" displayName="Accepting Entity" parentSchemaName="email" parentDisplayName="Email" solution="msft_ActivitiesInfra_Extensions (9.2.0.28)" />
+        <Dependent type="2" schemaName="acceptingentityid" displayName="Accepting Entity" parentSchemaName="email" parentDisplayName="Email" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="All AAD users" displayName="All AAD users" parentSchemaName="aaduser" parentDisplayName="AAD User" solution="MetadataExtension (1.0.2.23)" id="{1f1810e2-2903-402f-92bc-db11ec075c24}" />
+        <Dependent type="60" displayName="Information" parentDisplayName="PJP" id="{c3cb45e7-258f-4716-abe8-ff50953ef28a}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="My Active Accounts" displayName="My Active Accounts" parentSchemaName="account" parentDisplayName="Account" solution="msdynce_AppCommon (9.0.4.0066)" id="{65ffaf9a-e8c5-432d-860b-32f841b00d87}">
+          <package>msdynce_AppCommonAnchor (9.0.22093.10001)</package>
+        </Required>
+        <Dependent type="26" schemaName="My Active Accounts" displayName="My Active Accounts" parentSchemaName="account" parentDisplayName="Account" id="{65ffaf9a-e8c5-432d-860b-32f841b00d87}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="account contact card" parentDisplayName="Contact" solution="msdynce_AppCommon (9.0.4.0066)" id="{29de27bc-a257-4f29-99cf-bab4a84e688f}">
+          <package>msdynce_AppCommonAnchor (9.0.22093.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Account" parentDisplayName="Account" id="{8448b78f-8f42-454e-8e2a-f8196b0419af}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="account contact card" parentDisplayName="Contact" solution="msdynce_AppCommon (9.0.4.0066)" id="{29de27bc-a257-4f29-99cf-bab4a84e688f}">
+          <package>msdynce_AppCommonAnchor (9.0.22093.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Account for Interactive experience" parentDisplayName="Account" id="{a72c7955-442b-4ea4-9499-b10cd18b4256}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="account contact card" parentDisplayName="Contact" solution="msdynce_AppCommon (9.0.4.0066)" id="{29de27bc-a257-4f29-99cf-bab4a84e688f}">
+          <package>msdynce_AppCommonAnchor (9.0.22093.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Account main form" parentDisplayName="Account" id="{e273932a-3530-ed11-9db0-002248d5df9a}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Account" parentDisplayName="Account" solution="msdynce_AppCommon (9.0.4.0066)" id="{8448b78f-8f42-454e-8e2a-f8196b0419af}">
+          <package>msdynce_AppCommonAnchor (9.0.22093.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Account" parentDisplayName="Account" id="{8448b78f-8f42-454e-8e2a-f8196b0419af}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Account for Interactive experience" parentDisplayName="Account" solution="msdynce_AppCommon (9.0.4.0066)" id="{a72c7955-442b-4ea4-9499-b10cd18b4256}">
+          <package>msdynce_AppCommonAnchor (9.0.22093.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Account for Interactive experience" parentDisplayName="Account" id="{a72c7955-442b-4ea4-9499-b10cd18b4256}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Information" parentDisplayName="Account" solution="msdynce_AppCommon (9.0.4.0066)" id="{b053a39a-041a-4356-acef-ddf00182762b}">
+          <package>msdynce_AppCommonAnchor (9.0.22093.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Information" parentDisplayName="Account" id="{b053a39a-041a-4356-acef-ddf00182762b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="AppCommon/Account/Account_main_system_library.js" displayName="AppCommon/Account/Account_main_system_library.js" solution="msdynce_AppCommon (9.0.4.0066)">
+          <package>msdynce_AppCommonAnchor (9.0.22093.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Account" parentDisplayName="Account" id="{8448b78f-8f42-454e-8e2a-f8196b0419af}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="AppCommon/Account/Account_main_system_library.js" displayName="AppCommon/Account/Account_main_system_library.js" solution="msdynce_AppCommon (9.0.4.0066)">
+          <package>msdynce_AppCommonAnchor (9.0.22093.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Account for Interactive experience" parentDisplayName="Account" id="{a72c7955-442b-4ea4-9499-b10cd18b4256}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="AppCommon/Account/Account_main_system_library.js" displayName="AppCommon/Account/Account_main_system_library.js" solution="msdynce_AppCommon (9.0.4.0066)">
+          <package>msdynce_AppCommonAnchor (9.0.22093.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Information" parentDisplayName="Account" id="{b053a39a-041a-4356-acef-ddf00182762b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="AppCommon/Account/Account_main_system_library.js" displayName="AppCommon/Account/Account_main_system_library.js" solution="msdynce_AppCommon (9.0.4.0066)">
+          <package>msdynce_AppCommonAnchor (9.0.22093.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Account main form" parentDisplayName="Account" id="{e273932a-3530-ed11-9db0-002248d5df9a}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="66" schemaName="MscrmControls.CardFeedContainer.CardFeedContainer" displayName="MscrmControls.CardFeedContainer.CardFeedContainer" solution="BaseCustomControlsCore (9.0.2209.4011)" />
+        <Dependent type="60" displayName="Account" parentDisplayName="Account" id="{8448b78f-8f42-454e-8e2a-f8196b0419af}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="66" schemaName="MscrmControls.FieldControls.CheckboxControl" displayName="MscrmControls.FieldControls.CheckboxControl" solution="BaseCustomControlsCore (9.0.2209.4011)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Enquiry" id="{0231fd27-ea2d-410f-a574-09c6c87da3a7}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="66" schemaName="MscrmControls.FieldControls.CheckboxControl" displayName="MscrmControls.FieldControls.CheckboxControl" solution="BaseCustomControlsCore (9.0.2209.4011)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Product Item" id="{03fc4562-61d7-4192-979b-216603aae18f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="66" schemaName="MscrmControls.FieldControls.CheckboxControl" displayName="MscrmControls.FieldControls.CheckboxControl" solution="BaseCustomControlsCore (9.0.2209.4011)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Retailers Onboarding" id="{0d00eb67-662b-40b2-804e-241f1658f7f3}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="66" schemaName="MscrmControls.FieldControls.CheckboxControl" displayName="MscrmControls.FieldControls.CheckboxControl" solution="BaseCustomControlsCore (9.0.2209.4011)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Attendence" id="{2bb1e1c3-867f-4d68-ba39-ad45c132ca01}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="66" schemaName="MscrmControls.FieldControls.CheckboxControl" displayName="MscrmControls.FieldControls.CheckboxControl" solution="BaseCustomControlsCore (9.0.2209.4011)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Task" id="{2cf52446-12e4-4985-9e04-91528cab5547}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="66" schemaName="MscrmControls.FieldControls.CheckboxControl" displayName="MscrmControls.FieldControls.CheckboxControl" solution="BaseCustomControlsCore (9.0.2209.4011)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Distributor Onboarding" id="{3ad3cd69-a103-4235-b3c7-444a5103e692}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="66" schemaName="MscrmControls.FieldControls.CheckboxControl" displayName="MscrmControls.FieldControls.CheckboxControl" solution="BaseCustomControlsCore (9.0.2209.4011)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Influencer" id="{ee31a134-2374-49d1-87e5-20cef6c2f9bb}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="66" schemaName="MscrmControls.FieldControls.CheckboxControl" displayName="MscrmControls.FieldControls.CheckboxControl" solution="BaseCustomControlsCore (9.0.2209.4011)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Payout" id="{eee4f6e7-7d18-45c5-87c2-c5d17aee4660}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="66" schemaName="MscrmControls.FieldControls.CheckboxControl" displayName="MscrmControls.FieldControls.CheckboxControl" solution="BaseCustomControlsCore (9.0.2209.4011)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Survey" id="{fba4be6c-806b-4349-a439-7409133e8434}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="9" schemaName="sameweekweek_options" displayName="Week" solution="msdynce_ActivitiesPatch (9.0.22094.220926001)" />
+        <Dependent type="2" schemaName="cr431_week" displayName="Week" parentSchemaName="cr431_gtm" parentDisplayName="GTM" />
       </MissingDependency>
     </MissingDependencies>
   </SolutionManifest>

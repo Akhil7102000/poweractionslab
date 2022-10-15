@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{6107a8c0-7fc0-4d25-b0a8-d9d7257056c1}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="cr431_name" select="1" icon="1" preview="1">
+        <row name="result" id="cr431_stockid">
+          <cell name="cr431_name" width="179" />
+          <cell name="a_e7b5429933da4e9f9c60e0055d5ecb2e.cr431_accounttype" width="171" />
+          <cell name="cr431_account" width="184" />
+          <cell name="cr431_product" width="133" />
+          <cell name="cr431_productgroup" width="113" />
+          <cell name="cr431_totalinventory" width="151" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="cr431_stock">
+          <attribute name="cr431_stockid" />
+          <attribute name="cr431_name" />
+          <attribute name="createdon" />
+          <order attribute="cr431_name" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="cr431_account" />
+          <attribute name="cr431_product" />
+          <attribute name="cr431_productgroup" />
+          <link-entity alias="a_e7b5429933da4e9f9c60e0055d5ecb2e" name="account" to="cr431_account" from="accountid" link-type="outer" visible="false">
+            <attribute name="cr431_accounttype" />
+          </link-entity>
+          <attribute name="cr431_totalinventory" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="All Stocks" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

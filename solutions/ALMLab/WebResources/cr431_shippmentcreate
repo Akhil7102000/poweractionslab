@@ -1,0 +1,101 @@
+function hide(executionContext) 
+{
+
+	var formContext = executionContext;
+	debugger;
+	//var cancelinvoice=formContext.getAttribute("cr431_not").getValue();
+	//var cancelinvoice1=parseInt(cancelinvoice);
+	//if(cancelinvoice1===254460000){
+	//  formContext.getAttribute("cr431_test").setValue(254460000);
+	let salesOrderGuidWithBrackets = formContext.data.entity.getId();
+	let salesOrderGuidOnly = salesOrderGuidWithBrackets.substring(1, salesOrderGuidWithBrackets.length - 1);
+	let salesOrderGuidWithBrackets1 = formContext.data.entity.getId();
+	let salesOrderGuidOnly1 = salesOrderGuidWithBrackets1.substring(1, salesOrderGuidWithBrackets1.length - 1);
+	var Totalbillamount = formContext.getAttribute("cr431_billamoount").getValue() === null ? null : formContext.getAttribute("cr431_billamoount").getValue();
+	var BillToParty = formContext.getAttribute("cr431_billtoparty").getValue() === null ? null : formContext.getAttribute("cr431_billtoparty").getValue()[0].id;
+	var ShipToParty = formContext.getAttribute("cr431_shiptoparty").getValue() === null ? null : formContext.getAttribute("cr431_shiptoparty").getValue()[0].id;
+	var OrderNo = formContext.getAttribute("cr431_salesordernumber").getValue() === null ? null : formContext.getAttribute("cr431_salesordernumber").getValue()[0].id;
+
+
+
+	//  Xrm.Page.data.save().then(function(){
+	var record = {};
+	record["cr431_Invoice@odata.bind"] = "/cr431_invoices(" + salesOrderGuidOnly1 + ")";
+	//  record["cr431_Invoice@odata.bind"] = "/accounts("+salesOrderGuidOnly+")";
+
+	//  if(BillToParty != null){
+	record["cr431_Billto@odata.bind"] = "/accounts(" + BillToParty.substring(1, BillToParty.length - 1) + ")";
+	record["cr431_ShipTo@odata.bind"] = "/accounts(" + ShipToParty.substring(1, BillToParty.length - 1) + ")";
+  record["cr431_Account@odata.bind"] = "/accounts(" + ShipToParty.substring(1, BillToParty.length - 1) + ")";
+	//  record.cr431_shippeddate=
+	record["cr431_Order@odata.bind"] = "/cr431_sales_orders(" + OrderNo.substring(1, OrderNo.length - 1) + ")";
+	record["cr431_shippeddate"] = new Date();
+ record.cr431_shipmentstatus=254460000;
+	//  }
+	var ShipaddId = null
+	if (Totalbillamount != null) 
+    {
+		record.cr431_amount = Totalbillamount;
+	}
+	debugger;
+	Xrm.WebApi.createRecord("cr431_shipment", record)
+		
+    .then(function success(result) 
+            {
+				window.alert("Shipment Created.");
+				debugger;
+				ShipaddId = result.id;
+				Xrm.WebApi.retrieveMultipleRecords("cr431_invoiceline", `?$select=_cr431_invoicenumber_value,_cr431_item_value,cr431_billamoount,cr431_quantityordered,&$filter=_cr431_invoicenumber_value eq ${salesOrderGuidOnly}`)
+					.then(function success(ele) 
+                    {
+							for (let i = 0; i < ele.entities.length; i++) 
+                            {
+								var record1 = {};
+								//window.alert(ele.entities[i]._cr431_productitem_value);
+								if (ele.entities[i]._cr431_item_value != null) 
+                                {
+									record1["cr431_Product@odata.bind"] = "/cr431_productitems(" + ele.entities[i]._cr431_item_value + ")";
+								}
+								//window.alert(InvoiceRecordId);
+								record1["cr431_Shipment@odata.bind"] = "/cr431_shipments(" + ShipaddId + ")";
+                debugger;
+
+								if (ele.entities[i].cr431_quantityordered != null) {
+									record1["cr431_quantity"] = parseInt(ele.entities[i].cr431_quantityordered);
+								}
+
+
+
+								Xrm.WebApi.createRecord("cr431_shippinglines", record1).then(function success(result) 
+                                {
+									//	window.alert("Shipping Line Created.");
+								},
+									function(error) 
+                                    {
+										window.alert("Invoice Line: " + error.message);
+									}
+								);
+
+							}
+
+
+						},
+						function(error) 
+                        {
+							window.alert(error.message);
+						}
+					)
+            });
+    
+    
+			//------------------------------Creating record into targeted entity----------(End)--------// 
+			//  });
+
+
+
+
+
+			// else{
+			//  formContext.getAttribute("cr431_test").setValue(254460001); 
+			// }
+}

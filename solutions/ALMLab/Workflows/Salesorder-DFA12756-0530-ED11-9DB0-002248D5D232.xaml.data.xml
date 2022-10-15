@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Workflow WorkflowId="{dfa12756-0530-ed11-9db0-002248d5d232}" Name="Sales order" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <XamlFileName>/Workflows/Salesorder-DFA12756-0530-ED11-9DB0-002248D5D232.xaml</XamlFileName>
+  <Type>1</Type>
+  <Subprocess>0</Subprocess>
+  <Category>4</Category>
+  <Mode>0</Mode>
+  <Scope>4</Scope>
+  <OnDemand>0</OnDemand>
+  <TriggerOnCreate>1</TriggerOnCreate>
+  <TriggerOnDelete>0</TriggerOnDelete>
+  <AsyncAutodelete>0</AsyncAutodelete>
+  <SyncWorkflowLogOnFailure>0</SyncWorkflowLogOnFailure>
+  <StateCode>0</StateCode>
+  <StatusCode>1</StatusCode>
+  <processorder>100</processorder>
+  <RunAs>1</RunAs>
+  <UniqueName>new_salesorder</UniqueName>
+  <IsTransacted>1</IsTransacted>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <BusinessProcessType>0</BusinessProcessType>
+  <IsCustomProcessingStepAllowedForOtherPublishers>1</IsCustomProcessingStepAllowedForOtherPublishers>
+  <ProcessTriggerScope>1</ProcessTriggerScope>
+  <PrimaryEntity>cr431_Sales_Order</PrimaryEntity>
+  <LocalizedNames>
+    <LocalizedName languagecode="1033" description="Sales order" />
+  </LocalizedNames>
+  <labels>
+    <steplabels id="{467a09fb-a47c-7e2d-6333-424dcd793186}">
+      <label languagecode="1033" description="Order Submission" />
+    </steplabels>
+    <steplabels id="{213ce55d-77df-2b37-e91e-0b841b7057f8}">
+      <label languagecode="1033" description="Order status" />
+    </steplabels>
+    <steplabels id="{323326d9-adab-4f41-9af6-4782059bc3d6}">
+      <label languagecode="1033" description="Approval Status" />
+    </steplabels>
+    <steplabels id="{40ea6034-d777-49a6-bd00-ef42b01277b2}">
+      <label languagecode="1033" description="Order Status" />
+    </steplabels>
+    <steplabels id="{aaa99c45-442d-4902-8ced-dae0eaffa054}">
+      <label languagecode="1033" description="Pending For Approval" />
+    </steplabels>
+    <steplabels id="{f12293bd-67b8-4120-8d69-a5c3dde32e67}">
+      <label languagecode="1033" description="Order Status" />
+    </steplabels>
+    <steplabels id="{ed94e6f6-fb60-4109-b729-869c56a603d2}">
+      <label languagecode="1033" description="Accepted" />
+    </steplabels>
+    <steplabels id="{7d24de3a-2457-44c2-bc19-b1746045fd78}">
+      <label languagecode="1033" description="Order Status" />
+    </steplabels>
+    <steplabels id="{d94864da-104e-4fd4-8df1-2235b83fb06b}">
+      <label languagecode="1033" description="Complete" />
+    </steplabels>
+    <steplabels id="{bcff6cb0-67eb-4361-8b1c-3a05ff53a012}">
+      <label languagecode="1033" description="Order Status" />
+    </steplabels>
+    <steplabels id="{18e77547-733c-4024-99e9-8cf61b340dc7}">
+      <label languagecode="1033" description="Complete" />
+    </steplabels>
+    <steplabels id="{5539c2f8-e29a-4e70-b888-e456192b7e36}">
+      <label languagecode="1033" description="Reject" />
+    </steplabels>
+    <steplabels id="{f16452cc-53a9-4505-9de2-f79fe8211005}">
+      <label languagecode="1033" description="Complete" />
+    </steplabels>
+    <steplabels id="{ab0febdf-1566-43a9-baf9-662614e8b70e}">
+      <label languagecode="1033" description="Reject" />
+    </steplabels>
+    <steplabels id="{7cadddc3-d752-4462-aac1-3d25404483ec}">
+      <label languagecode="1033" description="Complete" />
+    </steplabels>
+    <steplabels id="{4c47d382-fba5-47e0-ad55-97552a47bac9}">
+      <label languagecode="1033" description="Reject" />
+    </steplabels>
+    <steplabels id="{512ce6af-b8a1-44c1-b6c5-be0d5c7ddf59}">
+      <label languagecode="1033" description="Complete" />
+    </steplabels>
+    <steplabels id="{b396e9b8-54d5-4ded-aa53-1418652141a2}">
+      <label languagecode="1033" description="Reject" />
+    </steplabels>
+  </labels>
+  <ProcessTriggers>
+    <ProcessTrigger processtriggerid="{a2e3747a-2a30-ed11-9db0-002248d5d232}">
+      <controltype>1</controltype>
+      <methodid>{467a09fb-a47c-7e2d-6333-424dcd793186}</methodid>
+      <scope>1</scope>
+      <controlname>cr431_orderstatus</controlname>
+      <event>change</event>
+      <pipelinestage>0</pipelinestage>
+      <iscustomizable>1</iscustomizable>
+      <primaryentitytypecode>cr431_Sales_Order</primaryentitytypecode>
+    </ProcessTrigger>
+    <ProcessTrigger processtriggerid="{a3e3747a-2a30-ed11-9db0-002248d5d232}">
+      <controltype>1</controltype>
+      <methodid>{323326d9-adab-4f41-9af6-4782059bc3d6}</methodid>
+      <scope>1</scope>
+      <controlname>cr431_orderstatus</controlname>
+      <event>change</event>
+      <pipelinestage>0</pipelinestage>
+      <iscustomizable>1</iscustomizable>
+      <primaryentitytypecode>cr431_Sales_Order</primaryentitytypecode>
+    </ProcessTrigger>
+    <ProcessTrigger processtriggerid="{a4e3747a-2a30-ed11-9db0-002248d5d232}">
+      <controltype>1</controltype>
+      <methodid>{aaa99c45-442d-4902-8ced-dae0eaffa054}</methodid>
+      <scope>1</scope>
+      <controlname>cr431_orderstatus</controlname>
+      <event>change</event>
+      <pipelinestage>0</pipelinestage>
+      <iscustomizable>1</iscustomizable>
+      <primaryentitytypecode>cr431_Sales_Order</primaryentitytypecode>
+    </ProcessTrigger>
+    <ProcessTrigger processtriggerid="{a5e3747a-2a30-ed11-9db0-002248d5d232}">
+      <controltype>1</controltype>
+      <methodid>{ed94e6f6-fb60-4109-b729-869c56a603d2}</methodid>
+      <scope>1</scope>
+      <controlname>cr431_orderstatus</controlname>
+      <event>change</event>
+      <pipelinestage>0</pipelinestage>
+      <iscustomizable>1</iscustomizable>
+      <primaryentitytypecode>cr431_Sales_Order</primaryentitytypecode>
+    </ProcessTrigger>
+  </ProcessTriggers>
+</Workflow>

@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{bd70a133-5231-44b6-84de-d3e625a3b63a}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="cr431_name" select="1" icon="1" preview="1">
+        <row name="result" id="cr431_schemeslabsid">
+          <cell name="cr431_name" width="300" />
+          <cell name="cr431_slabvaluetype" width="100" />
+          <cell name="cr431_rewardtype" width="100" />
+          <cell name="cr431_rewardamount" width="100" />
+          <cell name="cr431_scheme" width="100" />
+          <cell name="createdon" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="cr431_schemeslabs">
+          <attribute name="cr431_schemeslabsid" />
+          <attribute name="cr431_name" />
+          <order attribute="cr431_name" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="cr431_slabvaluetype" />
+          <attribute name="cr431_rewardtype" />
+          <attribute name="cr431_rewardamount" />
+          <attribute name="cr431_scheme" />
+          <attribute name="createdon" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Scheme Slabs" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

@@ -1,0 +1,271 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{c3cb45e7-258f-4716-abe8-ff50953ef28a}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls" shownavigationbar="false" showImage="false" maxWidth="1920">
+      <tabs>
+        <tab verticallayout="true" id="{26d716c2-3bc0-4693-b478-a4c2fa55bf52}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{4e98adcf-b73c-4132-9480-20be3eb8783e}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{000b2188-8c16-498f-a5e6-28f59d24b8ca}">
+                        <labels>
+                          <label description="PJP Id" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_pjp_id" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="cr431_pjp_id" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{406b42c2-5884-4e27-8a0d-7431e2cc0a7b}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Emp Id" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_empid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="cr431_empid" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{cfd2a5de-c124-4060-bcc8-84fcfce0c7da}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="PJP Date" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_pjpdate" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="cr431_pjpdate" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ea6c40b1-52b8-57aa-4c4d-ce02be2e044b}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Territory" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_territory" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="cr431_territory" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{8c9e8c82-86e4-b074-101e-c7b471c5c1b2}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Approval Status" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_approvalstatus" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="cr431_approvalstatus" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0df7eee5-1d1b-4b1a-8b56-f6786c294f82}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Week Days" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_weekdays" classid="{4AA28AB7-9C13-4F57-A73D-AD894D048B5F}" datafieldname="cr431_weekdays" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{14037899-aed6-265b-861e-7457d496e103}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Day Type GTM" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_daytypegmt" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="cr431_daytypegmt" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{91226a2c-8e26-c135-e18c-07379cd0cbb4}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Day Type Plan" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_daytypeplan" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="cr431_daytypeplan" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{068946c1-e992-484d-b2f5-3333d9fc2e12}" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_2" id="3355f196-2e9f-4af0-b5cc-2eb5de38ecfb" IsUserDefined="0" locklevel="0" showlabel="true">
+          <labels>
+            <label description="PJP Town" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="tab_2_section_1" id="daea3c1f-8ca4-48cc-80d6-de38cf66de8c" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="New Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell locklevel="0" id="{8ea15c8a-a54c-4711-b0e0-0b94adb586e2}" rowspan="4" colspan="1" auto="false" showlabel="false">
+                        <labels>
+                          <label description="New SG control 1663002404389" languagecode="1033" />
+                        </labels>
+                        <control indicationOfSubgrid="true" id="Subgrid_new_1" classid="{E7A81278-8635-4D9E-8D4D-59480B391C5B}">
+                          <parameters>
+                            <RecordsPerPage>4</RecordsPerPage>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <ChartGridMode>All</ChartGridMode>
+                            <TargetEntityType>cr431_pjptown</TargetEntityType>
+                            <ViewId>{B91837E7-5FA5-4F58-B18D-C4535949EC22}</ViewId>
+                            <ViewIds>{B91837E7-5FA5-4F58-B18D-C4535949EC22}</ViewIds>
+                            <RelationshipName>cr431_pjptown_PJPId_cr431_PJP</RelationshipName>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_3" id="854092ce-ec09-4f89-9a6a-61343a1599a5" IsUserDefined="0" locklevel="0" showlabel="true">
+          <labels>
+            <label description="Visit" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="tab_3_section_1" id="226e02c1-4cd5-4064-8b5f-ad1461f21396" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="New Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell locklevel="0" id="{6204ffbb-5af5-4129-8359-d565f7fc7768}" rowspan="4" colspan="1" auto="false" showlabel="false">
+                        <labels>
+                          <label description="New SG control 1663002461509" languagecode="1033" />
+                        </labels>
+                        <control indicationOfSubgrid="true" id="Subgrid_new_2" classid="{E7A81278-8635-4D9E-8D4D-59480B391C5B}">
+                          <parameters>
+                            <RecordsPerPage>4</RecordsPerPage>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <ChartGridMode>All</ChartGridMode>
+                            <TargetEntityType>cr431_visit</TargetEntityType>
+                            <ViewId>{F2EC9ABE-5AE1-4FAF-949F-0CC4A1B1147C}</ViewId>
+                            <ViewIds>{1F1810E2-2903-402F-92BC-DB11EC075C24},{F2EC9ABE-5AE1-4FAF-949F-0CC4A1B1147C}</ViewIds>
+                            <RelationshipName>cr431_cr431_pjp_cr431_visit_PJPHeader</RelationshipName>
+                            <VisualizationId>{0DB9CA7D-0C2D-ED11-9DB0-002248D5DF9A}</VisualizationId>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{12e28d04-6df0-48c2-9fca-b0768c601fe2}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{f4ec74e9-949e-4b17-9e00-da2b6793208d}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{111aa0aa-af6d-4f6f-83c9-840b19b2b0a6}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{463b2bf6-e892-4010-b684-44a3394f1d03}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{dfabdb1b-e2ce-44ef-935f-59eb5726272b}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{cfbbe324-c6f8-4abb-9b95-e9597615714c}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{b04e0c49-a8f7-481d-a9c7-b3ced10c44f5}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{3c1c9a90-8b8c-405b-a476-886b037d2e6b}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <Navigation>
+        <NavBar></NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

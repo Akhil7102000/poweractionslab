@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{2eb9a21d-ec6b-4f6d-b2a5-57017dc0213d}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{01e20a33-4253-b475-3b09-773a4b5908bb}" name="StageStep3" locklevel="0" expanded="true" visible="false" labelid="{585ef3c7-d13b-4c71-8b2a-cc8aabe74d49}">
+          <labels>
+            <label description="Shipment" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{fc683689-8c7c-c3d1-817b-2029a265d948}" name="StageStep3_section1" labelid="{2e9c8c2d-09ad-453d-910a-57c2fb6ecdd2}">
+                  <labels>
+                    <label description="Shipment" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{ba569923-8cc4-6824-1a39-e57afb550cfd}" showlabel="true" visible="true" labelid="{739bc84a-3e0c-4ae0-bea9-186b0d1e4ae5}">
+                        <labels>
+                          <label description="Shipment Status" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_cr431_shipment_new_shipment:cr431_shipmentstatus" classid="{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}" datafieldname="cr431_shipmentstatus" disabled="false" relationship="bpf_cr431_shipment_new_shipment" isrequired="true" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab verticallayout="true" id="{78d760c4-4fbc-4172-9b45-2940ba6730ff}" name="StageStep7" locklevel="0" expanded="true" visible="false" labelid="{c595b6a8-1ec5-4ee5-8f93-58b22f1afc33}">
+          <labels>
+            <label description="In Transit" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{1bfec9dd-7d38-2ea1-fea2-fb4f39d6676d}" name="StageStep7_section1" labelid="{b17874ca-054a-4a98-81b0-9af359b77594}">
+                  <labels>
+                    <label description="In Transit" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{7e07a056-2263-41b3-8498-b1db0bce62ac}" showlabel="true" visible="true" labelid="{e0afd26a-e569-4fd4-aa56-998ca3a5f1f0}">
+                        <labels>
+                          <label description="Shipment Status" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_cr431_shipment_new_shipment:cr431_shipmentstatus" classid="{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}" datafieldname="cr431_shipmentstatus" disabled="false" relationship="bpf_cr431_shipment_new_shipment" isrequired="true" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab verticallayout="true" id="{491287ab-aad7-43b1-86cc-4561d0d50c01}" name="StageStep11" locklevel="0" expanded="true" visible="false" labelid="{09d1c603-b9c2-4f7f-aae4-8ce956340a19}">
+          <labels>
+            <label description="Delivered" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{93e7959d-4042-c133-ec12-5003512da4ae}" name="StageStep11_section1" labelid="{d0ec9148-187b-4b0d-8b0d-74213d897dbd}">
+                  <labels>
+                    <label description="Delivered" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{d6fdc1a4-3558-4eb9-9f73-783a7957c3ff}" showlabel="true" visible="true" labelid="{c2b69f04-079f-4354-a4e6-7e2c5928d941}">
+                        <labels>
+                          <label description="Shipment Status" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_cr431_shipment_new_shipment:cr431_shipmentstatus" classid="{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}" datafieldname="cr431_shipmentstatus" disabled="false" relationship="bpf_cr431_shipment_new_shipment" isrequired="true" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab verticallayout="true" id="{8b861a5b-5225-4e04-82f9-bdcc47aa58ab}" name="StageStep15" locklevel="0" expanded="true" visible="false" labelid="{f1159c59-676f-49a3-a94f-6cd4fd0b1157}">
+          <labels>
+            <label description="Delivered" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{ff7ef9a2-98dd-975b-f99b-f3c3ffa2bf8a}" name="StageStep15_section1" labelid="{8f882243-2d78-4342-bb26-00edba07bfdb}">
+                  <labels>
+                    <label description="Delivered" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{4a46ddfb-5075-4b41-88b8-a620e83ebe84}" showlabel="true" visible="true" labelid="{2bf5e677-aa63-4064-9812-8fce332687f1}">
+                        <labels>
+                          <label description="Shipment Status" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_cr431_shipment_new_shipment:cr431_shipmentstatus" classid="{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}" datafieldname="cr431_shipmentstatus" disabled="false" relationship="bpf_cr431_shipment_new_shipment" isrequired="true" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab verticallayout="true" id="{c37f6eb7-f27d-4f33-9f89-db87dd3c7800}" name="StageStep19" locklevel="0" expanded="true" visible="false" labelid="{d0a5b472-f5fd-4a2c-9b7c-9b2ada47aa40}">
+          <labels>
+            <label description="Done" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{ac5ae292-a95f-9b8a-38e1-3573e6820fd4}" name="StageStep19_section1" labelid="{3aff1141-247e-450b-9b78-66cffe42031e}">
+                  <labels>
+                    <label description="Done" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{dc1dd231-f328-4bed-819c-654a222cb5d5}" showlabel="true" visible="true" labelid="{b7770a1a-bae2-4105-b28a-4074b2bbdccf}">
+                        <labels>
+                          <label description="Shipment Status" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_cr431_shipment_new_shipment:cr431_shipmentstatus" classid="{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}" datafieldname="cr431_shipmentstatus" disabled="false" relationship="bpf_cr431_shipment_new_shipment" isrequired="true" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab verticallayout="true" id="{aeddb3e7-be92-4700-b5d0-15b48bb09357}" name="StageStep23" locklevel="0" expanded="true" visible="false" labelid="{6b95e782-5e3c-4809-9642-f734a3d60363}">
+          <labels>
+            <label description="Delivered" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{cd4ce74a-0d8b-64cd-f2a4-85c78674ce63}" name="StageStep23_section1" labelid="{dd80ffb6-6cbe-45a9-825c-db7918ecb1b9}">
+                  <labels>
+                    <label description="Delivered" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{29c35f03-1eed-4c48-98fa-32c539211632}" showlabel="true" visible="true" labelid="{95b6f69c-673b-4139-a51e-8baceb56cdeb}">
+                        <labels>
+                          <label description="Shipment Status" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_cr431_shipment_new_shipment:cr431_shipmentstatus" classid="{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}" datafieldname="cr431_shipmentstatus" disabled="false" relationship="bpf_cr431_shipment_new_shipment" isrequired="true" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab verticallayout="true" id="{50622703-ada1-440b-9d3d-207088c66d87}" name="StageStep27" locklevel="0" expanded="true" visible="false" labelid="{2a4bbbd0-60b4-4300-8bfd-ffd82d69ff85}">
+          <labels>
+            <label description="Done" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{d2031bf2-1b92-f105-0e49-38bff5cc91cf}" name="StageStep27_section1" labelid="{d98d7fb9-5098-4495-bce1-83287d31c7a1}">
+                  <labels>
+                    <label description="Done" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{6b0c3988-a843-4831-906c-0dc424861d3e}" showlabel="true" visible="true" labelid="{5e1f3eac-61fb-40e1-aa7a-83ae186c6a1d}">
+                        <labels>
+                          <label description="Shipment Status" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_cr431_shipment_new_shipment:cr431_shipmentstatus" classid="{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}" datafieldname="cr431_shipmentstatus" disabled="false" relationship="bpf_cr431_shipment_new_shipment" isrequired="true" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab verticallayout="true" id="{8c92f22a-9399-43ea-b77d-e3fcd1c3cb5f}" name="StageStep31" locklevel="0" expanded="true" visible="false" labelid="{8da1ab24-cb36-4952-b644-cd2dc1f03f39}">
+          <labels>
+            <label description="Complete" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{44177e8c-4b2b-1528-4ed8-97b2a7c76b81}" name="StageStep31_section1" labelid="{e2e074be-8cc7-4b18-9e9b-74aca8a56b63}">
+                  <labels>
+                    <label description="Complete" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{aab69fa1-59f4-46d1-b154-425d141907e8}" showlabel="true" visible="true" labelid="{a1d278ba-3dee-4119-a99a-eb47f9b35615}">
+                        <labels>
+                          <label description="Shipment Status" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_cr431_shipment_new_shipment:cr431_shipmentstatus" classid="{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}" datafieldname="cr431_shipmentstatus" disabled="false" relationship="bpf_cr431_shipment_new_shipment" isrequired="true" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab verticallayout="true" id="{8d77aaf6-5307-4cf0-8353-50db710acc86}" name="StageStep35" locklevel="0" expanded="true" visible="false" labelid="{b47da9d4-6452-456a-8d7c-ee0874f420ac}">
+          <labels>
+            <label description="Done" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{bebeb790-b701-3a00-f625-2610fbeb595c}" name="StageStep35_section1" labelid="{8e77c53d-4202-49dc-8231-3627b0bfafb8}">
+                  <labels>
+                    <label description="Done" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{0cbed40b-edd3-47ef-8ea5-83e3ddf4f342}" showlabel="true" visible="true" labelid="{101a7580-0008-4afa-baef-5603bc97c886}">
+                        <labels>
+                          <label description="Shipment Status" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_cr431_shipment_new_shipment:cr431_shipmentstatus" classid="{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}" datafieldname="cr431_shipmentstatus" disabled="false" relationship="bpf_cr431_shipment_new_shipment" isrequired="true" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

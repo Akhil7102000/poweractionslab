@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{f2ec9abe-5ae1-4faf-949f-0cc4a1b1147c}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="cr431_name" select="1" icon="1" preview="1">
+        <row name="result" id="cr431_visitid">
+          <cell name="cr431_name" width="113" />
+          <cell name="cr431_visittype" width="100" />
+          <cell name="cr431_visitdate" width="100" />
+          <cell name="cr431_customer" width="163" />
+          <cell name="cr431_status" width="100" />
+          <cell name="cr431_addresscheckin" width="131" />
+          <cell name="cr431_addresscheckout" width="142" />
+          <cell name="createdby" width="100" />
+          <cell name="createdon" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="cr431_visit">
+          <attribute name="cr431_visitid" />
+          <attribute name="cr431_name" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="cr431_visittype" />
+          <attribute name="cr431_visitdate" />
+          <attribute name="cr431_customer" />
+          <attribute name="cr431_status" />
+          <attribute name="cr431_addresscheckin" />
+          <attribute name="cr431_addresscheckout" />
+          <attribute name="createdby" />
+          <attribute name="createdon" />
+          <order attribute="createdon" descending="true" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Visits" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

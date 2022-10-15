@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<optionset Name="cr431_metcallwith1" localizedName="Met/ Call With" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <OptionSetType>picklist</OptionSetType>
+  <IsGlobal>1</IsGlobal>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <displaynames>
+    <displayname description="Met/ Call With" languagecode="1033" />
+  </displaynames>
+  <Descriptions>
+    <Description description="" languagecode="1033" />
+  </Descriptions>
+  <options>
+    <option value="254460000" ExternalValue="">
+      <labels>
+        <label description="Owner" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="254460001" ExternalValue="">
+      <labels>
+        <label description="DMI" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="254460002" ExternalValue="">
+      <labels>
+        <label description="Architect/ID" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="254460003" ExternalValue="">
+      <labels>
+        <label description="Others" languagecode="1033" />
+      </labels>
+    </option>
+  </options>
+</optionset>

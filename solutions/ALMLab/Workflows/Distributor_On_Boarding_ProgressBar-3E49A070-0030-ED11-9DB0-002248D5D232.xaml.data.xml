@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Workflow WorkflowId="{3e49a070-0030-ed11-9db0-002248d5d232}" Name="Distributor_On_Boarding_ProgressBar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <XamlFileName>/Workflows/Distributor_On_Boarding_ProgressBar-3E49A070-0030-ED11-9DB0-002248D5D232.xaml</XamlFileName>
+  <Type>1</Type>
+  <Subprocess>0</Subprocess>
+  <Category>4</Category>
+  <Mode>0</Mode>
+  <Scope>4</Scope>
+  <OnDemand>0</OnDemand>
+  <TriggerOnCreate>1</TriggerOnCreate>
+  <TriggerOnDelete>0</TriggerOnDelete>
+  <AsyncAutodelete>0</AsyncAutodelete>
+  <SyncWorkflowLogOnFailure>0</SyncWorkflowLogOnFailure>
+  <StateCode>0</StateCode>
+  <StatusCode>1</StatusCode>
+  <processorder>100</processorder>
+  <RunAs>1</RunAs>
+  <UniqueName>new_distributoronboarding</UniqueName>
+  <IsTransacted>1</IsTransacted>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <BusinessProcessType>0</BusinessProcessType>
+  <IsCustomProcessingStepAllowedForOtherPublishers>1</IsCustomProcessingStepAllowedForOtherPublishers>
+  <ProcessTriggerScope>1</ProcessTriggerScope>
+  <PrimaryEntity>cr431_DistributorOnboarding</PrimaryEntity>
+  <LocalizedNames>
+    <LocalizedName languagecode="1033" description="Distributor_On_Boarding_ProgressBar" />
+  </LocalizedNames>
+  <labels>
+    <steplabels id="{f5c4dcd1-ad38-4ab2-c29e-0cdaceadf145}">
+      <label languagecode="1033" description="Pending For Approval" />
+    </steplabels>
+    <steplabels id="{09f226ef-eaa6-43e0-9732-f5973b6c8bbd}">
+      <label languagecode="1033" description="Zonal Head" />
+    </steplabels>
+    <steplabels id="{a0248276-bbce-4a24-a940-c9e9a3d76ddc}">
+      <label languagecode="1033" description="State Head" />
+    </steplabels>
+    <steplabels id="{817fff83-706d-409c-8154-a39952e4b97f}">
+      <label languagecode="1033" description="Account" />
+    </steplabels>
+    <steplabels id="{143cfc97-ca08-4580-b8ae-e88de2071dc8}">
+      <label languagecode="1033" description="KYC Verification" />
+    </steplabels>
+    <steplabels id="{38294f5f-c60a-452f-a5e3-67b477d66a30}">
+      <label languagecode="1033" description="KYC Verification" />
+    </steplabels>
+    <steplabels id="{4a3d9e27-13b7-4d1b-af4d-9d3ba4bab8b5}">
+      <label languagecode="1033" description="Financial Verification" />
+    </steplabels>
+    <steplabels id="{bb3fba02-99d3-4533-8d31-946f5d52debe}">
+      <label languagecode="1033" description="Financial Verification" />
+    </steplabels>
+    <steplabels id="{99b062c8-0d82-4446-b75c-71494025fe60}">
+      <label languagecode="1033" description="Approved" />
+    </steplabels>
+    <steplabels id="{26312d27-d8e2-4c50-a201-81986bab0773}">
+      <label languagecode="1033" description="Status" />
+    </steplabels>
+    <steplabels id="{cb54b48f-d967-499b-a202-6aa78879be0b}">
+      <label languagecode="1033" description="Completed" />
+    </steplabels>
+    <steplabels id="{7f38a22f-43c8-47a4-8adc-81d2080541fa}">
+      <label languagecode="1033" description="Distributor Onboarding Close" />
+    </steplabels>
+    <steplabels id="{8427db7c-5680-4945-8c2b-4e46d4994b61}">
+      <label languagecode="1033" description="Completed" />
+    </steplabels>
+    <steplabels id="{fa9d0b44-8e32-4361-b8ec-5b25d594e741}">
+      <label languagecode="1033" description="Rejected" />
+    </steplabels>
+    <steplabels id="{48dafeb1-9f03-4743-ad69-903bcab8a551}">
+      <label languagecode="1033" description="Completed" />
+    </steplabels>
+    <steplabels id="{96ef34b9-a565-4bd7-9c48-86f4e695691b}">
+      <label languagecode="1033" description="Rejected" />
+    </steplabels>
+    <steplabels id="{1240ce17-637d-4404-9f12-7f4f3220b3ef}">
+      <label languagecode="1033" description="Completed" />
+    </steplabels>
+    <steplabels id="{abea4911-ea8e-48d3-ab26-984ddd6487c0}">
+      <label languagecode="1033" description="Rejected" />
+    </steplabels>
+    <steplabels id="{b84bdfb8-92a4-4562-b384-362cea276a03}">
+      <label languagecode="1033" description="Completed" />
+    </steplabels>
+    <steplabels id="{52c4ce54-dd14-4284-92c6-b75c104354a4}">
+      <label languagecode="1033" description="Rejected" />
+    </steplabels>
+  </labels>
+  <ProcessTriggers>
+    <ProcessTrigger processtriggerid="{bec30716-3a33-ed11-9db1-002248d5d232}">
+      <controltype>1</controltype>
+      <methodid>{f5c4dcd1-ad38-4ab2-c29e-0cdaceadf145}</methodid>
+      <scope>1</scope>
+      <controlname>cr431_approvalstatusstatehead</controlname>
+      <event>change</event>
+      <pipelinestage>0</pipelinestage>
+      <iscustomizable>1</iscustomizable>
+      <primaryentitytypecode>cr431_DistributorOnboarding</primaryentitytypecode>
+    </ProcessTrigger>
+    <ProcessTrigger processtriggerid="{c1c30716-3a33-ed11-9db1-002248d5d232}">
+      <controltype>1</controltype>
+      <methodid>{f5c4dcd1-ad38-4ab2-c29e-0cdaceadf145}</methodid>
+      <scope>1</scope>
+      <controlname>cr431_approvalstatuszonalhead</controlname>
+      <event>change</event>
+      <pipelinestage>0</pipelinestage>
+      <iscustomizable>1</iscustomizable>
+      <primaryentitytypecode>cr431_DistributorOnboarding</primaryentitytypecode>
+    </ProcessTrigger>
+    <ProcessTrigger processtriggerid="{c2c30716-3a33-ed11-9db1-002248d5d232}">
+      <controltype>1</controltype>
+      <methodid>{f5c4dcd1-ad38-4ab2-c29e-0cdaceadf145}</methodid>
+      <scope>1</scope>
+      <controlname>cr431_approvalstatusaccount</controlname>
+      <event>change</event>
+      <pipelinestage>0</pipelinestage>
+      <iscustomizable>1</iscustomizable>
+      <primaryentitytypecode>cr431_DistributorOnboarding</primaryentitytypecode>
+    </ProcessTrigger>
+    <ProcessTrigger processtriggerid="{c3c30716-3a33-ed11-9db1-002248d5d232}">
+      <controltype>1</controltype>
+      <methodid>{143cfc97-ca08-4580-b8ae-e88de2071dc8}</methodid>
+      <scope>1</scope>
+      <controlname>cr431_kycverification</controlname>
+      <event>change</event>
+      <pipelinestage>0</pipelinestage>
+      <iscustomizable>1</iscustomizable>
+      <primaryentitytypecode>cr431_DistributorOnboarding</primaryentitytypecode>
+    </ProcessTrigger>
+    <ProcessTrigger processtriggerid="{c4c30716-3a33-ed11-9db1-002248d5d232}">
+      <controltype>1</controltype>
+      <methodid>{4a3d9e27-13b7-4d1b-af4d-9d3ba4bab8b5}</methodid>
+      <scope>1</scope>
+      <controlname>cr431_financialverification</controlname>
+      <event>change</event>
+      <pipelinestage>0</pipelinestage>
+      <iscustomizable>1</iscustomizable>
+      <primaryentitytypecode>cr431_DistributorOnboarding</primaryentitytypecode>
+    </ProcessTrigger>
+    <ProcessTrigger processtriggerid="{c6c30716-3a33-ed11-9db1-002248d5d232}">
+      <controltype>1</controltype>
+      <methodid>{99b062c8-0d82-4446-b75c-71494025fe60}</methodid>
+      <scope>1</scope>
+      <controlname>cr431_approval</controlname>
+      <event>change</event>
+      <pipelinestage>0</pipelinestage>
+      <iscustomizable>1</iscustomizable>
+      <primaryentitytypecode>cr431_DistributorOnboarding</primaryentitytypecode>
+    </ProcessTrigger>
+  </ProcessTriggers>
+</Workflow>

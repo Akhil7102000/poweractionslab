@@ -1,0 +1,386 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{03fc4562-61d7-4192-979b-216603aae18f}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls" shownavigationbar="false" showImage="false" maxWidth="1920">
+      <tabs>
+        <tab verticallayout="true" id="{69b4a8a3-61bc-4c26-b846-c2fcbf4126b5}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{d4ad4ef7-c690-402c-9bed-cdcd6632ad11}" columns="11">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{0b7defcc-e6ca-4999-bbbf-c8eaa54e693f}">
+                        <labels>
+                          <label description="Product Name" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="cr431_name" disabled="false" />
+                      </cell>
+                      <cell id="{f2ac27ca-abe8-46a9-9347-e1f80d887793}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Product Group1" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_pg1" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="cr431_pg1" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ffa33406-e0ef-4adb-ab9a-2fbba47bc410}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Product Code" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_productname" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="cr431_productname" disabled="false" />
+                      </cell>
+                      <cell id="{a8fd83b2-5803-456e-a9d9-ca7c6404e507}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Product Group 2" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_pg2" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="cr431_pg2" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d1a175d8-b3f5-49dd-8cd7-71db42515da3}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="LOB" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_lob" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="cr431_lob" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0265ccba-f7b7-455b-92c6-db05e543567e}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Division" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_division" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="cr431_division" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{fcaad9b1-de20-4228-9fc5-7b527e8398ad}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="HSN Code" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_hsncode" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="cr431_hsncode" disabled="false" />
+                      </cell>
+                      <cell id="{d421b144-99b5-268d-dabd-6bb808845a16}" showlabel="true" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Image URL" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_imageurl" classid="{71716B6C-711E-476c-8AB8-5D11542BFB47}" datafieldname="cr431_imageurl" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{eba74013-4a03-494e-b793-27ec9aa0c4d2}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Company" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_company" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="cr431_company" disabled="false" />
+                      </cell>
+                      <cell id="{d991224b-6015-4027-beea-77e5e1473779}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Available Quantity" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_availablequantity" classid="{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}" datafieldname="cr431_availablequantity" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b206131a-7256-41a0-963e-b1644ca54567}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Promoted Product" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_promotedproduct" classid="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}" datafieldname="cr431_promotedproduct" disabled="false" />
+                      </cell>
+                      <cell id="{c8079b2f-d261-47a8-ad10-2eef920960f2}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Discount" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_discount" classid="{C3EFE0C3-0EC6-42BE-8349-CBD9079DFD8E}" datafieldname="cr431_discount" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{95280f43-1258-4672-a50d-c6f7532823aa}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Tire Industry " languagecode="1033" />
+                        </labels>
+                        <control id="cr431_tireindustry" classid="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}" datafieldname="cr431_tireindustry" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e5f04fb2-ede1-4372-9674-b39cc6e2eb0e}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Width (MM)" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_widthmm" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="cr431_widthmm" disabled="false" />
+                      </cell>
+                      <cell locklevel="0" id="{2a0f6aca-e823-4277-9774-54c8f4eabf05}" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Seasonal Product" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_seasonalproduct" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="cr431_seasonalproduct" uniqueid="{56a70b15-ae58-43f8-b206-8aaa02c82605}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0951e5ea-b978-487f-b8a8-c08870e46c97}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Recommended Product" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_recommendedproduct" classid="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}" datafieldname="cr431_recommendedproduct" disabled="false" />
+                      </cell>
+                      <cell id="{29febe39-7846-4a35-ae2a-7b7997b0bfb9}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Size(s) Availability" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_sizesavailability" classid="{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}" datafieldname="cr431_sizesavailability" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{088856d4-a314-43f8-9156-33b9ebf18957}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="3D Image URL" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_dimageurl" classid="{71716B6C-711E-476C-8AB8-5D11542BFB47}" datafieldname="cr431_dimageurl" disabled="false" />
+                      </cell>
+                      <cell id="{e40c178e-0691-4c12-9976-78e48d043b29}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Rim Diameter (CM)" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_rimdiametercm" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="cr431_rimdiametercm" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{4f9b39af-bfd5-4994-b4e5-caf2cc03b2cd}" locklevel="0" colspan="1" rowspan="1" visible="false">
+                        <labels>
+                          <label description="Product qty" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_productqty" classid="{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}" datafieldname="cr431_productqty" disabled="false" />
+                      </cell>
+                      <cell id="{26e326d9-b49d-4c80-9ee5-db125b7e3619}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Aspect Ratio" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_aspectratio" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="cr431_aspectratio" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b5910751-0339-404e-8977-c21a964b3c1d}" visible="false">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                      <cell id="{d870c535-85e4-4753-9706-f3e3da1b301a}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Trending Product" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_trendingproduct" classid="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}" datafieldname="cr431_trendingproduct" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_2" id="5dbf95ab-7255-47ac-8d14-e869908a3e09" IsUserDefined="0" locklevel="0" showlabel="true">
+          <labels>
+            <label description="Stocks" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="tab_2_section_1" id="9e8e2510-a5be-49a2-b61c-58116bea6b04" IsUserDefined="0" locklevel="0" showlabel="false" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Stocks" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell locklevel="0" id="{89207167-dcba-4553-8b4b-7405a9face0c}" rowspan="4" colspan="1" auto="false" showlabel="false">
+                        <labels>
+                          <label description="New SG control 1663004136811" languagecode="1033" />
+                        </labels>
+                        <control indicationOfSubgrid="true" id="Subgrid_new_1" classid="{E7A81278-8635-4D9E-8D4D-59480B391C5B}">
+                          <parameters>
+                            <RecordsPerPage>4</RecordsPerPage>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <ChartGridMode>All</ChartGridMode>
+                            <TargetEntityType>cr431_stock</TargetEntityType>
+                            <ViewId>{6107A8C0-7FC0-4D25-B0A8-D9D7257056C1}</ViewId>
+                            <ViewIds>{6107A8C0-7FC0-4D25-B0A8-D9D7257056C1}</ViewIds>
+                            <RelationshipName>cr431_cr431_stock_Product_cr431_productitem</RelationshipName>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_3" id="96d48406-010a-43bf-b92b-5d423617d7f0" IsUserDefined="0" locklevel="0" showlabel="true">
+          <labels>
+            <label description="Product Price List" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="tab_3_section_1" id="850155d2-8eec-4845-a427-67d1be39762f" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Product Price List" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell locklevel="0" id="{5b012641-0f87-4b59-968a-7e86723d2107}" rowspan="4" colspan="1" auto="false" showlabel="false">
+                        <labels>
+                          <label description="New SG control 1663004246322" languagecode="1033" />
+                        </labels>
+                        <control indicationOfSubgrid="true" id="Subgrid_new_2" classid="{E7A81278-8635-4D9E-8D4D-59480B391C5B}">
+                          <parameters>
+                            <RecordsPerPage>4</RecordsPerPage>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <ChartGridMode>All</ChartGridMode>
+                            <TargetEntityType>cr431_productpricelist</TargetEntityType>
+                            <ViewId>{AEF9D3BE-CF57-4402-BF43-1540F007D2C8}</ViewId>
+                            <ViewIds>{AEF9D3BE-CF57-4402-BF43-1540F007D2C8}</ViewIds>
+                            <RelationshipName>cr431_cr431_productitem_cr431_productpricelist_Product</RelationshipName>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{97a3a980-2780-4a86-8ff0-0b7493c031b3}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{975fc92a-3705-46be-a6dd-407b05c9898e}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{d3e01ede-6f60-4c5d-b070-98e3be966e62}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{15a304fe-9ab3-47cc-95e1-4fbae452dad2}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{00d14058-f4f8-46b9-9d43-cfc57984cef6}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{84e71b77-e36a-4159-98a6-5e4f14609291}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{24711164-6f93-4583-b3cb-96925702ae78}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{6d562f59-85bf-462d-a389-37ccf84eebc1}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <Navigation>
+        <NavBar />
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <controlDescriptions>
+        <controlDescription forControl="{56a70b15-ae58-43f8-b206-8aaa02c82605}">
+          <customControl id="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}">
+            <parameters>
+              <datafieldname>cr431_seasonalproduct</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl formFactor="0" name="MscrmControls.FieldControls.CheckboxControl">
+            <parameters>
+              <value type="TwoOptions">cr431_seasonalproduct</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.FieldControls.CheckboxControl">
+            <parameters>
+              <value type="TwoOptions">cr431_seasonalproduct</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="MscrmControls.FieldControls.CheckboxControl">
+            <parameters>
+              <value type="TwoOptions">cr431_seasonalproduct</value>
+            </parameters>
+          </customControl>
+        </controlDescription>
+      </controlDescriptions>
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

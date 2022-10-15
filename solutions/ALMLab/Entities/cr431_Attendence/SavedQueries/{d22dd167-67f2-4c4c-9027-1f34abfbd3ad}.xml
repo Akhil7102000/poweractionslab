@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{d22dd167-67f2-4c4c-9027-1f34abfbd3ad}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="cr431_name" select="1" icon="1" preview="1">
+        <row name="result" id="cr431_attendenceid">
+          <cell name="cr431_attendanceid" width="117" />
+          <cell name="ownerid" width="100" />
+          <cell name="cr431_type" width="100" />
+          <cell name="cr431_attendancedate" width="135" />
+          <cell name="cr431_starttime" width="100" />
+          <cell name="cr431_endtime" width="100" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="cr431_attendence">
+          <attribute name="cr431_attendenceid" />
+          <attribute name="createdon" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="cr431_attendanceid" />
+          <attribute name="cr431_attendancedate" />
+          <attribute name="ownerid" />
+          <attribute name="cr431_starttime" />
+          <attribute name="cr431_endtime" />
+          <attribute name="cr431_type" />
+          <order attribute="createdon" descending="true" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Attendences" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

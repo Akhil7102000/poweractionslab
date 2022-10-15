@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{075d4763-ec70-48c1-a583-5ca71370896f}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="cr431_pjp_id" select="1" icon="1" preview="1">
+        <row name="result" id="cr431_pjpid">
+          <cell name="cr431_pjp_id" width="112" />
+          <cell name="cr431_empid" width="100" />
+          <cell name="cr431_territory" width="100" />
+          <cell name="cr431_pjpdate" width="100" />
+          <cell name="cr431_weekdays" width="100" />
+          <cell name="cr431_approvalstatus" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="cr431_pjp">
+          <attribute name="cr431_pjpid" />
+          <attribute name="cr431_pjp_id" />
+          <order attribute="cr431_pjp_id" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="cr431_empid" />
+          <attribute name="cr431_territory" />
+          <attribute name="cr431_pjpdate" />
+          <attribute name="cr431_weekdays" />
+          <attribute name="cr431_approvalstatus" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active PJPS" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

@@ -1,0 +1,190 @@
+function ApprovalButton(executionContext){
+    const formContext = executionContext;
+    var context = Xrm.Utility.getGlobalContext();
+    var LogInUserId = context.userSettings.userId; // Getting Login User ID
+
+    let ZonalHeadLookupId =  Xrm.Page.getAttribute("cr431_zonalhead").getValue()[0].id;
+    let StateHeadLookupId =  Xrm.Page.getAttribute("cr431_statehead").getValue()[0].id;
+    let AccountsLookupId =  Xrm.Page.getAttribute("cr431_account").getValue()[0].id;
+    // let SupplyChainLookupId =  Xrm.Page.getAttribute("zx_supplychain").getValue()[0].id;
+    // let NationalHeadLookupId =  Xrm.Page.getAttribute("zx_nationalhead").getValue()[0].id;
+    
+    if(LogInUserId === AccountsLookupId){
+        let answer = window.confirm("Are you sure to approve?\nWarning: Can't change the Status after it gets approved.");
+        if (answer) {
+            debugger;
+        formContext.getAttribute("cr431_approvalstatusaccount").setValue(254460004);//Make Approve
+        formContext.getAttribute("cr431_approvalstatusstatehead").setValue(254460001);//Make pending for approve
+        //formContext.getAttribute("cr431_approval_statusaccount").setValue(1);
+        checkStatus(formContext);
+        Xrm.Page.data.save().then(function() {
+            alert("Approved.");
+        }, function() { alert("Saving Failed!"); });
+        }else{
+            //Do Nothing.
+        }
+        
+    }else if(LogInUserId === StateHeadLookupId){
+        let ApprovalStatusAccount = formContext.getAttribute("cr431_approvalstatusaccount").getValue();
+
+        if(ApprovalStatusAccount != 254460004){
+            alert("Pending approval for account.");
+        }else{
+            let answer = window.confirm("Are you sure to approve?\nWarning: Can't change the Status after it gets approved.");
+            if (answer) {
+            formContext.getAttribute("cr431_approvalstatusstatehead").setValue(254460004);
+            formContext.getAttribute("cr431_approvalstatuszonalhead").setValue(254460001);
+            //formContext.getAttribute("cr431_approval_statusstatehead").setValue(1);
+            checkStatus(formContext);
+            Xrm.Page.data.save().then(function() {
+                alert("Approved.");
+            }, function() { alert("Saving Failed!"); });
+            }else{
+                //Do Nothing.
+            }
+        }
+
+    }else if(LogInUserId === ZonalHeadLookupId){
+        let ApprovalStatusStateHead = formContext.getAttribute("cr431_approvalstatusstatehead").getValue();
+        let ApprovalStatusAccount = formContext.getAttribute("cr431_approvalstatusaccount").getValue();
+         
+        if( ApprovalStatusAccount != 254460004){
+            alert("Pending approval for account.");
+        }else if( ApprovalStatusStateHead != 254460004){
+            alert("Pending approval for state head.");
+        }else{
+            let answer = window.confirm("Are you sure to approve?\nWarning: Can't change the Status after it gets approved.");
+            if (answer) {
+            formContext.getAttribute("cr431_approvalstatuszonalhead").setValue(254460004);
+            //formContext.getAttribute("cr431_approvalstatuszonalhead_").setValue(1);
+            //formContext.getAttribute("zx_approvalstatussupplychain").setValue(425120001);
+            checkStatus(formContext);
+            Xrm.Page.data.save().then(function() {
+                alert("Approved.");
+            }, function() { alert("Saving Failed!"); });
+            }else{
+                    //Do Nothing.
+            }
+        }
+
+    }
+
+   
+        function checkStatus(formContext){         //<-----------Sub-function of ApprovalButton.
+            //debugger;
+            let StatusZonalHead = formContext.getAttribute("cr431_approvalstatuszonalhead").getValue();
+            let StatusStateHead = formContext.getAttribute("cr431_approvalstatusstatehead").getValue();
+            let StatusAccounts = formContext.getAttribute("cr431_approvalstatusaccount").getValue();
+            // let StatusSupplyChain = formContext.getAttribute("zx_approvalstatussupplychain").getValue();
+            // let StatusNationalHead = formContext.getAttribute("zx_approvalstatusnationalhead").getValue();
+            
+            if(StatusZonalHead == 254460000 && StatusStateHead == 254460000 && StatusAccounts == 254460000){
+                formContext.getAttribute("cr431_statusmain").setValue(254460000); //Make Draft
+            }
+            else{
+                if(StatusStateHead == 254460004 && StatusZonalHead == 254460004 && StatusAccounts == 254460004){
+                    formContext.getAttribute("cr431_statusmain").setValue(254460004); //Make Approve
+                }else if(StatusStateHead == 254460005 || StatusZonalHead == 254460005 || StatusAccounts == 254460005){
+                    formContext.getAttribute("cr431_statusmain").setValue(254460005); //Make Reject
+                }else if(StatusStateHead == 254460001 || StatusZonalHead == 254460001 || StatusAccounts == 254460001 
+                || StatusStateHead == 254460004 || StatusZonalHead == 254460004 || StatusAccounts == 254460004 ){
+                    formContext.getAttribute("cr431_statusmain").setValue(254460001); //Make Pending for approval
+                } 
+            }
+        }
+}
+
+function RejectButton(executionContext){
+    const formContext = executionContext;
+    var context = Xrm.Utility.getGlobalContext();
+    var LogInUserId = context.userSettings.userId; // Getting Login User ID
+
+    let ZonalHeadLookupId =  Xrm.Page.getAttribute("cr431_zonalhead").getValue()[0].id;
+    let StateHeadLookupId =  Xrm.Page.getAttribute("cr431_statehead").getValue()[0].id;
+    let AccountsLookupId =  Xrm.Page.getAttribute("cr431_account").getValue()[0].id;
+    // let SupplyChainLookupId =  Xrm.Page.getAttribute("zx_supplychain").getValue()[0].id;
+    // let NationalHeadLookupId =  Xrm.Page.getAttribute("zx_nationalhead").getValue()[0].id;
+    
+    if(LogInUserId === AccountsLookupId){
+        let answer = window.confirm("Are you sure to reject?\nWarning: Can't change the Status after it gets rejected.");
+        if (answer) {
+            debugger;
+        formContext.getAttribute("cr431_approvalstatusaccount").setValue(254460005);//Make Reject
+        //formContext.getAttribute("cr431_approvalstatusstatehead").setValue(254460001);//Make pending for approve
+        //formContext.getAttribute("cr431_approval_statusaccount").setValue(1);
+        checkStatus(formContext);
+        Xrm.Page.data.save().then(function() {
+            alert("Rejected.");
+        }, function() { alert("Saving Failed!"); });
+        }else{
+            //Do Nothing.
+        }
+        
+    }else if(LogInUserId === StateHeadLookupId){
+        let ApprovalStatusAccount = formContext.getAttribute("cr431_approvalstatusaccount").getValue();
+
+        if(ApprovalStatusAccount != 254460004){
+            alert("Pending approval for account.");
+        }else{
+            let answer = window.confirm("Are you sure to reject?\nWarning: Can't change the Status after it gets rejected.");
+            if (answer) {
+            formContext.getAttribute("cr431_approvalstatusstatehead").setValue(254460005);
+            // formContext.getAttribute("cr431_approvalstatuszonalhead").setValue(254460001);
+            //formContext.getAttribute("cr431_approval_statusstatehead").setValue(1);
+            checkStatus(formContext);
+            Xrm.Page.data.save().then(function() {
+                alert("Rejected.");
+            }, function() { alert("Saving Failed!"); });
+            }else{
+                //Do Nothing.
+            }
+        }
+
+    }else if(LogInUserId === ZonalHeadLookupId){
+        let ApprovalStatusStateHead = formContext.getAttribute("cr431_approvalstatusstatehead").getValue();
+        let ApprovalStatusAccount = formContext.getAttribute("cr431_approvalstatusaccount").getValue();
+         
+        if(ApprovalStatusAccount!= 254460004){
+            alert("Pending approval for account.");
+        }else if( ApprovalStatusStateHead != 254460004){
+            alert("Pending approval for state head.");
+        }else{
+            let answer = window.confirm("Are you sure to reject?\nWarning: Can't change the Status after it gets rejected.");
+            if (answer) {
+            formContext.getAttribute("cr431_approvalstatuszonalhead").setValue(254460005);
+            //formContext.getAttribute("cr431_approvalstatuszonalhead_").setValue(1);
+            //formContext.getAttribute("zx_approvalstatussupplychain").setValue(425120001);
+            checkStatus(formContext);
+            Xrm.Page.data.save().then(function() {
+                alert("Rejected.");
+            }, function() { alert("Saving Failed!"); });
+            }else{
+                    //Do Nothing.
+            }
+        }
+    }
+
+   
+        function checkStatus(formContext){         //<-----------Sub-function of ApprovalButton.
+            //debugger;
+            let StatusZonalHead = formContext.getAttribute("cr431_approvalstatuszonalhead").getValue();
+            let StatusStateHead = formContext.getAttribute("cr431_approvalstatusstatehead").getValue();
+            let StatusAccounts = formContext.getAttribute("cr431_approvalstatusaccount").getValue();
+            // let StatusSupplyChain = formContext.getAttribute("zx_approvalstatussupplychain").getValue();
+            // let StatusNationalHead = formContext.getAttribute("zx_approvalstatusnationalhead").getValue();
+            
+            if(StatusZonalHead == 254460000 && StatusStateHead == 254460000 && StatusAccounts == 254460000){
+                formContext.getAttribute("cr431_statusmain").setValue(254460000); //Make Draft
+            }
+            else{
+                if(StatusStateHead == 254460004 && StatusZonalHead == 254460004 && StatusAccounts == 254460004){
+                    formContext.getAttribute("cr431_statusmain").setValue(254460004); //Make Approve
+                }else if(StatusStateHead == 254460005 || StatusZonalHead == 254460005 || StatusAccounts == 254460005){
+                    formContext.getAttribute("cr431_statusmain").setValue(254460005); //Make Reject
+                }else if(StatusStateHead == 254460001 || StatusZonalHead == 254460001 || StatusAccounts == 254460001 
+                || StatusStateHead == 254460004 || StatusZonalHead == 254460004 || StatusAccounts == 254460004 ){
+                    formContext.getAttribute("cr431_statusmain").setValue(254460001); //Make Pending for approval
+                } 
+            }
+        }
+}

@@ -1,0 +1,28 @@
+function hide(executionContext)
+{
+    var formContext = executionContext.getFormContext();
+    debugger;
+    var account_type=formContext.getAttribute("cr431_accounttype").getValue();
+    var account_type1=parseInt(account_type);
+    if(account_type1==254460001 || account_type1==254460000)
+    {
+        formContext.ui.tabs.get("tab_9").setVisible(true);
+        formContext.ui.tabs.get("tab_11").setVisible(true);
+        formContext.ui.tabs.get("tab_10").setVisible(true);
+        formContext.ui.tabs.get("tab_12").setVisible(false);
+    }
+    else if(account_type1==254460002 || account_type1==254460007 || account_type1==254460008)
+    {
+        formContext.ui.tabs.get("tab_9").setVisible(false);
+        formContext.ui.tabs.get("tab_11").setVisible(true);
+        formContext.ui.tabs.get("tab_10").setVisible(false);
+        formContext.ui.tabs.get("tab_12").setVisible(false);
+    }
+    else if( account_type1 == 254460006 )
+    {
+        formContext.ui.tabs.get("tab_9").setVisible(false);
+        formContext.ui.tabs.get("tab_11").setVisible(false);
+        formContext.ui.tabs.get("tab_10").setVisible(false);
+        formContext.ui.tabs.get("tab_12").setVisible(true);
+    }
+}

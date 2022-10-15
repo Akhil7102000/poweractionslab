@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Workflow WorkflowId="{5e60bba3-2530-ed11-9db0-002248d5d232}" Name="Farmer_Onboarding" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <XamlFileName>/Workflows/Farmer_Onboarding-5E60BBA3-2530-ED11-9DB0-002248D5D232.xaml</XamlFileName>
+  <Type>1</Type>
+  <Subprocess>0</Subprocess>
+  <Category>4</Category>
+  <Mode>0</Mode>
+  <Scope>4</Scope>
+  <OnDemand>0</OnDemand>
+  <TriggerOnCreate>1</TriggerOnCreate>
+  <TriggerOnDelete>0</TriggerOnDelete>
+  <AsyncAutodelete>0</AsyncAutodelete>
+  <SyncWorkflowLogOnFailure>0</SyncWorkflowLogOnFailure>
+  <StateCode>0</StateCode>
+  <StatusCode>1</StatusCode>
+  <processorder>100</processorder>
+  <RunAs>1</RunAs>
+  <UniqueName>new_farmer_onboarding</UniqueName>
+  <IsTransacted>1</IsTransacted>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <BusinessProcessType>0</BusinessProcessType>
+  <IsCustomProcessingStepAllowedForOtherPublishers>1</IsCustomProcessingStepAllowedForOtherPublishers>
+  <ProcessTriggerScope>1</ProcessTriggerScope>
+  <PrimaryEntity>cr431_FarmerOnboarding</PrimaryEntity>
+  <LocalizedNames>
+    <LocalizedName languagecode="1033" description="Farmer_Onboarding" />
+  </LocalizedNames>
+  <labels>
+    <steplabels id="{0621281e-d3e3-b65a-284d-3123c632aa46}">
+      <label languagecode="1033" description="Pending For Approval" />
+    </steplabels>
+    <steplabels id="{ab69871d-5f36-b3d0-3856-09efca4e69fd}">
+      <label languagecode="1033" description="State Head" />
+    </steplabels>
+    <steplabels id="{00f44a84-e0bb-456f-a400-8514c1d6130a}">
+      <label languagecode="1033" description="Zonal Head" />
+    </steplabels>
+    <steplabels id="{acaee210-975d-4834-8f3b-23130b680f56}">
+      <label languagecode="1033" description="Account" />
+    </steplabels>
+    <steplabels id="{6e70745e-a267-4f12-9044-8ada0b753970}">
+      <label languagecode="1033" description="KYC Verification" />
+    </steplabels>
+    <steplabels id="{4df29aea-c91a-4675-96c4-992cf9a10194}">
+      <label languagecode="1033" description="KYC Verification" />
+    </steplabels>
+    <steplabels id="{e251559e-7a67-4e6b-a442-660e8ff3129c}">
+      <label languagecode="1033" description="Financial Verification" />
+    </steplabels>
+    <steplabels id="{5d0f7dd9-e9ce-4b8f-88c6-f3a0e6f9b9b6}">
+      <label languagecode="1033" description="Financial Verification" />
+    </steplabels>
+    <steplabels id="{c9fc8e8e-3034-4b5a-b84a-18ec03959a29}">
+      <label languagecode="1033" description="Approval" />
+    </steplabels>
+    <steplabels id="{ae1f40a8-ebe5-4b62-944e-c808d571acfc}">
+      <label languagecode="1033" description="Status" />
+    </steplabels>
+    <steplabels id="{31745628-6973-4e4c-ae06-b1a7b9fa2932}">
+      <label languagecode="1033" description="Completed" />
+    </steplabels>
+    <steplabels id="{91c39c89-994d-4007-ac7a-1daf468c3ad4}">
+      <label languagecode="1033" description="Farmer Onboarding Close" />
+    </steplabels>
+    <steplabels id="{027404a8-19b0-4712-af5d-ab07c57bdea1}">
+      <label languagecode="1033" description="Completed" />
+    </steplabels>
+    <steplabels id="{be4645fb-1601-4b56-b52f-56146da87dba}">
+      <label languagecode="1033" description="Farmer Onboarding Close" />
+    </steplabels>
+    <steplabels id="{aad73411-6d89-41e7-8b67-9bab8ac322a6}">
+      <label languagecode="1033" description="Completed" />
+    </steplabels>
+    <steplabels id="{7ef5d0d8-acc5-437e-b9ee-ab3d8bbe39aa}">
+      <label languagecode="1033" description="Farmer Onboarding Close" />
+    </steplabels>
+    <steplabels id="{301691ba-758d-4120-9de7-8e805b715466}">
+      <label languagecode="1033" description="Completed" />
+    </steplabels>
+    <steplabels id="{161e9b61-0b7e-47e1-90ba-e982e5e11f71}">
+      <label languagecode="1033" description="Farmer Onboarding Close" />
+    </steplabels>
+  </labels>
+  <ProcessTriggers>
+    <ProcessTrigger processtriggerid="{2606e2ef-3833-ed11-9db1-002248d5df9a}">
+      <controltype>1</controltype>
+      <methodid>{0621281e-d3e3-b65a-284d-3123c632aa46}</methodid>
+      <scope>1</scope>
+      <controlname>cr431_approvalstatusstatehead</controlname>
+      <event>change</event>
+      <pipelinestage>0</pipelinestage>
+      <iscustomizable>1</iscustomizable>
+      <primaryentitytypecode>cr431_FarmerOnboarding</primaryentitytypecode>
+    </ProcessTrigger>
+    <ProcessTrigger processtriggerid="{2d06e2ef-3833-ed11-9db1-002248d5df9a}">
+      <controltype>1</controltype>
+      <methodid>{0621281e-d3e3-b65a-284d-3123c632aa46}</methodid>
+      <scope>1</scope>
+      <controlname>cr431_approvalstatuszonalhead</controlname>
+      <event>change</event>
+      <pipelinestage>0</pipelinestage>
+      <iscustomizable>1</iscustomizable>
+      <primaryentitytypecode>cr431_FarmerOnboarding</primaryentitytypecode>
+    </ProcessTrigger>
+    <ProcessTrigger processtriggerid="{2f06e2ef-3833-ed11-9db1-002248d5df9a}">
+      <controltype>1</controltype>
+      <methodid>{0621281e-d3e3-b65a-284d-3123c632aa46}</methodid>
+      <scope>1</scope>
+      <controlname>cr431_approvalstatusaccount</controlname>
+      <event>change</event>
+      <pipelinestage>0</pipelinestage>
+      <iscustomizable>1</iscustomizable>
+      <primaryentitytypecode>cr431_FarmerOnboarding</primaryentitytypecode>
+    </ProcessTrigger>
+    <ProcessTrigger processtriggerid="{3006e2ef-3833-ed11-9db1-002248d5df9a}">
+      <controltype>1</controltype>
+      <methodid>{6e70745e-a267-4f12-9044-8ada0b753970}</methodid>
+      <scope>1</scope>
+      <controlname>cr431_kycverification</controlname>
+      <event>change</event>
+      <pipelinestage>0</pipelinestage>
+      <iscustomizable>1</iscustomizable>
+      <primaryentitytypecode>cr431_FarmerOnboarding</primaryentitytypecode>
+    </ProcessTrigger>
+    <ProcessTrigger processtriggerid="{3106e2ef-3833-ed11-9db1-002248d5df9a}">
+      <controltype>1</controltype>
+      <methodid>{e251559e-7a67-4e6b-a442-660e8ff3129c}</methodid>
+      <scope>1</scope>
+      <controlname>cr431_financialverification</controlname>
+      <event>change</event>
+      <pipelinestage>0</pipelinestage>
+      <iscustomizable>1</iscustomizable>
+      <primaryentitytypecode>cr431_FarmerOnboarding</primaryentitytypecode>
+    </ProcessTrigger>
+  </ProcessTriggers>
+</Workflow>

@@ -1,0 +1,298 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{2cf52446-12e4-4985-9e04-91528cab5547}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls">
+      <tabs>
+        <tab verticallayout="true" id="{6dffb12e-0689-4636-9c19-a403be629c55}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{b8fd20e6-f134-43a8-b083-c80e0de8c4ea}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{0b01200b-ff12-4205-966f-519132cf88c5}">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="cr431_name" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d34bb218-c09c-4579-9b77-2afbb1ac5a88}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{32a1501c-93f2-4a92-8656-9f92e0b07485}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Clousre Date" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_clousredate" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="cr431_clousredate" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{7b20a5cb-850e-4f8d-b21a-e454c56ac660}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Dealer/ Retailer" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_dealerretailer" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="cr431_dealerretailer" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{58ff474f-6c85-4226-9235-a7da7ee40f36}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Is It posponed" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_isitposponed" classid="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}" datafieldname="cr431_isitposponed" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{1ecfcc33-2b8c-414e-b879-248bc6092fcf}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Type Of Task" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_typeoftask" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="cr431_typeoftask" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{5d934d6e-0dcc-426f-a252-bc7df55b56ee}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Lead" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_lead" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="cr431_lead" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{96e493f6-f46c-4115-9bfb-c8e48b3acd77}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Nature Of Task" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_natureoftask" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="cr431_natureoftask" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a5dc9b13-4ab3-424e-965f-865a7c21a088}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Mode Of Closure" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_modeofclosure" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="cr431_modeofclosure" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0542c875-9faa-4922-adae-5d7646909f1d}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Met/ Call With" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_metcallwith" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="cr431_metcallwith" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{47420369-23e8-4947-9f13-268e7644c914}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Task Status" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_taskstatus" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="cr431_taskstatus" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{1e22f995-0fe3-4f66-9e61-6942efb37325}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Owning Business Unit" languagecode="1033" />
+                        </labels>
+                        <control id="owningbusinessunit" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="owningbusinessunit" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{5f3c9c62-eaed-4256-8027-20123e67722f}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Remarks (In Case Of Others)" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_remarksincaseofothers" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="cr431_remarksincaseofothers" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a4eef12e-2065-45aa-8d2d-ad0f8097feed}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Status" languagecode="1033" />
+                        </labels>
+                        <control id="statecode" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="statecode" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{76ec4544-64e0-41f5-a656-27bf7368e1a8}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Task Assigned To" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_taskassignedto" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="cr431_taskassignedto" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{30d7c7fb-0abd-4e89-8646-fcef56358ba3}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Task Clousre Reamrks" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_taskclousrereamrks" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="cr431_taskclousrereamrks" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{92f4cbb3-8973-4618-bc12-8a315e5aa0cc}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Task Creation Remarks" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_taskcreationremarks" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="cr431_taskcreationremarks" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{4758c100-fcff-45a3-ad6e-0b6f5ff6a118}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Task Date" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_taskdate" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="cr431_taskdate" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{dd6ad966-a7c5-420b-909a-1ac38c9dcc6c}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Task Owner" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_taskowner" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="cr431_taskowner" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell locklevel="0" id="{1a52c586-fcb6-47cf-8e7f-f7a5ce853707}" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Is It posponed" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_isitposponed" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="cr431_isitposponed" disabled="false" uniqueid="{a920ea5e-00e2-4292-91be-15c336ba3045}" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{04eb3e4c-faa4-4b9d-8034-8101fc22a9cb}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{e2e25784-1944-4e6d-a365-a15df9523055}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{5a727d74-44b7-47c2-ae70-267fd86341a5}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{6b67c66c-6270-4dfa-a8ff-7e808f7ff6ba}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{198e57f8-61cf-465c-92a8-4c69370db32a}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{f6a2b043-b963-4c9b-9c8f-f0a087733aef}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{de1de84b-04e6-4481-adad-79b07b1d2f0d}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{ab918e22-a493-42b8-8dee-877f17768e22}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <controlDescriptions>
+        <controlDescription forControl="{a920ea5e-00e2-4292-91be-15c336ba3045}">
+          <customControl id="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}">
+            <parameters>
+              <datafieldname>cr431_isitposponed</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl formFactor="0" name="MscrmControls.FieldControls.CheckboxControl">
+            <parameters>
+              <value type="TwoOptions">cr431_isitposponed</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.FieldControls.CheckboxControl">
+            <parameters>
+              <value type="TwoOptions">cr431_isitposponed</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="MscrmControls.FieldControls.CheckboxControl">
+            <parameters>
+              <value type="TwoOptions">cr431_isitposponed</value>
+            </parameters>
+          </customControl>
+        </controlDescription>
+      </controlDescriptions>
+      <Navigation>
+        <NavBar />
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

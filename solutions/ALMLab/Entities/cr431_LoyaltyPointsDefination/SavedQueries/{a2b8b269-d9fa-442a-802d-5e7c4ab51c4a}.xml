@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{a2b8b269-d9fa-442a-802d-5e7c4ab51c4a}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="cr431_name" select="1" icon="1" preview="1">
+        <row name="result" id="cr431_loyaltypointsdefinationid">
+          <cell name="cr431_name" width="143" />
+          <cell name="cr431_loyalty" width="100" />
+          <cell name="cr431_rangefrom" width="100" />
+          <cell name="cr431_rangeto" width="100" />
+          <cell name="cr431_points" width="100" />
+          <cell name="createdon" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="cr431_loyaltypointsdefination">
+          <attribute name="cr431_loyaltypointsdefinationid" />
+          <attribute name="cr431_name" />
+          <order attribute="cr431_name" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="cr431_loyalty" />
+          <attribute name="cr431_rangefrom" />
+          <attribute name="cr431_rangeto" />
+          <attribute name="cr431_points" />
+          <attribute name="createdon" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Loyalty Points Definations" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

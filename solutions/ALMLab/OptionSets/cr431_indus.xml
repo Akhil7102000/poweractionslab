@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<optionset Name="cr431_indus" localizedName="indus" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <OptionSetType>picklist</OptionSetType>
+  <IsGlobal>1</IsGlobal>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <ExternalTypeName></ExternalTypeName>
+  <displaynames>
+    <displayname description="indus" languagecode="1033" />
+  </displaynames>
+  <options>
+    <option value="254460000" ExternalValue="">
+      <labels>
+        <label description="Aerospace and Shipping" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="254460001" ExternalValue="">
+      <labels>
+        <label description="Automobile and Ancillaries" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="254460002" ExternalValue="">
+      <labels>
+        <label description="Construction, Mining and Water well" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="254460003" ExternalValue="">
+      <labels>
+        <label description="Electronics and Electricals" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="254460004" ExternalValue="">
+      <labels>
+        <label description="Food and Beverages" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="254460005" ExternalValue="">
+      <labels>
+        <label description="General Engineering and Process" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="254460006" ExternalValue="">
+      <labels>
+        <label description="Pharma and Healthcare" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="254460007" ExternalValue="">
+      <labels>
+        <label description="Printing and Packaging" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="254460008" ExternalValue="">
+      <labels>
+        <label description="Sortex and Agriculture" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="254460009" ExternalValue="">
+      <labels>
+        <label description="Textiles" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+  </options>
+</optionset>

@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Workflow WorkflowId="{968dd86a-3e33-ed11-9db1-002248d5d232}" Name="Leads Status" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <XamlFileName>/Workflows/LeadsStatus-968DD86A-3E33-ED11-9DB1-002248D5D232.xaml</XamlFileName>
+  <Type>1</Type>
+  <Subprocess>0</Subprocess>
+  <Category>4</Category>
+  <Mode>0</Mode>
+  <Scope>4</Scope>
+  <OnDemand>0</OnDemand>
+  <TriggerOnCreate>1</TriggerOnCreate>
+  <TriggerOnDelete>0</TriggerOnDelete>
+  <AsyncAutodelete>0</AsyncAutodelete>
+  <SyncWorkflowLogOnFailure>0</SyncWorkflowLogOnFailure>
+  <StateCode>0</StateCode>
+  <StatusCode>1</StatusCode>
+  <processorder>100</processorder>
+  <RunAs>1</RunAs>
+  <UniqueName>new_leadsstatus</UniqueName>
+  <IsTransacted>1</IsTransacted>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <BusinessProcessType>0</BusinessProcessType>
+  <IsCustomProcessingStepAllowedForOtherPublishers>1</IsCustomProcessingStepAllowedForOtherPublishers>
+  <ProcessTriggerScope>1</ProcessTriggerScope>
+  <PrimaryEntity>cr431_Sites</PrimaryEntity>
+  <LocalizedNames>
+    <LocalizedName languagecode="1033" description="Leads Status" />
+  </LocalizedNames>
+  <labels>
+    <steplabels id="{98240360-1e46-e67e-784b-be9621c38be4}">
+      <label languagecode="1033" description="New Stage" />
+    </steplabels>
+    <steplabels id="{5158246b-8038-506c-2905-cbb2bf366167}">
+      <label languagecode="1033" description="Lead Status" />
+    </steplabels>
+    <steplabels id="{99027504-b3fd-45f2-acda-00d4d2f869ec}">
+      <label languagecode="1033" description="Demo" />
+    </steplabels>
+    <steplabels id="{7676f457-924a-426a-9e42-8dcd6e80653f}">
+      <label languagecode="1033" description="Lead Status" />
+    </steplabels>
+    <steplabels id="{54becd3e-5b11-47ed-b039-f15253ac9c85}">
+      <label languagecode="1033" description="Execution" />
+    </steplabels>
+    <steplabels id="{e9b19b82-ce21-4111-99f1-dab48e4d9ae0}">
+      <label languagecode="1033" description="Lead Status" />
+    </steplabels>
+    <steplabels id="{dc805b71-fd8c-4e04-959c-9fe38f4f0955}">
+      <label languagecode="1033" description="Negotition" />
+    </steplabels>
+    <steplabels id="{1e0b132a-55c5-4f73-8079-fddbe79e9d68}">
+      <label languagecode="1033" description="Lead Status" />
+    </steplabels>
+    <steplabels id="{9ef3fd4a-7a3c-48ff-b511-c22e14c8f191}">
+      <label languagecode="1033" description="Won" />
+    </steplabels>
+    <steplabels id="{6a46c693-5305-434f-8e25-2de770814830}">
+      <label languagecode="1033" description="Lead Status" />
+    </steplabels>
+    <steplabels id="{736bb1eb-730e-4c44-9089-0ece09e067c9}">
+      <label languagecode="1033" description="Won" />
+    </steplabels>
+    <steplabels id="{185ed468-c924-41cb-9137-6b87bb8e8a7c}">
+      <label languagecode="1033" description="Lead Status" />
+    </steplabels>
+    <steplabels id="{5115c974-1163-4134-bd84-10020ec43cf2}">
+      <label languagecode="1033" description="Complete" />
+    </steplabels>
+    <steplabels id="{fdc473c9-8ce0-4f52-b906-5cd7ced65868}">
+      <label languagecode="1033" description="Lead Status" />
+    </steplabels>
+    <steplabels id="{ce9a3fa9-c824-4668-bd4e-02138b731bf9}">
+      <label languagecode="1033" description="Lost" />
+    </steplabels>
+    <steplabels id="{421fca85-399f-4bf1-8bf7-1f422f949b83}">
+      <label languagecode="1033" description="Lead Status" />
+    </steplabels>
+    <steplabels id="{fe695fc5-4f4c-490a-8c2c-b90ca4ecbb1e}">
+      <label languagecode="1033" description="Lost" />
+    </steplabels>
+    <steplabels id="{f220daac-bda5-4bca-aa96-000a3c4ce1bd}">
+      <label languagecode="1033" description="Lead Status" />
+    </steplabels>
+    <steplabels id="{46dd62f0-9d6d-4ac1-b812-fe27101da960}">
+      <label languagecode="1033" description="Complete" />
+    </steplabels>
+    <steplabels id="{e15da364-ccd5-4459-b654-6d33cc77130e}">
+      <label languagecode="1033" description="Lead Status" />
+    </steplabels>
+    <steplabels id="{76731363-3a4a-45c0-a6f8-2acf471caa73}">
+      <label languagecode="1033" description="Execution" />
+    </steplabels>
+    <steplabels id="{9692950d-c500-4f38-843c-8d05fd772eb2}">
+      <label languagecode="1033" description="Lead Status" />
+    </steplabels>
+    <steplabels id="{74047858-71b0-4ea3-8dad-ab5b0931402a}">
+      <label languagecode="1033" description="Complete" />
+    </steplabels>
+    <steplabels id="{46fd628b-bb2e-4e58-8118-9c03828082c5}">
+      <label languagecode="1033" description="Lead Status" />
+    </steplabels>
+  </labels>
+  <ProcessTriggers>
+    <ProcessTrigger processtriggerid="{2f62d322-f033-ed11-9db1-002248d5df9a}">
+      <controltype>1</controltype>
+      <methodid>{98240360-1e46-e67e-784b-be9621c38be4}</methodid>
+      <scope>1</scope>
+      <controlname>cr431_sitestatus</controlname>
+      <event>change</event>
+      <pipelinestage>0</pipelinestage>
+      <iscustomizable>1</iscustomizable>
+      <primaryentitytypecode>cr431_Sites</primaryentitytypecode>
+    </ProcessTrigger>
+    <ProcessTrigger processtriggerid="{3062d322-f033-ed11-9db1-002248d5df9a}">
+      <controltype>1</controltype>
+      <methodid>{99027504-b3fd-45f2-acda-00d4d2f869ec}</methodid>
+      <scope>1</scope>
+      <controlname>cr431_sitestatus</controlname>
+      <event>change</event>
+      <pipelinestage>0</pipelinestage>
+      <iscustomizable>1</iscustomizable>
+      <primaryentitytypecode>cr431_Sites</primaryentitytypecode>
+    </ProcessTrigger>
+    <ProcessTrigger processtriggerid="{3262d322-f033-ed11-9db1-002248d5df9a}">
+      <controltype>1</controltype>
+      <methodid>{54becd3e-5b11-47ed-b039-f15253ac9c85}</methodid>
+      <scope>1</scope>
+      <controlname>cr431_sitestatus</controlname>
+      <event>change</event>
+      <pipelinestage>0</pipelinestage>
+      <iscustomizable>1</iscustomizable>
+      <primaryentitytypecode>cr431_Sites</primaryentitytypecode>
+    </ProcessTrigger>
+    <ProcessTrigger processtriggerid="{3362d322-f033-ed11-9db1-002248d5df9a}">
+      <controltype>1</controltype>
+      <methodid>{dc805b71-fd8c-4e04-959c-9fe38f4f0955}</methodid>
+      <scope>1</scope>
+      <controlname>cr431_sitestatus</controlname>
+      <event>change</event>
+      <pipelinestage>0</pipelinestage>
+      <iscustomizable>1</iscustomizable>
+      <primaryentitytypecode>cr431_Sites</primaryentitytypecode>
+    </ProcessTrigger>
+    <ProcessTrigger processtriggerid="{3462d322-f033-ed11-9db1-002248d5df9a}">
+      <controltype>1</controltype>
+      <methodid>{9ef3fd4a-7a3c-48ff-b511-c22e14c8f191}</methodid>
+      <scope>1</scope>
+      <controlname>cr431_sitestatus</controlname>
+      <event>change</event>
+      <pipelinestage>0</pipelinestage>
+      <iscustomizable>1</iscustomizable>
+      <primaryentitytypecode>cr431_Sites</primaryentitytypecode>
+    </ProcessTrigger>
+  </ProcessTriggers>
+</Workflow>

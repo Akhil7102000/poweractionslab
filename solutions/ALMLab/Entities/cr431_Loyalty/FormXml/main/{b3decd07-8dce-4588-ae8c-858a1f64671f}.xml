@@ -1,0 +1,256 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{b3decd07-8dce-4588-ae8c-858a1f64671f}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls">
+      <tabs>
+        <tab verticallayout="true" id="{f7f2a86f-84dd-4146-90e8-3f653db0c61b}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{c3755c39-a739-4572-a1f9-859cac59867d}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{fa1a0ddd-1345-4e83-a6d0-80b68bc16860}">
+                        <labels>
+                          <label description="Program Name" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="cr431_name" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{f18126a2-ae1c-4ce6-a1fd-cf2ca8ee2b7e}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Date From" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_datefrom" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="cr431_datefrom" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{4263a9fc-27c5-48c2-91ec-a3b3fd748a41}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Date To" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_dateto" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="cr431_dateto" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{23d2a13f-c21d-4751-9e6f-c42f948f5c81}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Party" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_party" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="cr431_party" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{8f44d30c-b028-4584-9cc7-869fd60da82b}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Loyalty Status" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_loyaltystatus" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="cr431_loyaltystatus" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{74e7fd62-84b1-40d1-a276-043a006b8cd6}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Non-Sales Program Category" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_nonsalesprogramcategory" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="cr431_nonsalesprogramcategory" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{9fc906f8-3f2e-4de4-954f-45f19d73f063}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Sales Program Category" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_salesprogramcategory" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="cr431_salesprogramcategory" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d98378ac-b875-4d2f-8934-eb36ea99454f}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Tier" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_tier" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="cr431_tier" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a8a5692e-cb2c-41e9-87c3-a87cef267ce2}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Frequency" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_frequency" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="cr431_frequency" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e5756a63-3979-457c-9270-716caa5c74db}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Product Group" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_productgroup" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="cr431_productgroup" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{fe15bec5-4081-4bca-859e-e9bb9b39d98e}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_2" id="90ec1a50-4726-4b74-abf2-c509794fe7e2" IsUserDefined="0" locklevel="0" showlabel="true">
+          <labels>
+            <label description="Loyalty Points Defination" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="tab_2_section_1" id="59683962-4180-4019-a1c6-2ef55d655e48" IsUserDefined="0" locklevel="0" showlabel="false" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="New Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell locklevel="0" id="{a5fb9e88-cf8c-4467-a69d-b9a4b16022f5}" rowspan="4" colspan="1" auto="false" showlabel="false">
+                        <labels>
+                          <label description="New SG control 1663658141234" languagecode="1033" />
+                        </labels>
+                        <control indicationOfSubgrid="true" id="Subgrid_new_1" classid="{E7A81278-8635-4D9E-8D4D-59480B391C5B}">
+                          <parameters>
+                            <RecordsPerPage>4</RecordsPerPage>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <ChartGridMode>All</ChartGridMode>
+                            <TargetEntityType>cr431_loyaltypointsdefination</TargetEntityType>
+                            <ViewId>{A2B8B269-D9FA-442A-802D-5E7C4AB51C4A}</ViewId>
+                            <ViewIds>{A2B8B269-D9FA-442A-802D-5E7C4AB51C4A}</ViewIds>
+                            <RelationshipName>cr431_cr431_loyaltypointsdefination_Loyalty_cr4</RelationshipName>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_3" id="6291fa2f-6333-463c-ae5e-a15979b169b1" IsUserDefined="0" locklevel="0" showlabel="true">
+          <labels>
+            <label description="Loyalty Transaction" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="tab_3_section_1" id="a926ba47-7b60-4f37-9f8e-3527830d87e5" IsUserDefined="0" locklevel="0" showlabel="false" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="New Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell locklevel="0" id="{fb04d795-831d-4f35-b777-61b04ad5cba0}" rowspan="4" colspan="1" auto="false" showlabel="false">
+                        <labels>
+                          <label description="New SG control 1663658183591" languagecode="1033" />
+                        </labels>
+                        <control indicationOfSubgrid="true" id="Subgrid_new_2" classid="{E7A81278-8635-4D9E-8D4D-59480B391C5B}">
+                          <parameters>
+                            <RecordsPerPage>4</RecordsPerPage>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <ChartGridMode>All</ChartGridMode>
+                            <TargetEntityType>cr431_loyaltytransactions</TargetEntityType>
+                            <ViewId>{5DCDE577-8AC7-4A7E-9AC7-04EF14BD56F3}</ViewId>
+                            <ViewIds>{5DCDE577-8AC7-4A7E-9AC7-04EF14BD56F3}</ViewIds>
+                            <RelationshipName>cr431_cr431_loyaltytransactions_Loyalty_cr431_l</RelationshipName>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{39375849-4b1f-4c43-9c03-563991e8093d}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{dc46351c-0454-4b09-8f53-5ad3bda514e7}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{f7e3f5b3-2cc9-41cd-a188-a24b70537abf}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{3ac88bc9-19ea-4e65-9452-16ce333ff4d4}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{77f357d2-1032-4b40-a65c-7476b4c3d236}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{32c2c549-3550-4264-bb9f-54c3291960db}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{2221df88-ad3c-4ded-af89-f07f34885085}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{e84301d0-2dba-43cc-8f99-86e6d7445270}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

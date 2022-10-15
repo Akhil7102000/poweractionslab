@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{42077cca-05de-49f2-80a9-1f880056b479}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{467a09fb-a47c-7e2d-6333-424dcd793186}" name="StageStep3" locklevel="0" expanded="true" visible="false" labelid="{e3227235-5512-4817-a7ee-5f425689c054}">
+          <labels>
+            <label description="Order Submission" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{3322e43e-343c-1e30-5223-9362e40ac512}" name="StageStep3_section1" labelid="{0e4fddd9-50c9-4c10-a89b-cc0e9a9983db}">
+                  <labels>
+                    <label description="Order Submission" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{213ce55d-77df-2b37-e91e-0b841b7057f8}" showlabel="true" visible="true" labelid="{7546fa4e-0ac5-438d-8873-15c8847f3051}">
+                        <labels>
+                          <label description="Order status" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_cr431_sales_order_new_salesorder:cr431_orderstatus" classid="{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}" datafieldname="cr431_orderstatus" disabled="false" relationship="bpf_cr431_sales_order_new_salesorder" isrequired="true" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab verticallayout="true" id="{323326d9-adab-4f41-9af6-4782059bc3d6}" name="StageStep7" locklevel="0" expanded="true" visible="false" labelid="{725f2311-a13b-4bef-8f56-e4b36bbcc9c6}">
+          <labels>
+            <label description="Approval Status" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{edf4de19-6116-8f1e-7fa1-6ae37e45c631}" name="StageStep7_section1" labelid="{d4e4680d-d7e2-43a9-9b7f-2a55cd961790}">
+                  <labels>
+                    <label description="Approval Status" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{40ea6034-d777-49a6-bd00-ef42b01277b2}" showlabel="true" visible="true" labelid="{7cc06305-ecaa-41b6-bbb3-206b5a67bb4e}">
+                        <labels>
+                          <label description="Order Status" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_cr431_sales_order_new_salesorder:cr431_orderstatus" classid="{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}" datafieldname="cr431_orderstatus" disabled="false" relationship="bpf_cr431_sales_order_new_salesorder" isrequired="true" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab verticallayout="true" id="{aaa99c45-442d-4902-8ced-dae0eaffa054}" name="StageStep11" locklevel="0" expanded="true" visible="false" labelid="{b4140373-a052-4a75-b3a5-f9bc3790e931}">
+          <labels>
+            <label description="Pending For Approval" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{acf42b38-6efc-b75d-31fc-a637937d35a1}" name="StageStep11_section1" labelid="{d1710a35-08c0-4ae7-8aeb-bff1a86427be}">
+                  <labels>
+                    <label description="Pending For Approval" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{f12293bd-67b8-4120-8d69-a5c3dde32e67}" showlabel="true" visible="true" labelid="{0d802ac8-be76-481f-9de5-e15b918fa2ec}">
+                        <labels>
+                          <label description="Order Status" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_cr431_sales_order_new_salesorder:cr431_orderstatus" classid="{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}" datafieldname="cr431_orderstatus" disabled="false" relationship="bpf_cr431_sales_order_new_salesorder" isrequired="true" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab verticallayout="true" id="{ed94e6f6-fb60-4109-b729-869c56a603d2}" name="StageStep15" locklevel="0" expanded="true" visible="false" labelid="{71cc22aa-3db2-4046-95ca-cbd7413b1275}">
+          <labels>
+            <label description="Accepted" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{bfbd7892-371e-36bd-3db7-dbeba224e08c}" name="StageStep15_section1" labelid="{fb9955ef-86b1-4737-8db8-6e46a8cce49f}">
+                  <labels>
+                    <label description="Accepted" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{7d24de3a-2457-44c2-bc19-b1746045fd78}" showlabel="true" visible="true" labelid="{4123f5eb-ba22-4f73-95f3-7629c48091e7}">
+                        <labels>
+                          <label description="Order Status" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_cr431_sales_order_new_salesorder:cr431_orderstatus" classid="{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}" datafieldname="cr431_orderstatus" disabled="false" relationship="bpf_cr431_sales_order_new_salesorder" isrequired="true" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab verticallayout="true" id="{d94864da-104e-4fd4-8df1-2235b83fb06b}" name="StageStep19" locklevel="0" expanded="true" visible="false" labelid="{4d94ae80-a45c-40ca-9ce4-98be9568df9c}">
+          <labels>
+            <label description="Complete" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{6bd919d2-7f97-4af7-1516-7fb6747e5e23}" name="StageStep19_section1" labelid="{3e7c1d26-ccd7-4891-b2ab-c8b81fb2e5dd}">
+                  <labels>
+                    <label description="Complete" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{bcff6cb0-67eb-4361-8b1c-3a05ff53a012}" showlabel="true" visible="true" labelid="{c95bf0da-9318-45dd-aa84-9a26149a5dcf}">
+                        <labels>
+                          <label description="Order Status" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_cr431_sales_order_new_salesorder:cr431_orderstatus" classid="{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}" datafieldname="cr431_orderstatus" disabled="false" relationship="bpf_cr431_sales_order_new_salesorder" isrequired="true" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab verticallayout="true" id="{18e77547-733c-4024-99e9-8cf61b340dc7}" name="StageStep23" locklevel="0" expanded="true" visible="false" labelid="{0963485c-2aba-4fa5-a0cc-825969abbb3c}">
+          <labels>
+            <label description="Complete" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{c7f2d095-794f-fbc4-7df9-cfd96ed73fa5}" name="StageStep23_section1" labelid="{a44eb5e9-8e44-4d75-a7b1-6edfb276938a}">
+                  <labels>
+                    <label description="Complete" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{5539c2f8-e29a-4e70-b888-e456192b7e36}" showlabel="true" visible="true" labelid="{0e6c34e6-0324-441a-affb-a87cefcc0501}">
+                        <labels>
+                          <label description="Reject" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_cr431_sales_order_new_salesorder:cr431_orderstatus" classid="{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}" datafieldname="cr431_orderstatus" disabled="false" relationship="bpf_cr431_sales_order_new_salesorder" isrequired="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab verticallayout="true" id="{f16452cc-53a9-4505-9de2-f79fe8211005}" name="StageStep27" locklevel="0" expanded="true" visible="false" labelid="{c5018127-d15e-430b-a226-ac8d0d5df918}">
+          <labels>
+            <label description="Complete" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{5ada1d22-8559-577a-779c-7b45aa3ed6f0}" name="StageStep27_section1" labelid="{c99362ad-31d1-4232-aba9-fb6ec57cb5c6}">
+                  <labels>
+                    <label description="Complete" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{ab0febdf-1566-43a9-baf9-662614e8b70e}" showlabel="true" visible="true" labelid="{8337648c-3b58-4fc8-ad90-13dd569cffd6}">
+                        <labels>
+                          <label description="Reject" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_cr431_sales_order_new_salesorder:cr431_orderstatus" classid="{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}" datafieldname="cr431_orderstatus" disabled="false" relationship="bpf_cr431_sales_order_new_salesorder" isrequired="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab verticallayout="true" id="{7cadddc3-d752-4462-aac1-3d25404483ec}" name="StageStep31" locklevel="0" expanded="true" visible="false" labelid="{73e7e77a-1941-468b-916e-1d71a724383b}">
+          <labels>
+            <label description="Complete" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{20d02267-2f82-46c5-dcb1-817987187985}" name="StageStep31_section1" labelid="{fbbb3e41-6e47-4bcf-b9d9-2fb9a5532a25}">
+                  <labels>
+                    <label description="Complete" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{4c47d382-fba5-47e0-ad55-97552a47bac9}" showlabel="true" visible="true" labelid="{9c75a23f-6a54-415e-be3b-0acae4c14385}">
+                        <labels>
+                          <label description="Reject" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_cr431_sales_order_new_salesorder:cr431_orderstatus" classid="{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}" datafieldname="cr431_orderstatus" disabled="false" relationship="bpf_cr431_sales_order_new_salesorder" isrequired="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab verticallayout="true" id="{512ce6af-b8a1-44c1-b6c5-be0d5c7ddf59}" name="StageStep35" locklevel="0" expanded="true" visible="false" labelid="{c4f85769-cc5c-4784-be01-f80c9224fbca}">
+          <labels>
+            <label description="Complete" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{4fa39309-b710-ad2c-08cb-ed644222a632}" name="StageStep35_section1" labelid="{aede5345-e613-4eca-82ce-628d2d4ab6fe}">
+                  <labels>
+                    <label description="Complete" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{b396e9b8-54d5-4ded-aa53-1418652141a2}" showlabel="true" visible="true" labelid="{e3851c96-41b2-40db-8bf3-450f5f71d8bf}">
+                        <labels>
+                          <label description="Reject" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_cr431_sales_order_new_salesorder:cr431_orderstatus" classid="{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}" datafieldname="cr431_orderstatus" disabled="false" relationship="bpf_cr431_sales_order_new_salesorder" isrequired="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

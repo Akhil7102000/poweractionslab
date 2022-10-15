@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Connector xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <connectorid>656c6b32-8a9f-4f90-9781-c70151d215fb</connectorid>
+  <description></description>
+  <displayname>Whatsapp</displayname>
+  <iconbrandcolor>#007ee5</iconbrandcolor>
+  <name>new_whatsapp</name>
+  <connectortype>1</connectortype>
+  <openapidefinition>/Connector/new_whatsapp_openapidefinition.json</openapidefinition>
+  <connectionparameters>/Connector/new_whatsapp_connectionparameters.json</connectionparameters>
+  <policytemplateinstances>/Connector/new_whatsapp_policytemplateinstances.json</policytemplateinstances>
+  <iconblob>/Connector/new_whatsapp_iconblob.Png</iconblob>
+</Connector>

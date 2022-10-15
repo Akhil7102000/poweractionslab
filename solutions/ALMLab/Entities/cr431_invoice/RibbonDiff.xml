@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RibbonDiffXml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <CustomActions>
+    <CustomAction Id="cr431.cr431_invoice.Button2.Button.CustomAction" Location="Mscrm.Form.cr431_invoice.MainTab.Save.Controls._children" Sequence="43">
+      <CommandUIDefinition>
+        <Button Command="cr431.cr431_invoice.Command0.Command" Id="cr431.cr431_invoice.Button2.Button" LabelText="$LocLabels:cr431.cr431_invoice.Button2.Button.LabelText" Sequence="43" TemplateAlias="o2" />
+      </CommandUIDefinition>
+    </CustomAction>
+  </CustomActions>
+  <Templates>
+    <RibbonTemplates Id="Mscrm.Templates"></RibbonTemplates>
+  </Templates>
+  <CommandDefinitions>
+    <CommandDefinition Id="cr431.cr431_invoice.Command0.Command">
+      <EnableRules />
+      <DisplayRules />
+      <Actions>
+        <JavaScriptFunction FunctionName="hide" Library="$webresource:cr431_shippmentcreate">
+          <CrmParameter Value="PrimaryControl" />
+        </JavaScriptFunction>
+      </Actions>
+    </CommandDefinition>
+  </CommandDefinitions>
+  <RuleDefinitions>
+    <TabDisplayRules />
+    <DisplayRules />
+    <EnableRules>
+      <EnableRule Id="cr431.cr431_invoice.EnableRule1.EnableRule">
+        <CustomRule FunctionName="hide" Library="$webresource:cr431_rcordecreatea" Default="true" InvertResult="true">
+          <CrmParameter Value="PrimaryControl" />
+        </CustomRule>
+      </EnableRule>
+    </EnableRules>
+  </RuleDefinitions>
+  <LocLabels>
+    <LocLabel Id="cr431.cr431_invoice.Button2.Button.LabelText">
+      <Titles>
+        <Title description="Convert To Shipment" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+  </LocLabels>
+</RibbonDiffXml>

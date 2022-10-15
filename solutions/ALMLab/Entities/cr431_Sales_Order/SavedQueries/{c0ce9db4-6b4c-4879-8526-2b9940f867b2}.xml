@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{c0ce9db4-6b4c-4879-8526-2b9940f867b2}</savedqueryid>
+    <layoutxml>
+      <grid name="cr431_sales_orders" jump="cr431_name" select="1" icon="1" preview="1">
+        <row name="cr431_sales_order" id="cr431_sales_orderid">
+          <cell name="cr431_name" width="98" />
+          <cell name="cr431_orderfrom" width="100" />
+          <cell name="cr431_orderto" width="100" />
+          <cell name="cr431_orderdate" width="100" />
+          <cell name="cr431_ordertype" width="100" />
+          <cell name="cr431_orderstatusrail" width="100" />
+          <cell name="cr431_orderstatuslevel" width="100" />
+          <cell name="cr431_quantity" width="100" />
+          <cell name="cr431_billamoount" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>2</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="cr431_sales_order">
+          <attribute name="cr431_sales_orderid" />
+          <attribute name="cr431_name" />
+          <order attribute="cr431_name" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="cr431_orderfrom" />
+          <attribute name="cr431_orderto" />
+          <attribute name="cr431_orderdate" />
+          <attribute name="cr431_ordertype" />
+          <attribute name="cr431_orderstatusrail" />
+          <attribute name="cr431_orderstatuslevel" />
+          <attribute name="cr431_quantity" />
+          <attribute name="cr431_billamoount" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Sales Order Associated View" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

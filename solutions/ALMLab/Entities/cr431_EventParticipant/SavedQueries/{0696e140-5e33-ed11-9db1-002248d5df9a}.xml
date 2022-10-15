@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{0696e140-5e33-ed11-9db1-002248d5df9a}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="cr431_name" select="1" icon="1" preview="1">
+        <row name="result" id="cr431_eventparticipantid">
+          <cell name="cr431_name" width="200" />
+          <cell name="cr431_event" width="224" />
+          <cell name="cr431_influencer" width="163" />
+          <cell name="cr431_attachedaccount" width="151" />
+          <cell name="createdon" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical">
+        <entity name="cr431_eventparticipant">
+          <attribute name="cr431_name" />
+          <attribute name="cr431_eventparticipantid" />
+          <attribute name="cr431_event" />
+          <attribute name="cr431_influencer" />
+          <attribute name="cr431_attachedaccount" />
+          <attribute name="createdon" />
+          <link-entity alias="a_e85dbdd359f04dcdbdc2ce902dc82687" name="account" to="cr431_attachedaccount" from="accountid" link-type="inner">
+            <filter type="and">
+              <condition attribute="cr431_accounttype" operator="eq" value="254460006" />
+            </filter>
+          </link-entity>
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Farmers Participants" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

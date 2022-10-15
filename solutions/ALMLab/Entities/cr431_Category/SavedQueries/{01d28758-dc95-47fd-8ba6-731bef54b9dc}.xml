@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{01d28758-dc95-47fd-8ba6-731bef54b9dc}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="cr431_name" select="1" icon="1" preview="1">
+        <row name="result" id="cr431_categoryid">
+          <cell name="cr431_name" width="193" />
+          <cell name="cr431_categoryname" width="185" />
+          <cell name="cr431_level" width="168" />
+          <cell name="cr431_categorytype" width="166" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical" distinct="true">
+        <entity name="cr431_category">
+          <attribute name="cr431_categoryid" />
+          <attribute name="cr431_name" />
+          <attribute name="createdon" />
+          <order attribute="cr431_name" descending="false" />
+          <attribute name="cr431_categoryname" />
+          <attribute name="cr431_categorytype" />
+          <attribute name="cr431_level" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+            <condition attribute="cr431_level" operator="eq" value="1" />
+          </filter>
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Categories" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

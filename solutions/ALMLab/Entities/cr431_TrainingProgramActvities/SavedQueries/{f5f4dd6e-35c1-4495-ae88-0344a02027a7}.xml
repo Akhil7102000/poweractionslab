@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{f5f4dd6e-35c1-4495-ae88-0344a02027a7}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="cr431_name" select="1" icon="1" preview="1">
+        <row name="result" id="cr431_trainingprogramactvitiesid">
+          <cell name="cr431_name" width="89" />
+          <cell name="cr431_training" width="100" />
+          <cell name="cr431_trainingactivities" width="100" />
+          <cell name="a_fe2592724fa34b0b88d43abbbb8939aa.cr431_startdate" width="100" />
+          <cell name="a_fe2592724fa34b0b88d43abbbb8939aa.cr431_enddate" width="100" />
+          <cell name="a_fe2592724fa34b0b88d43abbbb8939aa.cr431_cost" width="100" />
+          <cell name="a_b89bfe56ad414174802bbb39a67e7aaa.cr431_trainingtype" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="cr431_trainingprogramactvities">
+          <attribute name="cr431_trainingprogramactvitiesid" />
+          <attribute name="cr431_name" />
+          <order attribute="cr431_name" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="cr431_trainingactivities" />
+          <attribute name="cr431_training" />
+          <link-entity alias="a_fe2592724fa34b0b88d43abbbb8939aa" name="cr431_trainingprogram" to="cr431_training" from="cr431_trainingprogramid" link-type="outer" visible="false">
+            <attribute name="cr431_startdate" />
+            <attribute name="cr431_enddate" />
+            <attribute name="cr431_cost" />
+          </link-entity>
+          <link-entity alias="a_b89bfe56ad414174802bbb39a67e7aaa" name="cr431_trainingactvities" to="cr431_trainingactivities" from="cr431_trainingactvitiesid" link-type="outer" visible="false">
+            <attribute name="cr431_trainingtype" />
+          </link-entity>
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Training Program Actvities" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

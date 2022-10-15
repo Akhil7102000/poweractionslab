@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebResource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <WebResourceId>{83b12b2a-bef2-ec11-bb3c-000d3aca361c}</WebResourceId>
+  <Name>new_InformationIndicator1-WF.svg</Name>
+  <DisplayName>Information Indicator1-WF.svg</DisplayName>
+  <WebResourceType>11</WebResourceType>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <IsEnabledForMobileClient>0</IsEnabledForMobileClient>
+  <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/new_InformationIndicator1-WFsvg83B12B2A-BEF2-EC11-BB3C-000D3ACA361C</FileName>
+</WebResource>

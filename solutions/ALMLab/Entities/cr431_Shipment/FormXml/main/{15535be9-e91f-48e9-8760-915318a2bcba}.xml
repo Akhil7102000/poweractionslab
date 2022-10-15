@@ -1,0 +1,247 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{15535be9-e91f-48e9-8760-915318a2bcba}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls" shownavigationbar="false" showImage="false" maxWidth="1920">
+      <tabs>
+        <tab verticallayout="true" id="{49f41793-1d9f-4861-812b-9ee59d5d727d}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{8667fa4e-f09c-4d92-94aa-3ca7d34608e2}" columns="11">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{884d5aa6-dedb-4490-b722-652393099fcf}">
+                        <labels>
+                          <label description="Shipment ID" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="cr431_name" disabled="true" />
+                      </cell>
+                      <cell id="{2a7ae03f-3028-4d11-bf18-b2b12ad4250c}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Shipped date" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_shippeddate" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="cr431_shippeddate" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{8f818feb-9b33-4de7-afef-fbb3a5354e7d}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Account" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_account" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="cr431_account" disabled="false" />
+                      </cell>
+                      <cell id="{4486b095-44dc-45dd-9587-a8355f61482d}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Ship To" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_shipto" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="cr431_shipto" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{9117bc86-9798-43f5-aa23-0fd8107e653e}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Order" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_order" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="cr431_order" disabled="false" />
+                      </cell>
+                      <cell id="{f6cacf92-deea-4dba-87cc-f193217c8dfb}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Shipment Status" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_shipmentstatus" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="cr431_shipmentstatus" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d1c94f18-8e5a-4077-a3da-8157a653b28e}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Invoice" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_invoice" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="cr431_invoice" disabled="false" />
+                      </cell>
+                      <cell id="{41c6518c-b17a-4f30-a631-2f565df8a81c}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Delivery date" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_deliverydate" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="cr431_deliverydate" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d9390341-72bb-405f-bd5f-90188e0ccfb1}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Amount" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_amount" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="cr431_amount" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e0465786-8d66-425b-ab30-c44ab13826b9}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Bill to" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_billto" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="cr431_billto" disabled="false" />
+                      </cell>
+                      <cell locklevel="0" id="{242e9261-26d2-492f-a12b-35c62e7d3d19}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0781721a-ff59-43ee-9ae2-62479e8772d4}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                      <cell locklevel="0" id="{c278d5a4-4607-4512-ac96-f778a471509c}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_2" id="3ecf556c-64b6-4794-a958-24bd33084be5" IsUserDefined="0" locklevel="0" showlabel="true">
+          <labels>
+            <label description="Shipments Lines" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="tab_2_section_1" id="44dce3c5-b898-47e5-a8d1-881371687417" IsUserDefined="0" locklevel="0" showlabel="false" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="New Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell locklevel="0" id="{bbadf626-c9f9-4e44-a23a-8fd8c1920d5b}" rowspan="4" colspan="1" auto="false" showlabel="false">
+                        <labels>
+                          <label description="New SG control 1663009087213" languagecode="1033" />
+                        </labels>
+                        <control indicationOfSubgrid="true" id="Subgrid_new_1" classid="{E7A81278-8635-4D9E-8D4D-59480B391C5B}">
+                          <parameters>
+                            <RecordsPerPage>4</RecordsPerPage>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <ChartGridMode>All</ChartGridMode>
+                            <TargetEntityType>cr431_shippinglines</TargetEntityType>
+                            <ViewId>{B0EBF067-3E3D-4241-9386-A39D4519DA1B}</ViewId>
+                            <ViewIds>{B0EBF067-3E3D-4241-9386-A39D4519DA1B}</ViewIds>
+                            <RelationshipName>cr431_cr431_shippinglines_Shipment_cr431_shipme</RelationshipName>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{86898e19-b5a9-4e10-805b-b67a2a64264a}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{b0af5dba-457d-4420-9834-8d4267506987}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{e157c847-36d4-4b78-b1dd-e49e4506658e}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{d4dfdf92-7b23-4f60-ba9d-da435cd15037}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{8041ba69-b17b-4a96-880f-c66b6b083734}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{733c90dc-2162-4bc7-b273-df68e4f22e85}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{43fd6445-8fe3-4875-9196-227e71ab092c}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{db39aa7c-78c9-441b-9339-9403749e674a}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <controlDescriptions />
+      <Navigation>
+        <NavBar />
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

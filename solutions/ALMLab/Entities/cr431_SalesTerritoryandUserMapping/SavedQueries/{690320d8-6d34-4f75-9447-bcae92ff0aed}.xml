@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{690320d8-6d34-4f75-9447-bcae92ff0aed}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="cr431_name" select="1" icon="1" preview="1">
+        <row name="result" id="cr431_salesterritoryandusermappingid">
+          <cell name="cr431_name" width="281" />
+          <cell name="cr431_salesuser" width="100" />
+          <cell name="cr431_salesterritory" width="155" />
+          <cell name="a_68dac96ace644f2a8f894ea8e31862f2.cr431_parentzone" width="100" />
+          <cell name="a_68dac96ace644f2a8f894ea8e31862f2.cr431_parentstate" width="100" />
+          <cell name="a_68dac96ace644f2a8f894ea8e31862f2.cr431_parentsubstate" width="100" />
+          <cell name="a_68dac96ace644f2a8f894ea8e31862f2.cr431_parentdistrict" width="100" />
+          <cell name="a_68dac96ace644f2a8f894ea8e31862f2.cr431_parentcity" width="100" />
+          <cell name="a_68dac96ace644f2a8f894ea8e31862f2.cr431_parentpincode" width="100" />
+          <cell name="createdon" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="cr431_salesterritoryandusermapping">
+          <attribute name="cr431_salesterritoryandusermappingid" />
+          <attribute name="cr431_name" />
+          <order attribute="cr431_name" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="cr431_salesuser" />
+          <attribute name="cr431_salesterritory" />
+          <link-entity alias="a_68dac96ace644f2a8f894ea8e31862f2" name="cr431_salesterritory" to="cr431_salesterritory" from="cr431_salesterritoryid" link-type="outer" visible="false">
+            <attribute name="cr431_parentzone" />
+            <attribute name="cr431_parentstate" />
+            <attribute name="cr431_parentsubstate" />
+            <attribute name="cr431_parentdistrict" />
+            <attribute name="cr431_parentcity" />
+            <attribute name="cr431_parentpincode" />
+          </link-entity>
+          <attribute name="createdon" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Sales Territory and User Mappings" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

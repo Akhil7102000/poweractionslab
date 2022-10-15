@@ -1,0 +1,166 @@
+function updatesalesorderstatus(executionContext){
+    // var formcontext = executionContext.getFormContext();
+    var formcontext = executionContext;
+   // debugger;
+    var orderstaus=formcontext.getAttribute("cr431_orderstatus").getValue();
+
+   var orderstaus1=parseInt(orderstaus);	
+    if(orderstaus === 254460000) // open
+     {
+        formcontext.getAttribute("cr431_ordersubstatus").setValue(254460000);
+     
+     }
+     else if(orderstaus === 254460005 || orderstaus === 254460001) // <---posted/Accepted
+     { 
+        if(orderstaus === 254460001){
+            formcontext.getAttribute("cr431_ordersubstatus").setValue(null);
+        }else{
+            formcontext.getAttribute("cr431_ordersubstatus").setValue(254460001);
+        }
+        formcontext.getAttribute("cr431_orderstatus").setValue(254460003);
+        formcontext.getAttribute("cr431_orderstatuslevel").setValue(3);
+        
+        //debugger;
+
+        //---------------------------------------Gathering Data-------------------(Start)--------//
+        let salesOrderGuidWithBrackets = formcontext.data.entity.getId(); 
+        let salesOrderGuidOnly = salesOrderGuidWithBrackets.substring(1,salesOrderGuidWithBrackets.length-1); 
+        //let CGST = formcontext.getAttribute("cr431_cgstamount").getValue();
+        var BillToParty = formcontext.getAttribute("cr431_billtoparty").getValue() === null ? null : formcontext.getAttribute("cr431_billtoparty").getValue()[0].id;
+        var ShipToParty = formcontext.getAttribute("cr431_shiptoparty").getValue() === null ? null : formcontext.getAttribute("cr431_shiptoparty").getValue()[0].id;
+        var ShippingAddress = formcontext.getAttribute("cr431_shippingaddress").getValue() === null ? null : formcontext.getAttribute("cr431_shippingaddress").getValue();
+        //var IGSTAmount = formcontext.getAttribute("cr431_igstamount").getValue() === null ? null : formcontext.getAttribute("cr431_igstamount").getValue();
+        var CGSTAmount = formcontext.getAttribute("cr431_cgstamount").getValue() === null ? null : formcontext.getAttribute("cr431_cgstamount").getValue();
+        var SGSTAmount = formcontext.getAttribute("cr431_sgstamount").getValue() === null ? null : formcontext.getAttribute("cr431_sgstamount").getValue();
+        // var CGSTPer = formcontext.getAttribute("cr431_cgst").getValue() === null ? null : formcontext.getAttribute("cr431_cgst").getValue();
+        // var SGSTPer = formcontext.getAttribute("cr431_sgst").getValue() === null ? null : formcontext.getAttribute("cr431_sgst").getValue();
+        var TotalOrderAmount = formcontext.getAttribute("cr431_billamoount").getValue();
+        //--------------------------------------Gathering Data---------------------(End)--------//
+        
+        if(BillToParty === null || ShipToParty === null || ShippingAddress === null){
+            //formcontext.getAttribute("cr431_orderstatus").setValue(254460001);
+            window.alert("Please fill all the required fields.");
+            Xrm.Page.data.save();
+        }else{
+
+        Xrm.Page.data.save().then(function(){
+        debugger;
+            //------------------------------Merging data into local entity record-------------------(Start)--------//
+            var record = {};
+            record["cr431_SalesOrderNumber@odata.bind"] = "/cr431_sales_orders("+salesOrderGuidOnly+")";
+
+            if(BillToParty != null){
+                record["cr431_BillToParty@odata.bind"] = "/accounts("+BillToParty.substring(1,BillToParty.length-1)+")";
+            }
+            if(ShipToParty != null){
+                record["cr431_ShipToParty@odata.bind"] = "/accounts("+ShipToParty.substring(1,ShipToParty.length-1)+")";
+            }
+            if(ShippingAddress != null){
+                record["cr431_shippingaddress"] = ShippingAddress;
+            }
+            if(CGSTAmount != null && SGSTAmount != null){
+                record["cr431_igstamount"] = CGSTAmount+SGSTAmount;
+                record["cr431_taxamount"] = CGSTAmount+SGSTAmount;
+                
+            }
+            if(CGSTAmount != null){
+                record["cr431_cgstamount"] = CGSTAmount;
+            }
+            if(SGSTAmount != null){
+                record["cr431_sgstamount"] = SGSTAmount;
+            }
+            if(TotalOrderAmount != null){
+                record["cr431_beforetaxamount"] = TotalOrderAmount;
+            }
+            if(TotalOrderAmount != null && CGSTAmount != null && SGSTAmount != null){
+               record["cr431_totalorderamountincltax"] = (TotalOrderAmount + CGSTAmount + SGSTAmount);
+            }
+            //------------------------------Merging data into local entity record-------------------(End)--------//
+
+            //-------------------------------Creating Invoice record into targeted entity----------(Start)--------//
+            var InvoiceRecordId = null;
+            Xrm.WebApi.createRecord("cr431_invoice", record).then(  
+            function success(result) {
+                window.alert("Invoice Created.");
+                InvoiceRecordId = result.id;
+                debugger;
+                //window.alert(InvoiceRecordId);
+                //-------------------------------Invoice Line creation Section----------(Start)-------------------------//
+                    Xrm.WebApi.retrieveMultipleRecords("cr431_orderline",`?$select=cr431_name,_cr431_productitem_value,cr431_quantity,cr431_totalitemprice,cr431_itemprice,&$filter=_cr431_salesorderno_value eq ${salesOrderGuidOnly}`)
+                    .then(function success(ele){
+                        
+                            debugger;
+                                for(let i = 0; i<ele.entities.length; i++){
+                                    var record1 = {};
+                                    //window.alert(ele.entities[i]._cr431_productitem_value);
+                                    if(ele.entities[i]._cr431_productitem_value != null){
+                                        record1["cr431_Item@odata.bind"] = "/cr431_productitems("+ele.entities[i]._cr431_productitem_value+")";
+                                    }
+                                    //window.alert(InvoiceRecordId);
+                                    record1["cr431_InvoiceNumber@odata.bind"] = "/cr431_invoices("+InvoiceRecordId+")";
+
+                                    if(ele.entities[i].cr431_quantity != null){
+                                        record1["cr431_quantityordered"] = ele.entities[i].cr431_quantity.toString();
+                                    }
+                                    
+                                    if(ele.entities[i].cr431_totalitemprice != null){
+                                        record1["cr431_billamoount"] = ele.entities[i].cr431_totalitemprice;
+                                    }
+
+                                    if(ele.entities[i].cr431_totalitemprice != null){
+                                        record1["cr431_itemprice"] = ele.entities[i].cr431_itemprice;
+                                    }
+
+                                    Xrm.WebApi.createRecord("cr431_invoiceline", record1).then(  
+                                        function success(result) {
+                                            //window.alert("Invoice Line Created.");  
+                                        },
+                                        function(error) {
+                                            window.alert("Invoice Line: "+error.message);
+                                        }
+                                    );
+                                    
+                                } 
+                            
+                            //window.alert(ele.entities.length);
+                            debugger;
+                        },
+                        function (error) {
+                            console.log(error.message);
+                            // handle error conditions
+                        }
+                    );
+                   //-------------------------------Invoice Line creation Section----------(End)-------------------------//
+            },
+            function(error) {
+                window.alert(error.message);
+            }
+            );
+            //------------------------------Creating Invoice record into targeted entity----------(End)--------// 
+            
+
+            // var record1 = {};
+            // record1["cr431_InvoiceNumber@odata.bind"] = "/cr431_invoices("+salesOrderGuidOnly+")";
+
+        });
+       } 
+     }
+     else if(orderstaus === 254460002) // partially shipped
+     {
+        formcontext.getAttribute("cr431_ordersubstatus").setValue(null);
+     }
+     else if(orderstaus === 254460003) // shipped
+     {
+        formcontext.getAttribute("cr431_ordersubstatus").setValue(null);
+     }
+     else if(orderstaus === 254460004) // reject
+     {
+        formcontext.getAttribute("cr431_ordersubstatus").setValue(254460002);
+        formcontext.getControl("cr431_orderstatus").setDisabled(true);
+       // formcontext.getControl("cr431_ordersubstatus").setDisabled(true);
+     }
+     else {
+        formcontext.getAttribute("cr431_ordersubstatus").setValue(null);  
+     }
+
+}

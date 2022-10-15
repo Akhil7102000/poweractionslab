@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RibbonDiffXml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <CustomActions>
+    <CustomAction Id="cr431.cr431_sales_order.Button2.ConvertToInvoice.CustomAction" Location="Mscrm.Form.cr431_sales_order.MainTab.Save.Controls._children" Sequence="85">
+      <CommandUIDefinition>
+        <Button Command="cr431.cr431_sales_order.Command0.ConvertToInvoice" Id="cr431.cr431_sales_order.Button2.ConvertToInvoice" LabelText="$LocLabels:cr431.cr431_sales_order.Button2.ConvertToInvoice.LabelText" Sequence="85" TemplateAlias="o2" />
+      </CommandUIDefinition>
+    </CustomAction>
+  </CustomActions>
+  <Templates>
+    <RibbonTemplates Id="Mscrm.Templates"></RibbonTemplates>
+  </Templates>
+  <CommandDefinitions>
+    <CommandDefinition Id="cr431.cr431_sales_order.Command0.ConvertToInvoice">
+      <EnableRules />
+      <DisplayRules />
+      <Actions>
+        <JavaScriptFunction FunctionName="updatesalesorderstatus" Library="$webresource:cr431_salesorderstatusupdation">
+          <CrmParameter Value="PrimaryControl" />
+        </JavaScriptFunction>
+      </Actions>
+    </CommandDefinition>
+  </CommandDefinitions>
+  <RuleDefinitions>
+    <TabDisplayRules />
+    <DisplayRules />
+    <EnableRules />
+  </RuleDefinitions>
+  <LocLabels>
+    <LocLabel Id="cr431.cr431_sales_order.Button2.ConvertToInvoice.LabelText">
+      <Titles>
+        <Title description="Convert to Invoice" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+  </LocLabels>
+</RibbonDiffXml>

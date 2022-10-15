@@ -1,27 +1,27 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ImportExportXml version="9.2.22092.174" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<ImportExportXml version="9.2.22094.162" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <SolutionManifest>
-    <UniqueName>powertest</UniqueName>
+    <UniqueName>Testsolution</UniqueName>
     <LocalizedNames>
-      <LocalizedName description="powertest" languagecode="1033" />
+      <LocalizedName description="Test solution" languagecode="1033" />
     </LocalizedNames>
     <Descriptions />
     <Version>1.0.0.0</Version>
     <Managed>0</Managed>
     <Publisher>
-      <UniqueName>zoxima</UniqueName>
+      <UniqueName>Cr2acdc</UniqueName>
       <LocalizedNames>
-        <LocalizedName description="Zoxima" languagecode="1033" />
+        <LocalizedName description="CDS Default Publisher" languagecode="1033" />
       </LocalizedNames>
       <Descriptions />
       <EMailAddress xsi:nil="true"></EMailAddress>
       <SupportingWebsiteUrl xsi:nil="true"></SupportingWebsiteUrl>
-      <CustomizationPrefix>new</CustomizationPrefix>
-      <CustomizationOptionValuePrefix>10000</CustomizationOptionValuePrefix>
+      <CustomizationPrefix>cr431</CustomizationPrefix>
+      <CustomizationOptionValuePrefix>25446</CustomizationOptionValuePrefix>
       <Addresses>
         <Address>
           <AddressNumber>1</AddressNumber>
-          <AddressTypeCode>1</AddressTypeCode>
+          <AddressTypeCode xsi:nil="true"></AddressTypeCode>
           <City xsi:nil="true"></City>
           <County xsi:nil="true"></County>
           <Country xsi:nil="true"></Country>
@@ -37,7 +37,7 @@
           <PostalCode xsi:nil="true"></PostalCode>
           <PostOfficeBox xsi:nil="true"></PostOfficeBox>
           <PrimaryContactName xsi:nil="true"></PrimaryContactName>
-          <ShippingMethodCode>1</ShippingMethodCode>
+          <ShippingMethodCode xsi:nil="true"></ShippingMethodCode>
           <StateOrProvince xsi:nil="true"></StateOrProvince>
           <Telephone1 xsi:nil="true"></Telephone1>
           <Telephone2 xsi:nil="true"></Telephone2>
@@ -49,7 +49,7 @@
         </Address>
         <Address>
           <AddressNumber>2</AddressNumber>
-          <AddressTypeCode>1</AddressTypeCode>
+          <AddressTypeCode xsi:nil="true"></AddressTypeCode>
           <City xsi:nil="true"></City>
           <County xsi:nil="true"></County>
           <Country xsi:nil="true"></Country>
@@ -65,7 +65,7 @@
           <PostalCode xsi:nil="true"></PostalCode>
           <PostOfficeBox xsi:nil="true"></PostOfficeBox>
           <PrimaryContactName xsi:nil="true"></PrimaryContactName>
-          <ShippingMethodCode>1</ShippingMethodCode>
+          <ShippingMethodCode xsi:nil="true"></ShippingMethodCode>
           <StateOrProvince xsi:nil="true"></StateOrProvince>
           <Telephone1 xsi:nil="true"></Telephone1>
           <Telephone2 xsi:nil="true"></Telephone2>
@@ -78,14 +78,148 @@
       </Addresses>
     </Publisher>
     <RootComponents>
-      <RootComponent type="1" schemaName="new_test1" behavior="0" />
-      <RootComponent type="62" schemaName="new_testapp" behavior="0" />
-      <RootComponent type="80" schemaName="new_testapp" behavior="0" />
+      <RootComponent type="1" schemaName="cr431_invoice" behavior="0" />
     </RootComponents>
     <MissingDependencies>
       <MissingDependency>
-        <Required type="61" schemaName="msdyn_/Images/AppModule_Default_Icon.png" displayName="msdyn_/Images/AppModule_Default_Icon.png" solution="AppModuleWebResources (2.5)" />
-        <Dependent type="80" schemaName="new_testapp" displayName="testapp" />
+        <Required type="1" schemaName="cr431_beats" displayName="Beats" solution="Active" />
+        <Dependent type="10" schemaName="cr431_cr431_invoice_Beat_cr431_beats" displayName="cr431_cr431_invoice_Beat_cr431_beats" parentSchemaName="cr431_beats" parentDisplayName="Beats" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="cr431_category" displayName="Category" solution="Active" />
+        <Dependent type="10" schemaName="cr431_cr431_category_cr431_invoice_Division" displayName="cr431_cr431_category_cr431_invoice_Division" parentSchemaName="cr431_category" parentDisplayName="Category" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="cr431_complaints" displayName="Complaints" solution="Active" />
+        <Dependent type="1" schemaName="cr431_invoice" displayName="Invoice" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="cr431_complaints" displayName="Complaints" solution="Active" />
+        <Dependent type="60" displayName="Invoice main form" parentDisplayName="Invoice" id="{e55f6d33-1d30-ed11-9db0-002248d5d232}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="cr431_invoiceline" displayName="Invoice Line" solution="Active" />
+        <Dependent type="1" schemaName="cr431_invoice" displayName="Invoice" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="cr431_invoiceline" displayName="Invoice Line" solution="Active" />
+        <Dependent type="60" displayName="Invoice main form" parentDisplayName="Invoice" id="{e55f6d33-1d30-ed11-9db0-002248d5d232}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="cr431_payment" displayName="Payment" solution="Active" />
+        <Dependent type="1" schemaName="cr431_invoice" displayName="Invoice" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="cr431_returnrequest" displayName="Return Request" solution="Active" />
+        <Dependent type="1" schemaName="cr431_invoice" displayName="Invoice" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="cr431_returnrequest" displayName="Return Request" solution="Active" />
+        <Dependent type="60" displayName="Invoice main form" parentDisplayName="Invoice" id="{e55f6d33-1d30-ed11-9db0-002248d5d232}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="cr431_sales_order" displayName="SalesOrder" solution="Active" />
+        <Dependent type="10" schemaName="cr431_cr431_invoice_SalesOrderNumber_cr431_sale" displayName="cr431_cr431_invoice_SalesOrderNumber_cr431_sale" parentSchemaName="cr431_sales_order" parentDisplayName="SalesOrder" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="cr431_schemeinvoicelinetable" displayName="Scheme Invoice Line " solution="Active" />
+        <Dependent type="1" schemaName="cr431_invoice" displayName="Invoice" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="cr431_schemeinvoicetable" displayName="Scheme Invoice " solution="Active" />
+        <Dependent type="1" schemaName="cr431_invoice" displayName="Invoice" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="cr431_shipment" displayName="Shipment" solution="Active" />
+        <Dependent type="1" schemaName="cr431_invoice" displayName="Invoice" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="cr431_shipment" displayName="Shipment" solution="Active" />
+        <Dependent type="60" displayName="Invoice main form" parentDisplayName="Invoice" id="{e55f6d33-1d30-ed11-9db0-002248d5d232}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="cr431_cr431_complaints_Invoice_cr431_invoice" displayName="cr431_cr431_complaints_Invoice_cr431_invoice" parentSchemaName="cr431_invoice" parentDisplayName="Invoice" solution="Active" />
+        <Dependent type="60" displayName="Invoice main form" parentDisplayName="Invoice" id="{e55f6d33-1d30-ed11-9db0-002248d5d232}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="cr431_cr431_invoiceline_InvoiceNumber_cr431_inv" displayName="cr431_cr431_invoiceline_InvoiceNumber_cr431_inv" parentSchemaName="cr431_invoice" parentDisplayName="Invoice" solution="Active" />
+        <Dependent type="60" displayName="Invoice main form" parentDisplayName="Invoice" id="{e55f6d33-1d30-ed11-9db0-002248d5d232}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="cr431_cr431_returnrequest_InvoiceNo_cr431_invoi" displayName="cr431_cr431_returnrequest_InvoiceNo_cr431_invoi" parentSchemaName="cr431_invoice" parentDisplayName="Invoice" solution="Active" />
+        <Dependent type="60" displayName="Invoice main form" parentDisplayName="Invoice" id="{e55f6d33-1d30-ed11-9db0-002248d5d232}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="cr431_cr431_shipment_Invoice_cr431_invoice" displayName="cr431_cr431_shipment_Invoice_cr431_invoice" parentSchemaName="cr431_invoice" parentDisplayName="Invoice" solution="Active" />
+        <Dependent type="60" displayName="Invoice main form" parentDisplayName="Invoice" id="{e55f6d33-1d30-ed11-9db0-002248d5d232}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="cr431_beatsid" displayName="Beats" parentSchemaName="cr431_beats" parentDisplayName="Beats" solution="Active" />
+        <Dependent type="10" schemaName="cr431_cr431_invoice_Beat_cr431_beats" displayName="cr431_cr431_invoice_Beat_cr431_beats" parentSchemaName="cr431_beats" parentDisplayName="Beats" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="cr431_name" displayName="Name" parentSchemaName="cr431_beats" parentDisplayName="Beats" solution="Active" />
+        <Dependent type="10" schemaName="cr431_cr431_invoice_Beat_cr431_beats" displayName="cr431_cr431_invoice_Beat_cr431_beats" parentSchemaName="cr431_beats" parentDisplayName="Beats" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="cr431_categoryid" displayName="Category" parentSchemaName="cr431_category" parentDisplayName="Category" solution="Active" />
+        <Dependent type="10" schemaName="cr431_cr431_category_cr431_invoice_Division" displayName="cr431_cr431_category_cr431_invoice_Division" parentSchemaName="cr431_category" parentDisplayName="Category" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="cr431_name" displayName="Category Name" parentSchemaName="cr431_category" parentDisplayName="Category" solution="Active" />
+        <Dependent type="10" schemaName="cr431_cr431_category_cr431_invoice_Division" displayName="cr431_cr431_category_cr431_invoice_Division" parentSchemaName="cr431_category" parentDisplayName="Category" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="cr431_name" displayName="Category Name" parentSchemaName="cr431_category" parentDisplayName="Category" solution="Active" />
+        <Dependent type="10" schemaName="cr431_cr431_category_cr431_invoice_LOB" displayName="cr431_cr431_category_cr431_invoice_LOB" parentSchemaName="cr431_category" parentDisplayName="Category" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="cr431_name" displayName="Category Name" parentSchemaName="cr431_category" parentDisplayName="Category" solution="Active" />
+        <Dependent type="10" schemaName="cr431_cr431_invoice_ProductCategory_cr431_categ" displayName="cr431_cr431_invoice_ProductCategory_cr431_categ" parentSchemaName="cr431_category" parentDisplayName="Category" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="cr431_name" displayName="Order ID" parentSchemaName="cr431_sales_order" parentDisplayName="SalesOrder" solution="Active" />
+        <Dependent type="10" schemaName="cr431_cr431_invoice_SalesOrderNumber_cr431_sale" displayName="cr431_cr431_invoice_SalesOrderNumber_cr431_sale" parentSchemaName="cr431_sales_order" parentDisplayName="SalesOrder" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="cr431_sales_orderid" displayName="Sales Order" parentSchemaName="cr431_sales_order" parentDisplayName="SalesOrder" solution="Active" />
+        <Dependent type="10" schemaName="cr431_cr431_invoice_SalesOrderNumber_cr431_sale" displayName="cr431_cr431_invoice_SalesOrderNumber_cr431_sale" parentSchemaName="cr431_sales_order" parentDisplayName="SalesOrder" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Active Complaints" displayName="Active Complaints" parentSchemaName="cr431_complaints" parentDisplayName="Complaints" solution="Active" id="{0fe0af66-f2b0-4400-8b9a-7f5ff28f501d}" />
+        <Dependent type="60" displayName="Invoice main form" parentDisplayName="Invoice" id="{e55f6d33-1d30-ed11-9db0-002248d5d232}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Active Return Requests" displayName="Active Return Requests" parentSchemaName="cr431_returnrequest" parentDisplayName="Return Request" solution="Active" id="{17db49bc-be7e-4367-8f4f-bc8b7a5023dd}" />
+        <Dependent type="60" displayName="Invoice main form" parentDisplayName="Invoice" id="{e55f6d33-1d30-ed11-9db0-002248d5d232}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Active Invoice Line" displayName="Active Invoice Line" parentSchemaName="cr431_invoiceline" parentDisplayName="Invoice Line" solution="Active" id="{5553dad8-8906-447c-8cfa-cd98356cfe98}" />
+        <Dependent type="60" displayName="Invoice main form" parentDisplayName="Invoice" id="{e55f6d33-1d30-ed11-9db0-002248d5d232}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Active Shipments" displayName="Active Shipments" parentSchemaName="cr431_shipment" parentDisplayName="Shipment" solution="Active" id="{fda81124-36ba-4e06-a62f-1a022ce632ab}" />
+        <Dependent type="60" displayName="Invoice main form" parentDisplayName="Invoice" id="{e55f6d33-1d30-ed11-9db0-002248d5d232}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="cr431_shippmentcreate" displayName="cr431_shippmentcreate" solution="Active" />
+        <Dependent type="50" schemaName="cr431_invoice:RibbonDiffXml" displayName="cr431_invoice:RibbonDiffXml" parentSchemaName="ribboncustomization" parentDisplayName="Application Ribbons" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="cr431_shippmentcreate" displayName="cr431_shippmentcreate" solution="Active" />
+        <Dependent type="60" displayName="Invoice main form" parentDisplayName="Invoice" id="{e55f6d33-1d30-ed11-9db0-002248d5d232}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="new_Bill.svg" displayName="new_Bill.svg" solution="Active" />
+        <Dependent type="1" schemaName="cr431_invoice" displayName="Invoice" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="9" schemaName="cr431_approvalststus" displayName="approvalststus" solution="Active" />
+        <Dependent type="2" schemaName="cr431_test" displayName="Test" parentSchemaName="cr431_invoice" parentDisplayName="Invoice" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="9" schemaName="cr431_invoicestatus" displayName="Invoice Status" solution="Active" />
+        <Dependent type="2" schemaName="cr431_invoicestatus" displayName="Invoice Status" parentSchemaName="cr431_invoice" parentDisplayName="Invoice" />
       </MissingDependency>
     </MissingDependencies>
   </SolutionManifest>

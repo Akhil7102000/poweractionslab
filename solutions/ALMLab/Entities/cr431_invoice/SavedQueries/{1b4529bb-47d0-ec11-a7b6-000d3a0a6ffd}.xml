@@ -6,12 +6,12 @@
     <isquickfindquery>0</isquickfindquery>
     <isprivate>0</isprivate>
     <isdefault>1</isdefault>
-    <savedqueryid>{58eabaa9-273e-ed11-bba2-6045bda59a94}</savedqueryid>
+    <savedqueryid>{1b4529bb-47d0-ec11-a7b6-000d3a0a6ffd}</savedqueryid>
     <querytype>8192</querytype>
     <fetchxml>
       <fetch version="1.0" mapping="logical" output-format="xml-platform">
-        <entity name="new_test1">
-          <attribute name="new_test1id" />
+        <entity name="cr431_invoice">
+          <attribute name="cr431_invoiceid" />
           <filter type="and">
             <condition attribute="statecode" operator="eq" value="0" />
             <condition attribute="ownerid" operator="eq-userid" />
@@ -19,12 +19,12 @@
         </entity>
       </fetch>
     </fetchxml>
-    <IntroducedVersion>1.0</IntroducedVersion>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
     <LocalizedNames>
-      <LocalizedName description="My Test1S" languagecode="1033" />
+      <LocalizedName description="My Invoice" languagecode="1033" />
     </LocalizedNames>
     <Descriptions>
-      <Description description="Active Test1S owned by me" languagecode="1033" />
+      <Description description="Active Invoice owned by me" languagecode="1033" />
     </Descriptions>
   </savedquery>
 </savedqueries>

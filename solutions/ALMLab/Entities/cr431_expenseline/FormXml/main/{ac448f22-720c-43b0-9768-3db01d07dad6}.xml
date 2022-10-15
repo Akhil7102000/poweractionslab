@@ -1,0 +1,502 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{ac448f22-720c-43b0-9768-3db01d07dad6}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls">
+      <tabs>
+        <tab verticallayout="true" id="{898069aa-4b6c-41a8-a51a-16a87675bb0d}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{bbfcb621-ac87-40cb-9e1c-533b231fd165}" columns="11">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell locklevel="0" id="{1fdd195a-24bb-438b-ac7f-e16c5832f44b}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                      <cell id="{b37c7786-8c81-48ea-abb0-97391dded018}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Food Charges" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_foodcharges" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="cr431_foodcharges" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{37fc7ab4-64fa-4fc1-a630-50ec5e0370a6}">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="cr431_name" disabled="true" />
+                      </cell>
+                      <cell id="{b0ff465e-e837-4899-b9e9-0966f6a93caf}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Travelling Charges" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_travellingcharges" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="cr431_travellingcharges" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{cb358562-4d6c-49ab-8c7f-d27c893bd263}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                      <cell id="{9e665904-06a5-4cd4-a2f2-4dc8be787aa4}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Toll Charges" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_tollcharges" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="cr431_tollcharges" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{9ecda5bf-f9c7-4ffc-8f4f-040af46ab696}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="User" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_user" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="cr431_user" disabled="false" />
+                      </cell>
+                      <cell id="{13725084-05c9-4159-b6fa-38e03a7c8ebd}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Hotel Charges" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_hotelcharges" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="cr431_hotelcharges" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{1adc84ed-6769-7e96-5807-6083e55dce01}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Expense Number" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_expensenumber" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="cr431_expensenumber" disabled="false" />
+                      </cell>
+                      <cell id="{52402aca-6307-46e0-bbef-0f3517265472}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Other Charges" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_othercharges" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="cr431_othercharges" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{061edd5d-65ae-ac7e-c895-89825b45075b}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Expense Line" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_expenseline" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="cr431_expenseline" disabled="true" />
+                      </cell>
+                      <cell id="{8b4cefce-8c7e-4669-9696-0d79a6836ea7}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Attached Food Bill" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_attachedfoodbill" classid="{7E548B0D-209C-477B-9DCD-F0F44472381D}" datafieldname="cr431_attachedfoodbill" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{048d60b9-7619-9b25-9480-8291ee1deb07}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Expense Type" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_expnsetype" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="cr431_expnsetype" disabled="false" />
+                      </cell>
+                      <cell locklevel="0" id="{6becfd4e-8bb0-4526-9fc5-1dd52c144af2}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a23e5b10-cf5e-4f32-baa4-945b0876de29}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Exception" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_exception" classid="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}" datafieldname="cr431_exception" disabled="false" />
+                      </cell>
+                      <cell id="{299d1d85-30c5-4aec-807d-705700c34174}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Attach Hotel Bill" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_attachhotelbill" classid="{7E548B0D-209C-477B-9DCD-F0F44472381D}" datafieldname="cr431_attachhotelbill" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{fa194b93-2ebc-4012-a39b-b848f65d1b14}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Date" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_date" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="cr431_date" disabled="false" />
+                      </cell>
+                      <cell id="{7f53d2c5-5764-42a7-b6cb-1079e1dcb31a}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Attach Toll Bill" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_attachtollbill" classid="{7E548B0D-209C-477B-9DCD-F0F44472381D}" datafieldname="cr431_attachtollbill" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{17accc98-3271-5622-831d-7364ed5dd4c7}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Expense Allowed as Per Policy" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_expenseallowedasperpolicy" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="cr431_expenseallowedasperpolicy" disabled="false" />
+                      </cell>
+                      <cell id="{4858041e-9597-49b9-92db-db679a0e0b6f}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Attach Other Bill" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_attachotherbill" classid="{7E548B0D-209C-477B-9DCD-F0F44472381D}" datafieldname="cr431_attachotherbill" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{8a9ed532-0b07-b254-e0be-01c815933517}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Kilometer Travelled" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_kilometertravelled" classid="{0D2C745A-E5A8-4c8f-BA63-C6D3BB604660}" datafieldname="cr431_kilometertravelled" disabled="false" />
+                      </cell>
+                      <cell id="{946edec5-5dd8-4e52-8ee6-d9f850452cbe}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Local Conveyance Amount" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_localconveyanceamount" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="cr431_localconveyanceamount" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{cdec5d5e-ce93-cb08-ec20-3dcde28ba6a5}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Expense Done" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_expensedone" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="cr431_expensedone" disabled="false" />
+                      </cell>
+                      <cell locklevel="0" id="{5a21b737-6b22-4968-a6e0-71225e309fe2}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{72c374da-c198-4b9a-4958-ada2674e82eb}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Expense Approved" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_expenseapproved" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="cr431_expenseapproved" disabled="false" />
+                      </cell>
+                      <cell locklevel="0" id="{f15521be-9773-445b-8b83-b2d1b37b8e8d}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{1cc4c048-a43a-4610-a5ed-72f6993fb063}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Mode of Transportation" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_modeoftransportation" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="cr431_modeoftransportation" disabled="false" />
+                      </cell>
+                      <cell locklevel="0" id="{0a525f1a-78ba-4fc7-b1a6-4bfd2f46a0dd}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{63abad6a-8f69-4edd-9b81-999318a54cd9}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Total Expenses" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_totalexpenses" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="cr431_totalexpenses" disabled="false" />
+                      </cell>
+                      <cell locklevel="0" id="{7c5a7a27-e32e-4852-a293-7726d177583a}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="Travel" id="5eb3c974-30f5-42f0-8498-cd8e19b9306d" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="11" labelwidth="115">
+                  <labels>
+                    <label description="Travel" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{a4703bf9-468c-4d94-ade2-44998b9e018d}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Travel Mode" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_travelmode" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="cr431_travelmode" disabled="false" />
+                      </cell>
+                      <cell id="{5f13f99f-f9d8-4299-a4d7-536cc44ee7fd}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Amount" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_amount" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="cr431_amount" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{7b14ed40-def0-48f9-9fe5-4221a23fcbc1}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Departure" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_departure" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="cr431_departure" disabled="false" />
+                      </cell>
+                      <cell id="{02bbe5fe-3d0f-48c9-97a3-0838324c0416}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Attach Travelling Bill" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_attachtravellingbill" classid="{7E548B0D-209C-477B-9DCD-F0F44472381D}" datafieldname="cr431_attachtravellingbill" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{4b032e14-b7db-4742-be5b-6a61e20a0e84}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Arrival" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_arrival" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="cr431_arrival" disabled="false" />
+                      </cell>
+                      <cell locklevel="0" id="{4982cbf4-2dbf-44bd-8c45-c66aa87f30b9}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="Food" id="8d9c308c-0579-4e93-b77a-67290417d1cd" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="11" labelwidth="115">
+                  <labels>
+                    <label description="Food" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{c572dd73-8d94-49a8-9f05-4d2669e510dd}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Food Date" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_fooddate" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="cr431_fooddate" disabled="false" />
+                      </cell>
+                      <cell id="{975808a5-d448-4575-bcb2-177bf20260ac}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Food Amount" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_foodamount" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="cr431_foodamount" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c4476ab4-6b4d-4bb6-abab-03d8046a517e}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Food Bill" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_foodbill" classid="{7E548B0D-209C-477B-9DCD-F0F44472381D}" datafieldname="cr431_foodbill" disabled="false" />
+                      </cell>
+                      <cell locklevel="0" id="{cd8802a2-6d13-499a-ba7c-acc6965bc81c}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="Hotel" id="6a72d5e7-818e-4e67-b674-6abb32931728" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="11" labelwidth="115">
+                  <labels>
+                    <label description="Hotel" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{ac67b141-13af-40b2-8f1e-43daa3fd0977}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Check in Date" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_checkindate" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="cr431_checkindate" disabled="false" />
+                      </cell>
+                      <cell id="{eac3bed5-150c-4f8e-9f24-9657907c9941}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Per Night Charges" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_pernightcharges" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="cr431_pernightcharges" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{32a96df0-7784-4ff5-9af6-79713328815a}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Check out Date" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_checkoutdate" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="cr431_checkoutdate" disabled="false" />
+                      </cell>
+                      <cell id="{d5c8922c-df7f-471a-9dc2-379b81fc2d96}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Total Hotel Charge" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_totalhotelcharge" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="cr431_totalhotelcharge" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell locklevel="0" id="{56e49ccc-e094-4fd7-9f47-a8c90ff19f8e}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                      <cell id="{78341ed4-a524-41b0-b658-2bd368b6cf50}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Hotel Bill" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_hotelbill" classid="{7E548B0D-209C-477B-9DCD-F0F44472381D}" datafieldname="cr431_hotelbill" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="Toll" id="e149a55c-7840-4f75-bac2-8231feae499a" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Toll" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{0f0279ee-3e19-44e5-a702-bd7e00f1335e}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Toll Amount" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_tollamount" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="cr431_tollamount" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{1fd1390e-3996-4ee8-9ccc-d29c2b03d49e}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Toll Date" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_tolldate" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="cr431_tolldate" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{02809809-40ab-48bf-a93f-b8518e39029c}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Toll Attachment" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_attachment" classid="{7E548B0D-209C-477B-9DCD-F0F44472381D}" datafieldname="cr431_attachment" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="Others" id="1a0ff007-4614-40dd-a9ef-aa32a8a724dc" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Others" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{d0b20e5e-a70f-4762-99ff-40af10f8bc7f}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Other Amount" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_otheramount" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="cr431_otheramount" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{373ad077-23ff-4c33-a6cd-5964f73c9af2}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Others Date" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_othersdate" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="cr431_othersdate" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <Navigation>
+        <NavBar />
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <header id="{cc68b74c-b0e3-4956-9de8-946864e2b3bb}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{74b76a76-6708-491e-9b71-d87b101297f3}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{abfcdd83-7e90-4d89-9115-1242d971f653}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{b8b42e79-9ed5-40c1-b257-5ed857b319d6}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{c603bf9d-f86d-49df-be47-8b223ebe2d67}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{214a8099-7690-46ff-8c00-30fc056f25e8}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{2acc8f53-7555-4b57-b41e-ff986629fd83}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{570d2368-0084-4842-89af-8c41e980e446}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{00000000-0000-0000-00aa-000010001001}</savedqueryid>
+    <queryapi></queryapi>
+    <layoutxml>
+      <grid name="resultset" jump="name" select="1" icon="1" preview="1">
+        <row name="result" id="accountid">
+          <cell name="name" width="216" />
+          <cell name="accountnumber" width="128" />
+          <cell name="cr431_accounttype" width="148" />
+          <cell name="telephone1" width="100" />
+          <cell name="cr431_accountzone" width="100" />
+          <cell name="statecode" width="100" />
+          <cell name="createdon" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical">
+        <entity name="account">
+          <attribute name="name" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="accountid" />
+          <attribute name="accountnumber" />
+          <attribute name="cr431_accounttype" />
+          <attribute name="telephone1" />
+          <attribute name="statecode" />
+          <attribute name="createdon" />
+          <attribute name="cr431_accountzone" />
+          <order attribute="createdon" descending="true" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>5.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="All Active Accounts" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

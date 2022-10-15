@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{75a35faf-7652-455a-b1db-f664d3bd976a}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="cr431_name" select="1" icon="1" preview="1">
+        <row name="result" id="cr431_bestroutesequenceid">
+          <cell name="cr431_name" width="106" />
+          <cell name="cr431_date" width="100" />
+          <cell name="cr431_party" width="100" />
+          <cell name="cr431_salesperson" width="100" />
+          <cell name="cr431_sequence" width="100" />
+          <cell name="cr431_visit" width="100" />
+          <cell name="cr431_type" width="100" />
+          <cell name="createdon" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="cr431_bestroutesequence">
+          <attribute name="cr431_bestroutesequenceid" />
+          <attribute name="cr431_name" />
+          <order attribute="cr431_name" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="cr431_date" />
+          <attribute name="cr431_party" />
+          <attribute name="cr431_salesperson" />
+          <attribute name="cr431_sequence" />
+          <attribute name="cr431_visit" />
+          <attribute name="cr431_type" />
+          <attribute name="createdon" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Best Route Sequences" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

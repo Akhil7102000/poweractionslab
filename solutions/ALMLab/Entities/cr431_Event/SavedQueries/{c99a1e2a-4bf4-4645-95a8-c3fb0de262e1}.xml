@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{c99a1e2a-4bf4-4645-95a8-c3fb0de262e1}</savedqueryid>
+    <layoutxml>
+      <grid name="cr431_events" jump="cr431_name" select="1" icon="1" preview="1">
+        <row name="cr431_event" id="cr431_eventid">
+          <cell name="cr431_event_id" width="100" />
+          <cell name="cr431_name" width="101" />
+          <cell name="cr431_eventdate" width="100" />
+          <cell name="cr431_eventtype" width="100" />
+          <cell name="cr431_officer" width="100" />
+          <cell name="cr431_asm" width="100" />
+          <cell name="cr431_area1" width="100" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>2</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="cr431_event">
+          <attribute name="cr431_eventid" />
+          <attribute name="cr431_name" />
+          <attribute name="createdon" />
+          <order attribute="cr431_name" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="cr431_event_id" />
+          <attribute name="cr431_eventdate" />
+          <attribute name="cr431_eventtype" />
+          <attribute name="cr431_officer" />
+          <attribute name="cr431_asm" />
+          <attribute name="cr431_area1" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Event Associated View" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

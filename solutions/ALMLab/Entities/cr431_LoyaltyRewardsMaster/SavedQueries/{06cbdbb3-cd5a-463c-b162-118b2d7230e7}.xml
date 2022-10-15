@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{06cbdbb3-cd5a-463c-b162-118b2d7230e7}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="cr431_name" select="1" icon="1" preview="1">
+        <row name="result" id="cr431_loyaltyrewardsmasterid">
+          <cell name="cr431_name" width="154" />
+          <cell name="cr431_pointsrequired" width="100" />
+          <cell name="cr431_rewardtype" width="100" />
+          <cell name="cr431_marketvalue" width="100" />
+          <cell name="cr431_requiredtier" width="100" />
+          <cell name="cr431_requiredpartytype" width="100" />
+          <cell name="createdon" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="cr431_loyaltyrewardsmaster">
+          <attribute name="cr431_loyaltyrewardsmasterid" />
+          <attribute name="cr431_name" />
+          <order attribute="cr431_name" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="cr431_pointsrequired" />
+          <attribute name="cr431_rewardtype" />
+          <attribute name="cr431_marketvalue" />
+          <attribute name="cr431_requiredtier" />
+          <attribute name="cr431_requiredpartytype" />
+          <attribute name="createdon" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Loyalty Rewards Masters" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

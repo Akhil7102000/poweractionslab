@@ -1,0 +1,333 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{48f32383-f6c1-42e5-8307-1542754c3644}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{98240360-1e46-e67e-784b-be9621c38be4}" name="StageStep3" locklevel="0" expanded="true" visible="false" labelid="{e2a29787-3599-434b-9d0d-c4eb882609d8}">
+          <labels>
+            <label description="New Stage" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{b774fe84-e42e-daa6-7d87-a258b09d4276}" name="StageStep3_section1" labelid="{f8532587-b94b-40cb-a946-a5339a89845c}">
+                  <labels>
+                    <label description="New Stage" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{5158246b-8038-506c-2905-cbb2bf366167}" showlabel="true" visible="true" labelid="{439fc05a-7f34-423a-869a-4af546a126dd}">
+                        <labels>
+                          <label description="Lead Status" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_cr431_sites_new_leadsstatus:cr431_sitestatus" classid="{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}" datafieldname="cr431_sitestatus" disabled="false" relationship="bpf_cr431_sites_new_leadsstatus" isrequired="true" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab verticallayout="true" id="{99027504-b3fd-45f2-acda-00d4d2f869ec}" name="StageStep7" locklevel="0" expanded="true" visible="false" labelid="{598faeb9-1596-4c33-abbb-3e0adaaa0ac0}">
+          <labels>
+            <label description="Demo" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{6ce019c2-4468-744b-1adb-05fa70ed2a25}" name="StageStep7_section1" labelid="{a11107c3-302d-450d-a7d0-dcd48ff4e898}">
+                  <labels>
+                    <label description="Demo" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{7676f457-924a-426a-9e42-8dcd6e80653f}" showlabel="true" visible="true" labelid="{c3e4713b-4561-4a62-910c-aed34103c277}">
+                        <labels>
+                          <label description="Lead Status" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_cr431_sites_new_leadsstatus:cr431_sitestatus" classid="{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}" datafieldname="cr431_sitestatus" disabled="false" relationship="bpf_cr431_sites_new_leadsstatus" isrequired="true" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab verticallayout="true" id="{54becd3e-5b11-47ed-b039-f15253ac9c85}" name="StageStep11" locklevel="0" expanded="true" visible="false" labelid="{ddd82e31-e5d8-4ca0-93cd-6746150622f7}">
+          <labels>
+            <label description="Execution" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{29d6f072-1280-4f21-bfd6-a74eea0daee4}" name="StageStep11_section1" labelid="{ee9b9050-7dd3-44ef-8349-6bcfaa195ea0}">
+                  <labels>
+                    <label description="Execution" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{e9b19b82-ce21-4111-99f1-dab48e4d9ae0}" showlabel="true" visible="true" labelid="{467760c6-8cfc-49c1-b449-df931e656e01}">
+                        <labels>
+                          <label description="Lead Status" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_cr431_sites_new_leadsstatus:cr431_sitestatus" classid="{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}" datafieldname="cr431_sitestatus" disabled="false" relationship="bpf_cr431_sites_new_leadsstatus" isrequired="true" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab verticallayout="true" id="{dc805b71-fd8c-4e04-959c-9fe38f4f0955}" name="StageStep15" locklevel="0" expanded="true" visible="false" labelid="{d20cb122-28da-4f3b-b1fc-cb2bcefb69cc}">
+          <labels>
+            <label description="Negotition" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{8cdf7a3f-7d0b-cf12-f59f-49c2fc1dd3d6}" name="StageStep15_section1" labelid="{35a0f7ed-942e-47f4-b714-5add048fe91a}">
+                  <labels>
+                    <label description="Negotition" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{1e0b132a-55c5-4f73-8079-fddbe79e9d68}" showlabel="true" visible="true" labelid="{f18820ac-718b-44d3-96e8-0232149a966b}">
+                        <labels>
+                          <label description="Lead Status" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_cr431_sites_new_leadsstatus:cr431_sitestatus" classid="{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}" datafieldname="cr431_sitestatus" disabled="false" relationship="bpf_cr431_sites_new_leadsstatus" isrequired="true" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab verticallayout="true" id="{9ef3fd4a-7a3c-48ff-b511-c22e14c8f191}" name="StageStep19" locklevel="0" expanded="true" visible="false" labelid="{2f3ee663-c376-4312-873e-acb8271ff48f}">
+          <labels>
+            <label description="Won" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{9b1d16f8-aff6-59f2-fb65-33473b613981}" name="StageStep19_section1" labelid="{fd9327f8-da6d-43ea-b238-c750c63fa6d0}">
+                  <labels>
+                    <label description="Won" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{6a46c693-5305-434f-8e25-2de770814830}" showlabel="true" visible="true" labelid="{8aa5e5e1-4c7b-4b6f-b3f6-abebcb9229f1}">
+                        <labels>
+                          <label description="Lead Status" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_cr431_sites_new_leadsstatus:cr431_sitestatus" classid="{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}" datafieldname="cr431_sitestatus" disabled="false" relationship="bpf_cr431_sites_new_leadsstatus" isrequired="true" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab verticallayout="true" id="{736bb1eb-730e-4c44-9089-0ece09e067c9}" name="StageStep23" locklevel="0" expanded="true" visible="false" labelid="{4608db0f-1e32-43fb-a8f6-3414abdaa04b}">
+          <labels>
+            <label description="Won" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{5f6c6325-3ef8-2c87-4b4a-8495ab1051c0}" name="StageStep23_section1" labelid="{fac875ab-29c2-4df8-8fb3-ee9e3564e44e}">
+                  <labels>
+                    <label description="Won" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{185ed468-c924-41cb-9137-6b87bb8e8a7c}" showlabel="true" visible="true" labelid="{2c857d62-585f-483d-b88f-698054499121}">
+                        <labels>
+                          <label description="Lead Status" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_cr431_sites_new_leadsstatus:cr431_sitestatus" classid="{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}" datafieldname="cr431_sitestatus" disabled="false" relationship="bpf_cr431_sites_new_leadsstatus" isrequired="true" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab verticallayout="true" id="{5115c974-1163-4134-bd84-10020ec43cf2}" name="StageStep27" locklevel="0" expanded="true" visible="false" labelid="{4abea0f9-949a-4b2b-843f-11f5f76ca5f2}">
+          <labels>
+            <label description="Complete" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{0da04d9d-3f4e-9ea3-39ce-8fe1489c8ba4}" name="StageStep27_section1" labelid="{3f3f8d84-8311-4571-9cb0-4a80ca4e89cf}">
+                  <labels>
+                    <label description="Complete" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{fdc473c9-8ce0-4f52-b906-5cd7ced65868}" showlabel="true" visible="true" labelid="{dd3fc803-ea05-4f25-ba41-eed5aa76c2c7}">
+                        <labels>
+                          <label description="Lead Status" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_cr431_sites_new_leadsstatus:cr431_sitestatus" classid="{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}" datafieldname="cr431_sitestatus" disabled="false" relationship="bpf_cr431_sites_new_leadsstatus" isrequired="true" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab verticallayout="true" id="{ce9a3fa9-c824-4668-bd4e-02138b731bf9}" name="StageStep31" locklevel="0" expanded="true" visible="false" labelid="{7d25b599-fc33-44e3-8019-04c66680fee8}">
+          <labels>
+            <label description="Lost" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{5d9b4ba1-767c-73a9-8758-022e4810d95b}" name="StageStep31_section1" labelid="{fa6b3283-bee9-4d34-957c-9c3558cfe968}">
+                  <labels>
+                    <label description="Lost" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{421fca85-399f-4bf1-8bf7-1f422f949b83}" showlabel="true" visible="true" labelid="{f2da4cc2-4812-418f-a505-4395da64ef34}">
+                        <labels>
+                          <label description="Lead Status" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_cr431_sites_new_leadsstatus:cr431_sitestatus" classid="{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}" datafieldname="cr431_sitestatus" disabled="false" relationship="bpf_cr431_sites_new_leadsstatus" isrequired="true" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab verticallayout="true" id="{fe695fc5-4f4c-490a-8c2c-b90ca4ecbb1e}" name="StageStep35" locklevel="0" expanded="true" visible="false" labelid="{04c7d6c3-b06f-4faf-9893-f0ffb596f556}">
+          <labels>
+            <label description="Lost" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{fccf8179-ba09-2a02-fcd3-482e5618c1b9}" name="StageStep35_section1" labelid="{aceba7f2-89ca-4b4c-b105-60daa97141d7}">
+                  <labels>
+                    <label description="Lost" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{f220daac-bda5-4bca-aa96-000a3c4ce1bd}" showlabel="true" visible="true" labelid="{caa3de4e-0408-473f-a045-0025ce246cb1}">
+                        <labels>
+                          <label description="Lead Status" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_cr431_sites_new_leadsstatus:cr431_sitestatus" classid="{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}" datafieldname="cr431_sitestatus" disabled="false" relationship="bpf_cr431_sites_new_leadsstatus" isrequired="true" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab verticallayout="true" id="{46dd62f0-9d6d-4ac1-b812-fe27101da960}" name="StageStep39" locklevel="0" expanded="true" visible="false" labelid="{5d05f4a2-47b5-4703-996b-f129d505dcf2}">
+          <labels>
+            <label description="Complete" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{263aebb8-ae5e-159f-8946-3aabc185f2e3}" name="StageStep39_section1" labelid="{7d62e27f-d7f7-42a1-945a-82697bcd57b4}">
+                  <labels>
+                    <label description="Complete" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{e15da364-ccd5-4459-b654-6d33cc77130e}" showlabel="true" visible="true" labelid="{3d90e7c4-8a08-4f0f-b344-94566ce6e3e3}">
+                        <labels>
+                          <label description="Lead Status" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_cr431_sites_new_leadsstatus:cr431_sitestatus" classid="{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}" datafieldname="cr431_sitestatus" disabled="false" relationship="bpf_cr431_sites_new_leadsstatus" isrequired="true" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab verticallayout="true" id="{76731363-3a4a-45c0-a6f8-2acf471caa73}" name="StageStep43" locklevel="0" expanded="true" visible="false" labelid="{e283d84e-bff4-4d1f-b793-cb89bd32b3d5}">
+          <labels>
+            <label description="Execution" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{7f81f0ee-0db5-e2f5-97e8-a6eeec93119b}" name="StageStep43_section1" labelid="{40bacaac-64b2-4ff5-8b3c-ee86b8e11f08}">
+                  <labels>
+                    <label description="Execution" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{9692950d-c500-4f38-843c-8d05fd772eb2}" showlabel="true" visible="true" labelid="{908cd18e-1efc-4756-89fb-ff0cc7d468e1}">
+                        <labels>
+                          <label description="Lead Status" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_cr431_sites_new_leadsstatus:cr431_sitestatus" classid="{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}" datafieldname="cr431_sitestatus" disabled="false" relationship="bpf_cr431_sites_new_leadsstatus" isrequired="true" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab verticallayout="true" id="{74047858-71b0-4ea3-8dad-ab5b0931402a}" name="StageStep47" locklevel="0" expanded="true" visible="false" labelid="{f880104c-6506-454e-8959-46dfbbafc3b9}">
+          <labels>
+            <label description="Complete" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{b170edd0-ef4e-0298-7c4c-5246368142b7}" name="StageStep47_section1" labelid="{15c78ecc-1a72-4346-961b-ac93d8766a6a}">
+                  <labels>
+                    <label description="Complete" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{46fd628b-bb2e-4e58-8118-9c03828082c5}" showlabel="true" visible="true" labelid="{52ad2a5a-63fb-477c-b275-906ce2faba7b}">
+                        <labels>
+                          <label description="Lead Status" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_cr431_sites_new_leadsstatus:cr431_sitestatus" classid="{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}" datafieldname="cr431_sitestatus" disabled="false" relationship="bpf_cr431_sites_new_leadsstatus" isrequired="true" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

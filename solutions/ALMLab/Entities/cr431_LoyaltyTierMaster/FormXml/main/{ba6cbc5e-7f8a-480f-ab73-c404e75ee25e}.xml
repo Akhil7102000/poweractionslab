@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{ba6cbc5e-7f8a-480f-ab73-c404e75ee25e}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls">
+      <tabs>
+        <tab verticallayout="true" id="{526dca07-d6ef-44eb-ab32-21fe5215aee0}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{750e5e21-a18f-49dc-9af3-e2cfa1563aba}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{eec7794c-6a54-41d6-8850-ffcd8b2fb2ca}">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="cr431_name" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{afd9d93d-5a11-4201-a8bf-a3afe988f1b9}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Required Points" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_requiredpoints" classid="{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}" datafieldname="cr431_requiredpoints" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{da7f99e1-4eb9-431f-90b9-5f869a2f4054}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Party" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_party" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="cr431_party" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{4e14f4d0-7113-4aad-a99e-0b48b7190c7d}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Tier" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_tier" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="cr431_tier" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a20dfc99-ebad-4c43-9d1a-8155d43d50d9}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description=" Required Maintenance points" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_requiredmaintenancepoints" classid="{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}" datafieldname="cr431_requiredmaintenancepoints" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{46c4c7c6-0563-4af2-bf8f-304e2ed97ac7}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description=" Maintenance Points Frequency" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_maintenancepointsfrequency" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="cr431_maintenancepointsfrequency" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0b80721b-9177-4f38-acf4-a4c36799dc14}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{b0c6a66e-e3eb-4724-96be-d0e57c9e8f25}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{7ad99546-b769-4470-83d9-a798f38a19a6}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{eb69f069-d1ce-4a16-83be-49dcfa648ead}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{611d5831-d318-4268-b335-3d54ce558216}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{8dc6bbc6-61bf-4ca5-aa35-8271bc2b0743}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{45c43705-0665-4e48-8971-1856c3e96460}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{dd5833a1-4bb0-454f-b09a-b5cb10db4ded}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{47f7159e-9196-4832-bf3f-aa2e8712cfea}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

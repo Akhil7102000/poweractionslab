@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Workflow WorkflowId="{1d42c4d7-2030-ed11-9db0-002248d5df9a}" Name="Complaints" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <XamlFileName>/Workflows/Complaints-1D42C4D7-2030-ED11-9DB0-002248D5DF9A.xaml</XamlFileName>
+  <Type>1</Type>
+  <Subprocess>0</Subprocess>
+  <Category>4</Category>
+  <Mode>0</Mode>
+  <Scope>4</Scope>
+  <OnDemand>0</OnDemand>
+  <TriggerOnCreate>1</TriggerOnCreate>
+  <TriggerOnDelete>0</TriggerOnDelete>
+  <AsyncAutodelete>0</AsyncAutodelete>
+  <SyncWorkflowLogOnFailure>0</SyncWorkflowLogOnFailure>
+  <StateCode>0</StateCode>
+  <StatusCode>1</StatusCode>
+  <processorder>100</processorder>
+  <RunAs>1</RunAs>
+  <UniqueName>new_complaints</UniqueName>
+  <IsTransacted>1</IsTransacted>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <BusinessProcessType>0</BusinessProcessType>
+  <IsCustomProcessingStepAllowedForOtherPublishers>1</IsCustomProcessingStepAllowedForOtherPublishers>
+  <ProcessTriggerScope>1</ProcessTriggerScope>
+  <PrimaryEntity>cr431_complaints</PrimaryEntity>
+  <LocalizedNames>
+    <LocalizedName languagecode="1033" description="Complaints" />
+  </LocalizedNames>
+  <labels>
+    <steplabels id="{89f3fdbb-cd8e-f03f-d635-58c4a07e2f18}">
+      <label languagecode="1033" description="Complaints" />
+    </steplabels>
+    <steplabels id="{c2b21a4a-cbe2-f41c-f34a-23a514aef08a}">
+      <label languagecode="1033" description="Status" />
+    </steplabels>
+    <steplabels id="{de43bc3e-7b6b-4199-9764-a8cfb48779b8}">
+      <label languagecode="1033" description="In Progress" />
+    </steplabels>
+    <steplabels id="{4c5f6332-8ad1-49fa-9f9b-adc8d839b916}">
+      <label languagecode="1033" description="Status" />
+    </steplabels>
+    <steplabels id="{04239ab2-5334-4ecd-a5b4-db0e6075d44f}">
+      <label languagecode="1033" description="Resolved" />
+    </steplabels>
+    <steplabels id="{df37acfe-f00e-4601-9261-62b4e8f7e48e}">
+      <label languagecode="1033" description="Status" />
+    </steplabels>
+    <steplabels id="{9dac9b5a-a203-4cff-9d25-c1a379f01c60}">
+      <label languagecode="1033" description="Done" />
+    </steplabels>
+    <steplabels id="{5afbce16-d9b0-4197-b73d-c79a84b29fe6}">
+      <label languagecode="1033" description="Status" />
+    </steplabels>
+    <steplabels id="{1f3639cb-9adb-40f8-b3dc-75228d0dc31d}">
+      <label languagecode="1033" description="Close" />
+    </steplabels>
+    <steplabels id="{7be4380c-0b20-44a1-b329-5ffadf9a231f}">
+      <label languagecode="1033" description="Status" />
+    </steplabels>
+    <steplabels id="{3d360d52-5d17-4cc4-b132-8f09c6085845}">
+      <label languagecode="1033" description="Close" />
+    </steplabels>
+    <steplabels id="{0b947d7b-f714-4b08-b013-0aed90bcbf3e}">
+      <label languagecode="1033" description="Status" />
+    </steplabels>
+    <steplabels id="{33e089f3-4546-44d3-879c-6e343b7bbed6}">
+      <label languagecode="1033" description="Complete" />
+    </steplabels>
+    <steplabels id="{4a6e8b53-ab8c-4799-a183-660ddf507231}">
+      <label languagecode="1033" description="Status" />
+    </steplabels>
+  </labels>
+  <ProcessTriggers>
+    <ProcessTrigger processtriggerid="{4b2abd30-3a30-ed11-9db0-002248d5d232}">
+      <controltype>1</controltype>
+      <methodid>{89f3fdbb-cd8e-f03f-d635-58c4a07e2f18}</methodid>
+      <scope>1</scope>
+      <controlname>cr431_status</controlname>
+      <event>change</event>
+      <pipelinestage>0</pipelinestage>
+      <iscustomizable>1</iscustomizable>
+      <primaryentitytypecode>cr431_complaints</primaryentitytypecode>
+    </ProcessTrigger>
+    <ProcessTrigger processtriggerid="{4c2abd30-3a30-ed11-9db0-002248d5d232}">
+      <controltype>1</controltype>
+      <methodid>{de43bc3e-7b6b-4199-9764-a8cfb48779b8}</methodid>
+      <scope>1</scope>
+      <controlname>cr431_status</controlname>
+      <event>change</event>
+      <pipelinestage>0</pipelinestage>
+      <iscustomizable>1</iscustomizable>
+      <primaryentitytypecode>cr431_complaints</primaryentitytypecode>
+    </ProcessTrigger>
+    <ProcessTrigger processtriggerid="{4d2abd30-3a30-ed11-9db0-002248d5d232}">
+      <controltype>1</controltype>
+      <methodid>{04239ab2-5334-4ecd-a5b4-db0e6075d44f}</methodid>
+      <scope>1</scope>
+      <controlname>cr431_status</controlname>
+      <event>change</event>
+      <pipelinestage>0</pipelinestage>
+      <iscustomizable>1</iscustomizable>
+      <primaryentitytypecode>cr431_complaints</primaryentitytypecode>
+    </ProcessTrigger>
+  </ProcessTriggers>
+</Workflow>

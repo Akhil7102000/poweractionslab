@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{38447b97-feb5-4fa1-9506-cda6658607db}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{89f3fdbb-cd8e-f03f-d635-58c4a07e2f18}" name="StageStep3" locklevel="0" expanded="true" visible="false" labelid="{364b4b2b-6a3f-4baa-a198-c31c00f1c3fb}">
+          <labels>
+            <label description="Complaints" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{fd320a02-f488-0146-0518-757c136c7f88}" name="StageStep3_section1" labelid="{0c4e99de-5770-43a1-aa3e-b432b86e6cf8}">
+                  <labels>
+                    <label description="Complaints" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{c2b21a4a-cbe2-f41c-f34a-23a514aef08a}" showlabel="true" visible="true" labelid="{7b1eef2a-0474-4c96-8953-af536d7dcd27}">
+                        <labels>
+                          <label description="Status" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_cr431_complaints_new_complaints:cr431_status" classid="{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}" datafieldname="cr431_status" disabled="false" relationship="bpf_cr431_complaints_new_complaints" isrequired="true" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab verticallayout="true" id="{de43bc3e-7b6b-4199-9764-a8cfb48779b8}" name="StageStep7" locklevel="0" expanded="true" visible="false" labelid="{7b9e2ee1-5810-401b-9a46-fe35365da30f}">
+          <labels>
+            <label description="In Progress" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{e02638de-c15f-ca3c-ef29-f39c61f4338c}" name="StageStep7_section1" labelid="{21320c4c-23b5-47f2-8121-31c11c22b225}">
+                  <labels>
+                    <label description="In Progress" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{4c5f6332-8ad1-49fa-9f9b-adc8d839b916}" showlabel="true" visible="true" labelid="{df4b2f6a-8064-468c-8656-4c94b9c2f240}">
+                        <labels>
+                          <label description="Status" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_cr431_complaints_new_complaints:cr431_status" classid="{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}" datafieldname="cr431_status" disabled="false" relationship="bpf_cr431_complaints_new_complaints" isrequired="true" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab verticallayout="true" id="{04239ab2-5334-4ecd-a5b4-db0e6075d44f}" name="StageStep11" locklevel="0" expanded="true" visible="false" labelid="{2c80e370-8b18-4b72-9d3f-fa9d4f2e1205}">
+          <labels>
+            <label description="Resolved" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{62fddd49-1493-b7cf-c616-f4fcd34dee5a}" name="StageStep11_section1" labelid="{c40b5e2f-93e0-4b52-87a2-2da68c0f5c2e}">
+                  <labels>
+                    <label description="Resolved" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{df37acfe-f00e-4601-9261-62b4e8f7e48e}" showlabel="true" visible="true" labelid="{7312bb50-2b32-4d76-bd04-950e4af8b21e}">
+                        <labels>
+                          <label description="Status" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_cr431_complaints_new_complaints:cr431_status" classid="{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}" datafieldname="cr431_status" disabled="false" relationship="bpf_cr431_complaints_new_complaints" isrequired="true" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab verticallayout="true" id="{9dac9b5a-a203-4cff-9d25-c1a379f01c60}" name="StageStep15" locklevel="0" expanded="true" visible="false" labelid="{da8f9c7a-442a-4011-9396-c629ecbe0deb}">
+          <labels>
+            <label description="Done" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{83139eff-84db-687a-57b6-86ec149ac71b}" name="StageStep15_section1" labelid="{5d0e8f88-cc77-4e5a-afd2-d75b4f74c752}">
+                  <labels>
+                    <label description="Done" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{5afbce16-d9b0-4197-b73d-c79a84b29fe6}" showlabel="true" visible="true" labelid="{c62df554-fc9b-4d60-a53c-45b5bfee558b}">
+                        <labels>
+                          <label description="Status" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_cr431_complaints_new_complaints:cr431_status" classid="{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}" datafieldname="cr431_status" disabled="false" relationship="bpf_cr431_complaints_new_complaints" isrequired="true" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab verticallayout="true" id="{1f3639cb-9adb-40f8-b3dc-75228d0dc31d}" name="StageStep19" locklevel="0" expanded="true" visible="false" labelid="{b994a9e8-a0c2-4347-a0ac-861b6780b0e5}">
+          <labels>
+            <label description="Close" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{3e490e66-9b25-9bc4-252f-8dcb2c50e3c7}" name="StageStep19_section1" labelid="{df8805ce-2a25-4060-97b5-c3d0437a64b2}">
+                  <labels>
+                    <label description="Close" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{7be4380c-0b20-44a1-b329-5ffadf9a231f}" showlabel="true" visible="true" labelid="{fb4f60b3-165d-4ebe-a8ac-03bacd6f7b51}">
+                        <labels>
+                          <label description="Status" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_cr431_complaints_new_complaints:cr431_status" classid="{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}" datafieldname="cr431_status" disabled="false" relationship="bpf_cr431_complaints_new_complaints" isrequired="true" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab verticallayout="true" id="{3d360d52-5d17-4cc4-b132-8f09c6085845}" name="StageStep23" locklevel="0" expanded="true" visible="false" labelid="{401fbd34-1d85-440c-a939-21ab031ee288}">
+          <labels>
+            <label description="Close" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{bb2d0217-6c29-8c67-c53c-0c1ab3ad1601}" name="StageStep23_section1" labelid="{7efee8f4-e77a-4a35-a165-a0ff6adeae84}">
+                  <labels>
+                    <label description="Close" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{0b947d7b-f714-4b08-b013-0aed90bcbf3e}" showlabel="true" visible="true" labelid="{420224e4-c7ea-41bd-8015-f9994edefc72}">
+                        <labels>
+                          <label description="Status" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_cr431_complaints_new_complaints:cr431_status" classid="{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}" datafieldname="cr431_status" disabled="false" relationship="bpf_cr431_complaints_new_complaints" isrequired="true" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab verticallayout="true" id="{33e089f3-4546-44d3-879c-6e343b7bbed6}" name="StageStep27" locklevel="0" expanded="true" visible="false" labelid="{4ac9158f-9a9c-4b46-8272-675daf498337}">
+          <labels>
+            <label description="Complete" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{f131bc64-09d0-83bb-c524-88f20e297a9f}" name="StageStep27_section1" labelid="{6d41b24b-eb22-49cb-bc8c-539756164f1e}">
+                  <labels>
+                    <label description="Complete" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{4a6e8b53-ab8c-4799-a183-660ddf507231}" showlabel="true" visible="true" labelid="{88bb626c-d368-4152-ae6e-34cee822a792}">
+                        <labels>
+                          <label description="Status" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_cr431_complaints_new_complaints:cr431_status" classid="{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}" datafieldname="cr431_status" disabled="false" relationship="bpf_cr431_complaints_new_complaints" isrequired="true" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

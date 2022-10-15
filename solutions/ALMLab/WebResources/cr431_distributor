@@ -1,0 +1,116 @@
+function Zonalheadapproval(executionContext){
+    var formcontext = executionContext.getFormContext();
+    debugger;
+    var Status_zonalhead=formcontext.getAttribute("cr431_approvalstatuszonalhead").getValue();
+
+    if(Status_zonalhead == 254460004)
+     {
+        formcontext.getAttribute("cr431_approvalstatuszonalhead_").setValue(true);        
+     }
+    }
+       
+    function statehead(executionContext){
+        var formcontext = executionContext.getFormContext();
+        debugger;
+        var statusstatehead=formcontext.getAttribute("cr431_approvalstatusstatehead").getValue();
+    
+        if(statusstatehead == 254460004)
+         {
+            formcontext.getAttribute("cr431_approval_statusstatehead").setValue(true);        
+         }
+        }
+
+
+
+        function statusaccount(executionContext){
+            var formcontext = executionContext.getFormContext();
+            debugger;
+            var approvalstatusaccount=formcontext.getAttribute("cr431_approvalstatusaccount").getValue();
+        
+            if(approvalstatusaccount == 254460004)
+             {
+                formcontext.getAttribute("cr431_approval_statusaccount").setValue(true);        
+             }
+
+
+
+    
+            }
+
+
+            
+        function Kycverification(executionContext){
+            var formcontext = executionContext.getFormContext();
+            debugger;
+            var approvalstatusmain=formcontext.getAttribute("cr431_statusmain").getValue();
+        
+            if(approvalstatusmain == 254460002)
+             {
+                formcontext.getAttribute("cr431_kycverification").setValue(true);        
+             }
+             else
+             if(approvalstatusmain == 254460003)
+             {
+                formcontext.getAttribute("cr431_financialverification").setValue(true);        
+             }
+
+
+
+    
+            }
+
+
+            
+            function financialverif(executionContext){
+               var formcontext = executionContext.getFormContext();
+               debugger;
+               var financialverif_status=formcontext.getAttribute("cr431_financialverification").getValue();
+               var approvalstatusmain11=formcontext.getAttribute("cr431_statusmain").getValue();
+
+               if(approvalstatusmain11==254460003 && financialverif_status == true)
+                {
+                   formcontext.getAttribute("cr431_Approval").setValue(254460000);        
+                }
+               
+   
+   
+   
+       
+               }
+
+
+
+
+
+
+
+
+
+
+
+        /*        
+        function financialverification(executionContext){
+            var formcontext = executionContext.getFormContext();
+            debugger;
+            var approvalstatusmain1=formcontext.getAttribute("cr431_statusmain").getValue();
+        
+            if(approvalstatusmain1 == 254460003)
+             {
+                formcontext.getAttribute("cr431_financialverification").setValue(true);        
+             }
+
+            }*/
+
+
+
+
+
+    // Xrm.WebApi.retrieveMultipleRecords("account","?$select=name,cr105_notreq1,createdon,zx_accounttype&$orderby=createdon desc",1).then(function success(ele){
+    //     //console.log(ele.entities[0].name+ " Created On:" +ele.entities[0].createdon+" Number: " + ele.entities[0].cr105_notreq1 + "Length" +ele.entities.length);
+    //     let optionSetValue = ele.entities[0].zx_accounttype;
+    //     let LastRecordId = parseInt( ele.entities[0].cr105_notreq1);
+    //     let newRecordId = LastRecordId + 1;
+    //     if(optionSetValue = 425120021){
+    //         formcontext.getAttribute("accountnumber").setValue("HO-"+newRecordId);
+    //     }
+    // })

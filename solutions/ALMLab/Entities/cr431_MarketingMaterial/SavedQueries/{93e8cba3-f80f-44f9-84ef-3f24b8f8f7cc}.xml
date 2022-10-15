@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{93e8cba3-f80f-44f9-84ef-3f24b8f8f7cc}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="cr431_name" select="1" icon="1" preview="1">
+        <row name="result" id="cr431_marketingmaterialid">
+          <cell name="cr431_name" width="164" />
+          <cell name="cr431_requestedby" width="100" />
+          <cell name="cr431_delivereddate" width="100" />
+          <cell name="cr431_requesteddate" width="100" />
+          <cell name="cr431_quantity" width="100" />
+          <cell name="cr431_visit" width="100" />
+          <cell name="createdon" width="125" />
+          <cell name="cr431_status" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="cr431_marketingmaterial">
+          <attribute name="cr431_marketingmaterialid" />
+          <attribute name="cr431_name" />
+          <attribute name="createdon" />
+          <order attribute="cr431_name" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="cr431_delivereddate" />
+          <attribute name="cr431_requesteddate" />
+          <attribute name="cr431_requestedby" />
+          <attribute name="cr431_quantity" />
+          <attribute name="cr431_visit" />
+          <attribute name="cr431_status" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Marketing Materials" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

@@ -1,0 +1,248 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{bcdadd21-0cde-47d1-ad53-3096dd96dd24}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls">
+      <tabs>
+        <tab verticallayout="true" id="{960859d5-a670-4838-ae61-757d610ae5f5}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{9841f0a3-3832-4cdf-8ecd-b8cb91b6ffeb}" columns="11">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{cfe16d87-0e2b-43a8-845e-6085a0a5a7ed}">
+                        <labels>
+                          <label description="Payment ID" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="cr431_name" disabled="true" />
+                      </cell>
+                      <cell id="{ac3a0421-173c-4bb3-a296-44b013a7c9be}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Transaction Type" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_transactiontype" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="cr431_transactiontype" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ff99c1e9-4085-406c-8c9a-2f6561bd806e}" visible="false">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                      <cell id="{59552290-3292-4967-92b2-d2e006ae202c}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Transaction Amount" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_transactionamount" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="cr431_transactionamount" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{106b292b-daca-3c9e-db21-186d6a685130}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Invoice" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_invoice" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="cr431_invoice" disabled="false" />
+                      </cell>
+                      <cell id="{c3a0bcb6-b3b6-48a4-87b1-d335d0650fcc}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Transaction ID" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_transactionid" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="cr431_transactionid" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell locklevel="0" id="{79d9371b-a829-4d87-9409-112fc549c39e}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                      <cell id="{cd7a6a6d-1c0b-40bb-b0a1-1acc5425c6e2}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Related Invoice" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_relatedinvoice" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="cr431_relatedinvoice" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{cea068f9-2be6-443f-9b9e-e4cae81c6cd4}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Account" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_account" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="cr431_account" disabled="false" />
+                      </cell>
+                      <cell id="{2205991b-fdb0-4452-945a-16fab8d938c0}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Dealers Payment" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_dealerspayment" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="cr431_dealerspayment" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{3b74b707-b90e-4433-8e03-d1d7814243a9}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Amount" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_amount" classid="{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}" datafieldname="cr431_amount" disabled="false" />
+                      </cell>
+                      <cell locklevel="0" id="{68c077f2-d3b5-47d8-8685-26fcccd559a5}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{f7c41a29-399b-48e2-adc1-1d2d104bf57d}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Payment Date" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_paymentdate" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="cr431_paymentdate" disabled="false" />
+                      </cell>
+                      <cell locklevel="0" id="{d3e9cb42-321b-47a0-9132-77bc87f1e985}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="_section_921" id="a794093f-af13-4773-9fce-e8e22391658e" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Bank Details" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{0bf923cd-696d-464c-8aa2-ec55787716bc}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Bank Name" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_bankname" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="cr431_bankname" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{1c6fea8a-1104-424d-8b4c-372754a07753}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Account Number" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_accountnumber" classid="{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}" datafieldname="cr431_accountnumber" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{2c299520-80cc-4327-ad3a-d255615b9a33}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Account Holders Name" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_accountholdersname" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="cr431_accountholdersname" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{6326ced9-e59e-49cc-975c-079cd33542e3}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="IFSC Code" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_ifsccode" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="cr431_ifsccode" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{d8f1c381-0263-47f4-9290-8e4610ecd92c}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{0d71abf9-ee6d-40f4-a30b-5406447a6365}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{be3cc321-bc0c-445f-88ed-c8fabbbeeadc}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{a9cd8d50-c6e1-401a-9694-a626617975de}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{bfd4e05a-a3d0-4876-86ee-a8fee716ee3b}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{08a5cccc-9c77-42c9-9e4b-958c29edf18d}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{cc58cbb1-2192-4bcf-b046-5c53f0942926}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{38e610dd-4343-42d0-959d-8a622c2ec34f}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <Navigation>
+        <NavBar />
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

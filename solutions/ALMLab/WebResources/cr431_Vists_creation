@@ -1,0 +1,68 @@
+function createSelectrecords(Selectedrecords,formContext)
+{
+    debugger;
+//let salesOrderGuidWithBrackets = formContext.data.entity.getId();
+	//let salesOrderGuidOnly = salesOrderGuidWithBrackets.substring(1, salesOrderGuidWithBrackets.length - 1);
+for(let i = 0; i<Selectedrecords.length; i++)
+{
+    Xrm.WebApi.retrieveMultipleRecords("account", `?$select=name,_cr431_beat_value,&$filter=accountid eq ${Selectedrecords[i]}`)
+					.then(function success(ele){
+                        
+                        debugger;
+                        var record = {};
+                       
+                        if(ele.entities[0]._cr431_beat_value!=null){
+                        record["cr431_Beat@odata.bind"] = "/cr431_areas(" + ele.entities[0]._cr431_beat_value + ")";
+                        }
+
+                       
+                        
+                        Xrm.WebApi.createRecord("cr431_beatsplanned", record)
+                        .then(function success(result) 
+                                {
+                                    var beatplanguid = result.id
+                        
+                                    
+                                   // window.alert("BeatPlanned Created.");
+                                    debugger;
+                               //     Xrm.WebApi.retrieveRecord("cr431_beatsplanned", `?$select=name,_cr431_beat_value,&$filter=_cr431_beat_value eq 679e49e2-2c2d-ed11-9db0-002248d5df9a`)
+                                //    .then(function success(ele) {
+                                       // for (let i = 0; i < ele.entities.length; i++) 
+                                               //    {
+
+                                    debugger;
+                                    var record1 = {};
+                        record1["cr431_customer@odata.bind"] = "/accounts(" + ele.entities[0].accountid + ")";
+                        if(ele.entities[0]._cr431_beat_value!=null){
+                        record1["cr431_BeatGrid@odata.bind"] = "/cr431_areas(" + ele.entities[0]._cr431_beat_value + ")";
+                        }
+                        record1["cr431_BeatPlanned@odata.bind"] = "/cr431_beatsplanneds(" + beatplanguid + ")";
+                       
+                        
+                        Xrm.WebApi.createRecord("cr431_visit", record1)
+                        .then(function success(result) 
+                                {
+									//	window.alert("visit Created.");
+								},
+								function(error) 
+                                {
+										window.alert("Invoice Line: " + error.message);
+								}
+							);
+                                 // }  
+                            //    });
+
+										
+								},
+								function(error) 
+                                {
+										window.alert("Invoice Line: " + error.message);
+								}
+							);
+                            //window.alert("Beat Planned and visit Created.");
+                        
+                        
+                    });
+
+     }
+}

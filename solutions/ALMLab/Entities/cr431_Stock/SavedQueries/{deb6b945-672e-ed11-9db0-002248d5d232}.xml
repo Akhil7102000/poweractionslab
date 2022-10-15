@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{deb6b945-672e-ed11-9db0-002248d5d232}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="cr431_name" select="1" icon="1" preview="1">
+        <row name="result" id="cr431_stockid">
+          <cell name="cr431_name" width="200" />
+          <cell name="a_3dc084a152bc4cdbb6c6c12df5c17080.cr431_accounttype" width="179" />
+          <cell name="cr431_account" width="173" />
+          <cell name="cr431_product" width="153" />
+          <cell name="cr431_productgroup" width="148" />
+          <cell name="cr431_totalinventory" width="142" />
+          <cell name="createdon" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical">
+        <entity name="cr431_stock">
+          <attribute name="cr431_name" />
+          <attribute name="cr431_stockid" />
+          <link-entity alias="a_3dc084a152bc4cdbb6c6c12df5c17080" name="account" to="cr431_account" from="accountid" link-type="inner">
+            <attribute name="cr431_accounttype" />
+            <filter type="and">
+              <condition attribute="cr431_accounttype" operator="eq" value="254460001" />
+            </filter>
+          </link-entity>
+          <attribute name="cr431_account" />
+          <attribute name="cr431_product" />
+          <attribute name="cr431_productgroup" />
+          <attribute name="createdon" />
+          <attribute name="cr431_totalinventory" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Distributors Stock" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

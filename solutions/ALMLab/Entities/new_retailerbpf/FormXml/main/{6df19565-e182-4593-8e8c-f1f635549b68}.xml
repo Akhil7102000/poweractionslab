@@ -1,0 +1,271 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{6df19565-e182-4593-8e8c-f1f635549b68}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{366789e0-0270-f5d4-46e7-3117b308fa8c}" name="StageStep3" locklevel="0" expanded="true" visible="false" labelid="{313e2ce6-9219-414a-ad39-d15d26a1fb5d}">
+          <labels>
+            <label description="Pending For Approval" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{368ad589-6079-0c5c-9996-778a54274256}" name="StageStep3_section1" labelid="{9eb16feb-8bb4-4783-b05f-eabe20f9586e}">
+                  <labels>
+                    <label description="Pending For Approval" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{cb5fbc52-0cc7-b3f0-1b5f-bc677d4e0ad7}" showlabel="true" visible="true" labelid="{b07e13ef-8de6-4395-84ec-488dee53d7b4}">
+                        <labels>
+                          <label description="State Head" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_cr431_retailersonboarding_new_retailerbpf:cr431_approvalstatusstatehead" classid="{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}" datafieldname="cr431_approvalstatusstatehead" disabled="false" relationship="bpf_cr431_retailersonboarding_new_retailerbpf" isrequired="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0abc03e9-07e8-43b4-afce-b23d83ef71a2}" showlabel="true" visible="true" labelid="{7c762926-57d2-45ef-a798-3567b9802a67}">
+                        <labels>
+                          <label description="Zonal Head" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_cr431_retailersonboarding_new_retailerbpf:cr431_approvalstatuszonalhead" classid="{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}" datafieldname="cr431_approvalstatuszonalhead" disabled="false" relationship="bpf_cr431_retailersonboarding_new_retailerbpf" isrequired="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{38a2bd2e-ad2d-40d2-aa1e-e2265fcdd345}" showlabel="true" visible="true" labelid="{a616767d-111c-4675-a044-131e86b40af2}">
+                        <labels>
+                          <label description="Accounts" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_cr431_retailersonboarding_new_retailerbpf:cr431_approvalstatusaccount" classid="{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}" datafieldname="cr431_approvalstatusaccount" disabled="false" relationship="bpf_cr431_retailersonboarding_new_retailerbpf" isrequired="true" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab verticallayout="true" id="{85542e2c-555d-4d94-a7e9-dc4766a3da18}" name="StageStep11" locklevel="0" expanded="true" visible="false" labelid="{21d5b130-2ba7-4425-b13e-ade592fc24cd}">
+          <labels>
+            <label description="KYC Verification" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{a359baa7-c385-4ff0-bc64-2a45a71031f5}" name="StageStep11_section1" labelid="{83ad619d-393b-4ad1-9215-2be78af2bd80}">
+                  <labels>
+                    <label description="KYC Verification" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{2c39f386-bade-4465-8c27-42ae05a53f49}" showlabel="true" visible="true" labelid="{67ac7cd6-cc8b-4115-8fd7-aeb3e251e47a}">
+                        <labels>
+                          <label description="KYC Verified" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_cr431_retailersonboarding_new_retailerbpf:cr431_kycverification" classid="{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}" datafieldname="cr431_kycverification" disabled="false" relationship="bpf_cr431_retailersonboarding_new_retailerbpf" isrequired="true" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab verticallayout="true" id="{769aea0f-59ff-4f83-92fc-c034731289ef}" name="StageStep15" locklevel="0" expanded="true" visible="false" labelid="{0d090a89-6f17-4eca-86b1-b6807a778391}">
+          <labels>
+            <label description="Financial Verification" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{dc28407c-2f96-545d-2db3-5ee7bc9611c7}" name="StageStep15_section1" labelid="{3587069e-5749-4898-bfa1-f1af58108a77}">
+                  <labels>
+                    <label description="Financial Verification" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{40d7cfd9-1a22-4092-ab09-a63694124db7}" showlabel="true" visible="true" labelid="{4b827743-154b-4e8b-b44a-ecd7628b65e7}">
+                        <labels>
+                          <label description="Financial Verified" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_cr431_retailersonboarding_new_retailerbpf:cr431_financialverification" classid="{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}" datafieldname="cr431_financialverification" disabled="false" relationship="bpf_cr431_retailersonboarding_new_retailerbpf" isrequired="true" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab verticallayout="true" id="{e18d14c3-6601-4de7-8e50-744b7fefa57a}" name="StageStep19" locklevel="0" expanded="true" visible="false" labelid="{8d4798eb-0c43-4db8-8e35-98933ae8d6ee}">
+          <labels>
+            <label description="Approved" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{1f1b54f7-7c4b-9fa2-0f1c-c566167a4cd0}" name="StageStep19_section1" labelid="{8842a31c-6060-4752-a541-163e3cd3779f}">
+                  <labels>
+                    <label description="Approved" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{22c4c12e-a27b-41e0-abc5-5d4a47d7c2e6}" showlabel="true" visible="true" labelid="{76a70c16-eb01-4233-b178-35f33d00a372}">
+                        <labels>
+                          <label description="status" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_cr431_retailersonboarding_new_retailerbpf:cr431_approval" classid="{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}" datafieldname="cr431_approval" disabled="false" relationship="bpf_cr431_retailersonboarding_new_retailerbpf" isrequired="true" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab verticallayout="true" id="{83ab9bd3-9bc4-44ec-905a-afc92a8d1575}" name="StageStep23" locklevel="0" expanded="true" visible="false" labelid="{3026c751-5bc8-4196-ab96-db73d792c662}">
+          <labels>
+            <label description="Completed" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{bfbda996-9c85-1858-48c4-3d0e14085398}" name="StageStep23_section1" labelid="{d7b15cd9-21ab-461c-8be8-d4c2501a32ac}">
+                  <labels>
+                    <label description="Completed" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{42673e55-d396-4039-9f5c-5095ce900837}" showlabel="true" visible="true" labelid="{d0610bc6-b786-4bf5-b967-70ffebba7c87}">
+                        <labels>
+                          <label description="Retailer Onboarding Close" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_cr431_retailersonboarding_new_retailerbpf:cr431_retaileronboardingclose" classid="{67fac785-cd58-4f9f-abb3-4b7ddc6ed5ed}" datafieldname="cr431_retaileronboardingclose" disabled="false" relationship="bpf_cr431_retailersonboarding_new_retailerbpf" isrequired="true" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab verticallayout="true" id="{45896e71-4370-4d38-9a5e-c01e8b84fa64}" name="StageStep27" locklevel="0" expanded="true" visible="false" labelid="{d0ab49ff-17ee-42a5-bcc3-eeee0e2f6f67}">
+          <labels>
+            <label description="Completed" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{1d22e863-8cac-2b64-ed6e-b508e7b17ab7}" name="StageStep27_section1" labelid="{399dd866-de31-491b-8a71-f5297305ec2e}">
+                  <labels>
+                    <label description="Completed" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{d3642d91-4b8e-46ef-9856-7dcadea0e712}" showlabel="true" visible="true" labelid="{eb7250c6-9865-4098-a235-bb6582acd9fa}">
+                        <labels>
+                          <label description="Rejected" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_cr431_retailersonboarding_new_retailerbpf:cr431_retaileronboardingclose" classid="{67fac785-cd58-4f9f-abb3-4b7ddc6ed5ed}" datafieldname="cr431_retaileronboardingclose" disabled="false" relationship="bpf_cr431_retailersonboarding_new_retailerbpf" isrequired="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab verticallayout="true" id="{199e97b6-10cc-48a8-ba10-cb8b3c31ea40}" name="StageStep31" locklevel="0" expanded="true" visible="false" labelid="{c66eed34-156b-40a2-acd8-0290bebd9d2b}">
+          <labels>
+            <label description="Completed" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{73a37ac7-f8b6-d524-5f92-83fe41f0c049}" name="StageStep31_section1" labelid="{fd7e685e-da8e-4600-a6f7-80d0584e3e61}">
+                  <labels>
+                    <label description="Completed" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{ecb4f7cb-1ec3-4021-8ee6-749b3dad171e}" showlabel="true" visible="true" labelid="{4ba88952-3602-4dae-9e74-c0f322d73c06}">
+                        <labels>
+                          <label description="Rejected" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_cr431_retailersonboarding_new_retailerbpf:cr431_retaileronboardingclose" classid="{67fac785-cd58-4f9f-abb3-4b7ddc6ed5ed}" datafieldname="cr431_retaileronboardingclose" disabled="false" relationship="bpf_cr431_retailersonboarding_new_retailerbpf" isrequired="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab verticallayout="true" id="{70c155a7-1dcb-41f3-b521-6eb083aa383f}" name="StageStep35" locklevel="0" expanded="true" visible="false" labelid="{beff03cf-5203-486c-85b4-75efc45d7d4a}">
+          <labels>
+            <label description="Completed" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{09e591b0-8cf9-d272-f3c3-8cd667aaeef2}" name="StageStep35_section1" labelid="{a0436fda-33f2-4f82-a6a2-c29d01ceccbc}">
+                  <labels>
+                    <label description="Completed" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{aecf3300-e553-4ef1-9e81-a446ba140542}" showlabel="true" visible="true" labelid="{96dbc70f-ba88-4ec7-a5b3-63a33728fd48}">
+                        <labels>
+                          <label description="Close" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_cr431_retailersonboarding_new_retailerbpf:cr431_retaileronboardingclose" classid="{67fac785-cd58-4f9f-abb3-4b7ddc6ed5ed}" datafieldname="cr431_retaileronboardingclose" disabled="false" relationship="bpf_cr431_retailersonboarding_new_retailerbpf" isrequired="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab verticallayout="true" id="{655e7d93-255d-4ea9-9da7-3ca6f50a5e6d}" name="StageStep39" locklevel="0" expanded="true" visible="false" labelid="{ad29dffc-1f4c-464d-b553-e710b46af52a}">
+          <labels>
+            <label description="Completed" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{640d338e-4297-a36d-ecf3-888170a7c76e}" name="StageStep39_section1" labelid="{70f05ae0-27db-48f6-a030-2f1ef4f01a05}">
+                  <labels>
+                    <label description="Completed" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{120807cb-d5bb-4808-b3ed-b5c4b9623a42}" showlabel="true" visible="true" labelid="{9b778067-d8f7-40ec-a09b-ae2c3f28c216}">
+                        <labels>
+                          <label description="Declaration Type" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_cr431_retailersonboarding_new_retailerbpf:cr431_retaileronboardingclose" classid="{67fac785-cd58-4f9f-abb3-4b7ddc6ed5ed}" datafieldname="cr431_retaileronboardingclose" disabled="false" relationship="bpf_cr431_retailersonboarding_new_retailerbpf" isrequired="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

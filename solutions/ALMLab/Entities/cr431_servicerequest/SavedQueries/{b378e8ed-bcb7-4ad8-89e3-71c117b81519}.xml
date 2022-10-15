@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{b378e8ed-bcb7-4ad8-89e3-71c117b81519}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="cr431_name" select="1" icon="1" preview="1">
+        <row name="result" id="cr431_servicerequestid">
+          <cell name="cr431_name" width="209" />
+          <cell name="cr431_servicerequest" width="184" />
+          <cell name="cr431_dealerretailer" width="149" />
+          <cell name="a_85c047a7c67d404a9431c6759e2a289d.cr431_name" width="179" />
+          <cell name="cr431_date" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="cr431_servicerequest">
+          <attribute name="cr431_servicerequestid" />
+          <attribute name="cr431_name" />
+          <order attribute="cr431_name" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="cr431_servicerequest" />
+          <attribute name="cr431_dealerretailer" />
+          <attribute name="cr431_date" />
+          <link-entity alias="a_85c047a7c67d404a9431c6759e2a289d" name="cr431_influencer" to="cr431_influnecer" from="cr431_influencerid" link-type="outer" visible="false">
+            <attribute name="cr431_name" />
+          </link-entity>
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Service Requests" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

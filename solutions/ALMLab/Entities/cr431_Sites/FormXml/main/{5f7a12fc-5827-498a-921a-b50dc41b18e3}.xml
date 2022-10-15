@@ -1,0 +1,245 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{5f7a12fc-5827-498a-921a-b50dc41b18e3}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls">
+      <tabs>
+        <tab verticallayout="true" id="{782cf08e-ba2b-4956-82d7-c543d05ffaab}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{f2b861d2-d7c7-4670-9dbb-62638f246913}" columns="11">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{07bd6b80-cfbb-4b6e-9efa-93338357deaf}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Lead ID" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_siteid" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="cr431_siteid" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{f3c452a4-9713-44d0-803a-41481d08199a}">
+                        <labels>
+                          <label description="Lead  Name " languagecode="1033" />
+                        </labels>
+                        <control id="cr431_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="cr431_name" />
+                      </cell>
+                      <cell id="{67086e6a-48a4-4be2-84d5-745e9bb16dcd}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Closure Date" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_closuredate" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="cr431_closuredate" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{81781c3f-4f5c-4e93-92d7-d577919c4fd0}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Attached Farmer Account" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_attachedfarmeraccount" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="cr431_attachedfarmeraccount" disabled="false" />
+                      </cell>
+                      <cell id="{70eaa7d5-3ae3-49fe-b4c0-4f0ed0dd4531}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Email" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_email" classid="{ADA2203E-B4CD-49BE-9DDF-234642B43B52}" datafieldname="cr431_email" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{526c2415-2588-44d8-bc4c-283e8e762c60}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Product" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_product" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="cr431_product" disabled="false" />
+                      </cell>
+                      <cell id="{b80ba0db-9e29-4d9c-b4bc-b0abd3d2a614}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Phone No" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_phoneno" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="cr431_phoneno" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0eea92be-ab4c-4977-94b4-d0ccd47cb49b}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Soil Type" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_landtype" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="cr431_landtype" disabled="false" />
+                      </cell>
+                      <cell id="{f54bdcf6-e029-4530-8c57-8bd8c6b31f97}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Mobile No" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_mobileno" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="cr431_mobileno" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ed755869-a5ee-4539-bdb6-ce180da3a05f}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Water Source" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_watersoirce" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="cr431_watersoirce" disabled="false" />
+                      </cell>
+                      <cell id="{518e327f-4209-4b60-9ad1-232b6b69932b}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Area" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_area" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="cr431_area" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{cdc2f229-a149-4ede-ae88-a03ad9cfb844}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Lead Size(Acre)" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_sitesizeacre" classid="{C3EFE0C3-0EC6-42BE-8349-CBD9079DFD8E}" datafieldname="cr431_sitesizeacre" disabled="false" />
+                      </cell>
+                      <cell id="{2f68bfc2-b257-4206-82f8-3f97fd1f3423}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Address" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_address" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="cr431_address" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{7c86e357-1946-46c7-a4b3-21ecf2d74662}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Lead Value" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_leadvalue" classid="{C3EFE0C3-0EC6-42BE-8349-CBD9079DFD8E}" datafieldname="cr431_leadvalue" disabled="false" />
+                      </cell>
+                      <cell id="{e71ed5bb-0ca6-4064-94ce-f66f34e7f262}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Lead Status" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_sitestatus" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="cr431_sitestatus" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{78d58616-0934-4eef-a5aa-7ba06005c992}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Attached Event" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_attachedevent" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="cr431_attachedevent" disabled="false" />
+                      </cell>
+                      <cell id="{b9302d72-d36c-4000-b67e-48e608533e81}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Lead Source" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_leadsource" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="cr431_leadsource" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d3c78d34-a37d-4d7f-b2c2-712d79e647ae}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Competitor Name" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_competitorname" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="cr431_competitorname" disabled="false" />
+                      </cell>
+                      <cell id="{06ae9961-f0f4-4f16-9bf0-7f817e0b8747}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Attached Sales Person" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_attachedsalesperson" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="cr431_attachedsalesperson" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{fd671013-9e18-4fa6-a4e0-3d187a73916c}" locklevel="0" colspan="1" rowspan="1" visible="false">
+                        <labels>
+                          <label description="Site Product Quantity" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_siteproductquantity" classid="{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}" datafieldname="cr431_siteproductquantity" disabled="false" />
+                      </cell>
+                      <cell id="{1eca6e59-6f83-4688-9ff7-d9a826e1fc4c}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Demo" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_demo" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="cr431_demo" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{1b4d8932-d390-45a2-bfe4-bd39fae5a0e8}" showlabel="true" visible="false">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                      <cell locklevel="0" id="{997281d0-2e9e-4043-afa8-19aa0dde54ea}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{7d8f3b11-a1d9-4885-acc0-82be6d1a57da}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{485f954e-70d8-405e-aa05-2694deb0c69b}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{6f0f205b-50e2-4973-b9f5-36cd6fb087ab}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{8f1cdd4b-dc88-4e8f-90c1-9162583a1979}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{790dae76-c014-48d6-90b8-fc3d7d5adf2b}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{e78018bc-5cb9-4724-8830-4a13b053159f}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{d11ca290-6852-4527-8cad-eafcb3812db4}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{71b0d414-88dd-4136-8c48-e8c0cdc2ea16}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

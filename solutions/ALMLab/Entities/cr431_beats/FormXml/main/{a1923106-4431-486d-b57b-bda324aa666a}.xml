@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{a1923106-4431-486d-b57b-bda324aa666a}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{ce35d977-cbc6-4a56-afa9-6ea97003adc5}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{b35d3655-5dde-4cb6-9c3a-32c40a3b9e7b}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{a84b4808-21ed-4596-a189-3a414199f10e}">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="cr431_name" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{fddb4b6d-f5aa-4c51-a29c-d5be962da643}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b71218c9-4590-a2b0-1c67-98ba17378c1e}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Beat" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_beat" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="cr431_beat" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d929a1a7-709c-a438-6672-ca4e95676462}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="BeatName" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_beatname" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="cr431_beatname" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{2bc9d146-4c1a-b50c-e309-e323a6d025da}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Date" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_date" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="cr431_date" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d0538be8-5a52-0ad7-7175-bc019ae7cdc6}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Retailers" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_retailers" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="cr431_retailers" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{bab46086-96ec-ec2d-1752-834e0cd97c9c}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Salesperson" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_salesperson" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="cr431_salesperson" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <Navigation>
+        <NavBar></NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

@@ -1,0 +1,304 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{6c6af38e-306b-43a0-aa77-e646398483d5}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls">
+      <tabs>
+        <tab verticallayout="true" id="{a416b895-a2ff-45b4-bf2a-6ebad467e09d}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{a602f0e4-c0d4-4f7b-b819-99c69b30f55a}" columns="11">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{5b4abab8-f1ba-4ac6-9299-b9e902414aec}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Invoice ID" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="cr431_name" uniqueid="{504758a9-00ce-301d-782e-8e1bc9a7e90a}" disabled="true" />
+                      </cell>
+                      <cell id="{49b9dea9-6b1a-4000-8f3c-ca5fa3e18d32}" locklevel="0" colspan="1" rowspan="1" visible="false">
+                        <labels>
+                          <label description="Total Bill Amount (Incl Tax)" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_totalorderamountincltax" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="cr431_totalorderamountincltax" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a7310232-aa79-4fdb-906c-cfe0f7efdc91}" visible="false">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{38a4c7a2-ac57-4c86-bc52-b4ca4c46e4ef}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Invoice Status" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_invoicestatus" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="cr431_invoicestatus" disabled="false" />
+                      </cell>
+                      <cell id="{24a2c2ab-5374-25e7-001b-711816878e49}" showlabel="true" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Tax Amount" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_taxamount" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="cr431_taxamount" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0e7c79ae-6e29-4aa1-af11-538a13d7c102}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Beat" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_beat" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="cr431_beat" disabled="false" />
+                      </cell>
+                      <cell id="{4a9832c4-0b07-8925-c72a-5ad2083059c3}" showlabel="true" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Before Tax Amount" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_beforetaxamount" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="cr431_beforetaxamount" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ebc9d732-b184-4247-88e4-3db0a061e0f6}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Sales Order Number" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_salesordernumber" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="cr431_salesordernumber" disabled="false" />
+                      </cell>
+                      <cell id="{2c15455c-1000-dcc2-893a-09ee9bb0e5a9}" showlabel="true" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="CGST Amount" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_cgstamount" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="cr431_cgstamount" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{571c92a4-7d56-6926-ed3d-e4b02b1bb215}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Invoice Date" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_invoicedate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="cr431_invoicedate" disabled="false" />
+                      </cell>
+                      <cell id="{5745b104-3c46-e0ec-a2d4-d0ea7b98ba9e}" showlabel="true" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="SGST Amount" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_sgstamount" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="cr431_sgstamount" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{825efb47-5354-490b-9673-ff85289c6118}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Due Date" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_duedate" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="cr431_duedate" disabled="false" />
+                      </cell>
+                      <cell id="{bd3d7613-606b-74e4-58e9-1b75d891b200}" showlabel="true" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="IGST Amount" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_igstamount" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="cr431_igstamount" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{2957d24c-9cd4-77dc-6a1b-731e9b15b843}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Bill To Party" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_billtoparty" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="cr431_billtoparty" disabled="false" uniqueid="{b8ea1025-403e-4d8c-9794-7bc466071d4c}" />
+                      </cell>
+                      <cell id="{2aac617d-5309-228c-23d0-31a264a94a84}" showlabel="true" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="CGST %" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_cgst" classid="{C3EFE0C3-0EC6-42be-8349-CBD9079DFD8E}" datafieldname="cr431_cgst" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b6080c76-a628-9674-ce8b-aa820551e929}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Ship To Party" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_shiptoparty" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="cr431_shiptoparty" disabled="false" />
+                      </cell>
+                      <cell id="{9cd81c20-6824-61bd-6c42-d900ed3b58c5}" showlabel="true" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="SGST %" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_sgst" classid="{C3EFE0C3-0EC6-42be-8349-CBD9079DFD8E}" datafieldname="cr431_sgst" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{6245c58d-5da8-4034-bfda-45e733930ad1}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Shipping Address" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_shippingaddress" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="cr431_shippingaddress" disabled="false" />
+                      </cell>
+                      <cell id="{269b2088-192d-d34a-a75c-c44c376a6e4e}" showlabel="true" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="IGST %" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_igst" classid="{C3EFE0C3-0EC6-42be-8349-CBD9079DFD8E}" datafieldname="cr431_igst" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{902c1e70-165e-bd99-bb23-dd958e2c3584}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Cancelled Invoice" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_cancelledinvoice" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="cr431_cancelledinvoice" disabled="false" />
+                      </cell>
+                      <cell id="{30c08c81-10c9-a87d-8713-4a935213c482}" showlabel="true" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="TCS" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_tcs" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="cr431_tcs" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c982be05-ce53-7b74-b2ea-d60160b8ecbd}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="LOB" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_lob" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="cr431_lob" disabled="false" />
+                      </cell>
+                      <cell id="{08a62739-2b7d-4851-aed4-d56c8b957503}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Total Bill Amount" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_billamoount" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="cr431_billamoount" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{1a9b2ac2-d822-3721-5cce-ae5212c6322e}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Division" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_division" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="cr431_division" disabled="false" />
+                      </cell>
+                      <cell id="{a539d8ae-0812-4ed4-1653-b78bed719e28}" showlabel="true" locklevel="0" colspan="1" rowspan="1" visible="false">
+                        <labels>
+                          <label description="Total Bill Amount" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_billamoount" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="cr431_billamoount" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b1df45d6-575a-4d6b-8cb4-3b2085ece337}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Invoice From" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_orderto" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="cr431_orderto" disabled="false" />
+                      </cell>
+                      <cell locklevel="0" id="{49f4dc5c-df49-43db-a537-900d2d322c66}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <Navigation>
+        <NavBar />
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <controlDescriptions />
+      <header id="{c119af2f-8bd8-4858-be7b-bd4039dc1c41}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{f4025454-318e-4b25-b969-03b7f90e299e}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{99d817d4-c356-44dc-9d6a-0b25f2708205}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{67e74ec8-5570-4995-9778-10907a39df9c}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{0c4ad1f9-7a0d-4fc6-a7eb-3005f19569f9}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{f102d509-4909-48a9-b031-2d5261f23405}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{1ed1e896-5912-4a31-b90d-2961cb721054}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{e91e248e-9a12-462f-a407-a6dc05ef4743}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

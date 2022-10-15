@@ -1,0 +1,406 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{18611042-7e91-4040-a71f-46a7f702a12b}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{b2ac276c-9afe-4e19-bf9d-6de75f630b0d}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{3778f5cc-7e0e-47a3-958c-b3c3d08ec960}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{151b5ada-96e6-41ef-824e-44e120a40210}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Site Name" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="cr431_name" uniqueid="{ca4cd3a4-8e57-e6ea-070b-15071cb99ce9}" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c2825ac0-d3c0-c407-2801-7e9e89c26aad}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Site Type" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_sitetype" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="cr431_sitetype" disabled="false" uniqueid="{ea62e397-a3b3-2e5d-04e1-4e803d17b831}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{2655910b-177b-5300-99bd-51e038c54e53}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Site FIR" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_sitefir" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="cr431_sitefir" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{12356739-78ed-5196-7234-6cb4c57bd5b9}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Drop Reason" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_dropreason" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="cr431_dropreason" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0d2727d0-313c-1e78-4098-6193499b2e23}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Area in SQft" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_areainsqft" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="cr431_areainsqft" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{eb2d824a-4ad3-3209-6e58-cad618c9a92e}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Product rate (Rs / sqft)" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_productraterssqft" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="cr431_productraterssqft" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a6be5208-3d06-817d-1663-e7396db96acb}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="DMI Contractor Number" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_dmicontractornumber" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="cr431_dmicontractornumber" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{9e6e5295-5ce9-9271-9212-d00422316d49}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Supplier Dealer" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_supplierdealer" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="cr431_supplierdealer" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{117b9235-7b92-3c84-48d1-0e11a2e52954}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Owner Name" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_ownername" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="cr431_ownername" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{6cec5317-7745-c74c-6377-05950a0b89a6}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Owner Number" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_ownernumber" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="cr431_ownernumber" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0a70ede8-2763-bcd2-64b9-089e371403a3}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="DMI Architect Number" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_dmiarchitectnumber" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="cr431_dmiarchitectnumber" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{4eae1938-c0c5-d844-3682-43d27585787e}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Site Friend Name" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_sitefriendname" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="cr431_sitefriendname" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{97969de7-e83b-96e1-a851-7527b803c859}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Site Friend Number" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_sitefriendnumber" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="cr431_sitefriendnumber" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{5842ed7b-9c2b-1d73-70b5-27b78b613d5e}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Site friend category" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_sitefriendcategory" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="cr431_sitefriendcategory" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{349a7de2-69a4-7bec-c89a-a4a24a44e6be}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Remarks (Only for others)" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_remarksonlyforothers" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="cr431_remarksonlyforothers" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{88700b59-7373-ee50-692c-d709d9aa1d83}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Expected Maturity Date" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_expectedmaturitydate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="cr431_expectedmaturitydate" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a04a11c2-e921-3109-27c0-b59ca6790113}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Site Image 1" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_siteimage1" classid="{71716B6C-711E-476c-8AB8-5D11542BFB47}" datafieldname="cr431_siteimage1" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{bb434d2a-7212-4a35-ddb7-154c361e68b5}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Site Image 2" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_siteimage2" classid="{71716B6C-711E-476c-8AB8-5D11542BFB47}" datafieldname="cr431_siteimage2" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e54a6bd7-1c2e-d928-b35d-9253318b0262}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Type" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_type" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="cr431_type" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b3e59800-65c2-50ac-5974-78e45c127494}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="No. Of Bed Rooms" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_noofbedrooms" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="cr431_noofbedrooms" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{34e10365-2c66-e249-7092-81c1a96aea2d}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Site Quality" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_sitequality" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="cr431_sitequality" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{3b40d534-3ac2-c86a-aa8d-e89e87053ee7}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Lead Source Type" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_leadsourcetype" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="cr431_leadsourcetype" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{564315ca-64d2-b3d3-7300-73a5d4b45b4a}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Source of Lead" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_sourceoflead" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="cr431_sourceoflead" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{9d427cb6-eaa9-d3e7-288b-6862c5c4855d}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Stage" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_stage" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="cr431_stage" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{6e971edd-a63b-a88e-264e-3a6103d8c02b}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Lead assignment" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_leadassignment" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="cr431_leadassignment" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{6d238507-72e2-c8bd-a863-116511ea3121}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Lead Owner" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_leadowner" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="cr431_leadowner" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{02507337-ea88-bda2-838e-bd16d1827269}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Lead Created By" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_leadcreatedby" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="cr431_leadcreatedby" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{deb14c1d-ec6b-c3cd-a0da-175a47c76199}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="LeadSite" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_leadsite" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="cr431_leadsite" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0a57a9dc-29b6-5921-171d-2c52084938d5}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Is Verified By CC" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_isverifiedbycc" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="cr431_isverifiedbycc" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{3698bc60-e995-9115-7a03-171ac34971b5}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="EMD Changed Count" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_emdchangedcount" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="cr431_emdchangedcount" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{9345c2cc-3dbb-076a-4234-a960d3354d9d}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Conversion Verified" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_conversionverified" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="cr431_conversionverified" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{5be486b7-0342-12e3-b2b0-c2206e92e983}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Fake Lead" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_fakelead" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="cr431_fakelead" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b6022885-5435-22ec-804b-a106ce606667}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Building Name, Flat no, Landmark" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_buildingnameflatnolandmark" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="cr431_buildingnameflatnolandmark" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{456b474d-939a-dd60-974d-b354b82e10d2}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Town name" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_townname" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="cr431_townname" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c9b90582-ac3c-9a17-10a1-dd43066a4dca}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Site Address as per GPS" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_siteaddressaspergps" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="cr431_siteaddressaspergps" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{213a2bb5-7b69-490c-c81a-e72ac238d3d4}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Pincode As per GPS" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_pincodeaspergps" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="cr431_pincodeaspergps" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{44ad1833-a630-8b08-e601-2bb045443edc}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Geographical Town" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_geographicaltown" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="cr431_geographicaltown" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c1b6297e-ecca-5093-26dc-75eebc748399}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Adress Details" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_adressdetails" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="cr431_adressdetails" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c311e9cc-0621-2878-6c3a-5de5b8721037}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="State" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_state" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="cr431_state" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a99bb12d-0774-4c4a-a219-19826367155f}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c01de3a4-8926-40b5-6a64-79994a4a3896}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Source Other Details" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_sourceotherdetails" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="cr431_sourceotherdetails" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{8712136c-ab88-3e83-e90a-22e848874079}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="(LeadSite) Lead/ Site Visit/ Information" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_leadsiteleadsitevisitinformation" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="cr431_leadsiteleadsitevisitinformation" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <Navigation>
+        <NavBar></NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <controlDescriptions />
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

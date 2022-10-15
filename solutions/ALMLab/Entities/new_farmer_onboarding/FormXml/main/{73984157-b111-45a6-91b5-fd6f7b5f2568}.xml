@@ -1,0 +1,245 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{73984157-b111-45a6-91b5-fd6f7b5f2568}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{0621281e-d3e3-b65a-284d-3123c632aa46}" name="StageStep3" locklevel="0" expanded="true" visible="false" labelid="{c4dcb3d1-da8d-4fc9-a9ec-bb2185e53fbe}">
+          <labels>
+            <label description="Pending For Approval" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{49a5f500-9771-d9c0-9a63-e2245ddfe770}" name="StageStep3_section1" labelid="{c721d786-6a60-4761-8b38-78db7fad6117}">
+                  <labels>
+                    <label description="Pending For Approval" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{ab69871d-5f36-b3d0-3856-09efca4e69fd}" showlabel="true" visible="true" labelid="{64894003-58cc-4425-96d1-ec55b60475f2}">
+                        <labels>
+                          <label description="State Head" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_cr431_farmeronboarding_new_farmer_onboarding:cr431_approvalstatusstatehead" classid="{67fac785-cd58-4f9f-abb3-4b7ddc6ed5ed}" datafieldname="cr431_approvalstatusstatehead" disabled="false" relationship="bpf_cr431_farmeronboarding_new_farmer_onboarding" isrequired="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{00f44a84-e0bb-456f-a400-8514c1d6130a}" showlabel="true" visible="true" labelid="{56cf0117-a743-4ddc-be81-c239a047a00c}">
+                        <labels>
+                          <label description="Zonal Head" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_cr431_farmeronboarding_new_farmer_onboarding:cr431_approvalstatuszonalhead" classid="{67fac785-cd58-4f9f-abb3-4b7ddc6ed5ed}" datafieldname="cr431_approvalstatuszonalhead" disabled="false" relationship="bpf_cr431_farmeronboarding_new_farmer_onboarding" isrequired="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{acaee210-975d-4834-8f3b-23130b680f56}" showlabel="true" visible="true" labelid="{624be579-4e8b-4f4c-a64d-be4004190efe}">
+                        <labels>
+                          <label description="Account" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_cr431_farmeronboarding_new_farmer_onboarding:cr431_approvalstatusaccount" classid="{67fac785-cd58-4f9f-abb3-4b7ddc6ed5ed}" datafieldname="cr431_approvalstatusaccount" disabled="false" relationship="bpf_cr431_farmeronboarding_new_farmer_onboarding" isrequired="true" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab verticallayout="true" id="{6e70745e-a267-4f12-9044-8ada0b753970}" name="StageStep11" locklevel="0" expanded="true" visible="false" labelid="{18ec1fb4-ab80-4c86-b6cf-d4e72326315a}">
+          <labels>
+            <label description="KYC Verification" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{d4392a0c-7fd6-b257-6064-8ab16d7ef0f7}" name="StageStep11_section1" labelid="{a5d185e5-ccdc-4a95-badd-ba94aa155e97}">
+                  <labels>
+                    <label description="KYC Verification" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{4df29aea-c91a-4675-96c4-992cf9a10194}" showlabel="true" visible="true" labelid="{e23543a8-9148-48c5-92dc-99c2f818f685}">
+                        <labels>
+                          <label description="KYC Verification" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_cr431_farmeronboarding_new_farmer_onboarding:cr431_kycverification" classid="{67fac785-cd58-4f9f-abb3-4b7ddc6ed5ed}" datafieldname="cr431_kycverification" disabled="false" relationship="bpf_cr431_farmeronboarding_new_farmer_onboarding" isrequired="true" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab verticallayout="true" id="{e251559e-7a67-4e6b-a442-660e8ff3129c}" name="StageStep15" locklevel="0" expanded="true" visible="false" labelid="{dd61bab4-00f9-4404-a373-199010fb1b19}">
+          <labels>
+            <label description="Financial Verification" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{cbdbb1ff-f061-d4b1-8356-49a8f874a036}" name="StageStep15_section1" labelid="{5456de68-7677-4b8a-b6bf-0ea4b785a923}">
+                  <labels>
+                    <label description="Financial Verification" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{5d0f7dd9-e9ce-4b8f-88c6-f3a0e6f9b9b6}" showlabel="true" visible="true" labelid="{030e46de-66ae-4880-96af-4c30703284b0}">
+                        <labels>
+                          <label description="Financial Verification" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_cr431_farmeronboarding_new_farmer_onboarding:cr431_financialverification" classid="{67fac785-cd58-4f9f-abb3-4b7ddc6ed5ed}" datafieldname="cr431_financialverification" disabled="false" relationship="bpf_cr431_farmeronboarding_new_farmer_onboarding" isrequired="true" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab verticallayout="true" id="{c9fc8e8e-3034-4b5a-b84a-18ec03959a29}" name="StageStep19" locklevel="0" expanded="true" visible="false" labelid="{b03069cf-e12f-4273-b315-bffe351fddc9}">
+          <labels>
+            <label description="Approval" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{00d146ef-5309-2b97-45cf-dfc5de027251}" name="StageStep19_section1" labelid="{ce03661a-e7ec-4fd6-aee0-19d7c7a9512b}">
+                  <labels>
+                    <label description="Approval" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{ae1f40a8-ebe5-4b62-944e-c808d571acfc}" showlabel="true" visible="true" labelid="{798f313e-62b5-4ce7-9533-5c5f379636f6}">
+                        <labels>
+                          <label description="Status" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_cr431_farmeronboarding_new_farmer_onboarding:cr431_approval" classid="{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}" datafieldname="cr431_approval" disabled="false" relationship="bpf_cr431_farmeronboarding_new_farmer_onboarding" isrequired="true" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab verticallayout="true" id="{31745628-6973-4e4c-ae06-b1a7b9fa2932}" name="StageStep23" locklevel="0" expanded="true" visible="false" labelid="{38810ed5-e5f6-444b-b9b5-ca968e7a1084}">
+          <labels>
+            <label description="Completed" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{8ef2b452-37e6-f27b-f4d4-3dd354dd5390}" name="StageStep23_section1" labelid="{0ea70cd5-480b-4cf8-8f37-ebca83516920}">
+                  <labels>
+                    <label description="Completed" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{91c39c89-994d-4007-ac7a-1daf468c3ad4}" showlabel="true" visible="true" labelid="{7d3d071a-4c15-4e1c-a71d-76c050c15ec7}">
+                        <labels>
+                          <label description="Farmer Onboarding Close" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_cr431_farmeronboarding_new_farmer_onboarding:cr431_farmeronboardingclose" classid="{67fac785-cd58-4f9f-abb3-4b7ddc6ed5ed}" datafieldname="cr431_farmeronboardingclose" disabled="false" relationship="bpf_cr431_farmeronboarding_new_farmer_onboarding" isrequired="true" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab verticallayout="true" id="{027404a8-19b0-4712-af5d-ab07c57bdea1}" name="StageStep27" locklevel="0" expanded="true" visible="false" labelid="{39cf8eff-9f9f-4040-89fc-a6416e70993f}">
+          <labels>
+            <label description="Completed" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{229f7a97-fd6a-1215-a06e-65ddb926c77b}" name="StageStep27_section1" labelid="{f8df6219-5900-424a-b328-31ff8d5d77df}">
+                  <labels>
+                    <label description="Completed" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{be4645fb-1601-4b56-b52f-56146da87dba}" showlabel="true" visible="true" labelid="{6640b82d-4673-4714-8a03-d565cd00e495}">
+                        <labels>
+                          <label description="Farmer Onboarding Close" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_cr431_farmeronboarding_new_farmer_onboarding:cr431_farmeronboardingclose" classid="{67fac785-cd58-4f9f-abb3-4b7ddc6ed5ed}" datafieldname="cr431_farmeronboardingclose" disabled="false" relationship="bpf_cr431_farmeronboarding_new_farmer_onboarding" isrequired="true" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab verticallayout="true" id="{aad73411-6d89-41e7-8b67-9bab8ac322a6}" name="StageStep31" locklevel="0" expanded="true" visible="false" labelid="{70627377-8907-4733-9149-cdd67bb7785e}">
+          <labels>
+            <label description="Completed" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{810b34a3-cc4e-c859-d220-ae801da4a975}" name="StageStep31_section1" labelid="{716e71fe-9ee8-490d-8ec1-5d078bced739}">
+                  <labels>
+                    <label description="Completed" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{7ef5d0d8-acc5-437e-b9ee-ab3d8bbe39aa}" showlabel="true" visible="true" labelid="{e4fa7716-4336-4f8a-a29f-7311a65aa6d8}">
+                        <labels>
+                          <label description="Farmer Onboarding Close" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_cr431_farmeronboarding_new_farmer_onboarding:cr431_farmeronboardingclose" classid="{67fac785-cd58-4f9f-abb3-4b7ddc6ed5ed}" datafieldname="cr431_farmeronboardingclose" disabled="false" relationship="bpf_cr431_farmeronboarding_new_farmer_onboarding" isrequired="true" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab verticallayout="true" id="{301691ba-758d-4120-9de7-8e805b715466}" name="StageStep35" locklevel="0" expanded="true" visible="false" labelid="{6df0a176-90f5-4e79-a0b5-29aef82d277e}">
+          <labels>
+            <label description="Completed" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{c4d46ef0-9c22-2102-d633-03a4d3c373ea}" name="StageStep35_section1" labelid="{0dbcdbe3-bf6c-4a0e-bdca-c7a7171347cc}">
+                  <labels>
+                    <label description="Completed" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{161e9b61-0b7e-47e1-90ba-e982e5e11f71}" showlabel="true" visible="true" labelid="{f60f232f-658c-4f4c-88e8-c5d549f5a31c}">
+                        <labels>
+                          <label description="Farmer Onboarding Close" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_cr431_farmeronboarding_new_farmer_onboarding:cr431_farmeronboardingclose" classid="{67fac785-cd58-4f9f-abb3-4b7ddc6ed5ed}" datafieldname="cr431_farmeronboardingclose" disabled="false" relationship="bpf_cr431_farmeronboarding_new_farmer_onboarding" isrequired="true" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

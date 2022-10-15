@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{d882c775-3834-432f-aa8b-238056a1a5e5}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls">
+      <tabs>
+        <tab verticallayout="true" id="{412deb75-d7b3-4323-a1f8-e12a0f671786}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{4212cdbb-ea9a-4412-b3d1-2f0b14c04505}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{2066305d-4a55-4bcd-80d8-20861b7eff4c}">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="cr431_name" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{003ee724-e47c-43e4-a68f-78335d2716b6}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Training " languagecode="1033" />
+                        </labels>
+                        <control id="cr431_training" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="cr431_training" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{2d46ce69-56c8-479f-90fa-17293f24f11c}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Training Activities" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_trainingactivities" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="cr431_trainingactivities" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{2bb7ee66-3e51-45f4-a5f7-45a657f2aa7b}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{4bb6522d-a9ed-4a12-9185-6c9b4d594268}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{b50c6296-735f-454a-b603-414b2b523df5}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{85fabf94-66c6-4e59-b198-36c9c7611aa5}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{0850a38e-5bb2-4e0b-b380-ab3959851099}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{a0e35752-63db-409c-8fb5-2bc8cfb9d6d9}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{2dd28410-01a7-4c4a-b88a-e78ec9aedf72}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{2637b5d2-a467-411a-a7b7-7bfe8a06f37a}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{7d9d1d0a-34aa-4084-a184-8287aac7c0f6}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

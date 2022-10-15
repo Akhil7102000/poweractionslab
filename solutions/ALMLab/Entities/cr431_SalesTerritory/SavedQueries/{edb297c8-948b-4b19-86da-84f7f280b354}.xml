@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{edb297c8-948b-4b19-86da-84f7f280b354}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="cr431_name" select="1" icon="1" preview="1">
+        <row name="result" id="cr431_salesterritoryid">
+          <cell name="cr431_name" width="165" />
+          <cell name="cr431_territorycode" width="129" />
+          <cell name="cr431_level" width="100" />
+          <cell name="cr431_parentzone" width="100" />
+          <cell name="cr431_parentstate" width="100" />
+          <cell name="cr431_parentsubstate" width="100" />
+          <cell name="cr431_parentdistrict" width="100" />
+          <cell name="cr431_parentcity" width="100" />
+          <cell name="cr431_parentpincode" width="100" />
+          <cell name="createdon" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="cr431_salesterritory">
+          <attribute name="cr431_salesterritoryid" />
+          <attribute name="cr431_name" />
+          <order attribute="cr431_name" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="cr431_territorycode" />
+          <attribute name="cr431_level" />
+          <attribute name="cr431_parentzone" />
+          <attribute name="cr431_parentstate" />
+          <attribute name="cr431_parentsubstate" />
+          <attribute name="cr431_parentdistrict" />
+          <attribute name="cr431_parentcity" />
+          <attribute name="cr431_parentpincode" />
+          <attribute name="createdon" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Sales Territories" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

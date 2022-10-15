@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{aef9d3be-cf57-4402-bf43-1540f007d2c8}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="cr431_name" select="1" icon="1" preview="1">
+        <row name="result" id="cr431_productpricelistid">
+          <cell name="cr431_name" width="140" />
+          <cell name="cr431_product" width="100" />
+          <cell name="cr431_effectivefrom" width="115" />
+          <cell name="cr431_effectiveto" width="100" />
+          <cell name="cr431_pricetype" width="97" />
+          <cell name="createdon" width="131" />
+          <cell name="modifiedon" width="131" />
+          <cell name="cr431_price" width="54" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="cr431_productpricelist">
+          <attribute name="cr431_productpricelistid" />
+          <attribute name="cr431_name" />
+          <order attribute="cr431_name" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="cr431_product" />
+          <attribute name="cr431_effectivefrom" />
+          <attribute name="cr431_effectiveto" />
+          <attribute name="cr431_pricetype" />
+          <attribute name="cr431_price" />
+          <attribute name="createdon" />
+          <attribute name="modifiedon" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Product Price List" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

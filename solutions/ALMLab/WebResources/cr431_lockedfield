@@ -1,0 +1,46 @@
+function lockedfield(executionContext) {
+    var formcontext = executionContext.getFormContext();
+    let formControls = formcontext.ui.controls;
+
+    var userSettings = Xrm.Utility.getGlobalContext().userSettings;
+
+    var currentuserid = userSettings.userId;
+    //var username = userdetail.userName;
+    debugger;
+   // window.alert(currentuserid);
+
+    var ZonalHeadID = formcontext.getAttribute("cr431_zonalhead").getValue() === null ? null : formcontext.getAttribute("cr431_zonalhead").getValue()[0].id;
+    var StateHeadID = formcontext.getAttribute("cr431_statehead").getValue() === null ? null : formcontext.getAttribute("cr431_statehead").getValue()[0].id;
+    var AccountID = formcontext.getAttribute("cr431_account").getValue() === null ? null : formcontext.getAttribute("cr431_account").getValue()[0].id;
+   
+    if(currentuserid === ZonalHeadID){
+        formControls.forEach(element => {
+            element.setDisabled(true);
+        });
+        // if(formcontext.getControl("cr431_approvalstatuszonalhead").getValue() != 254460004 || formcontext.getControl("cr431_approvalstatuszonalhead").getValue() != 254460005){
+        //     formcontext.getControl("cr431_approvalstatuszonalhead").setDisabled(false);
+        // }
+    }
+    else if(currentuserid === StateHeadID){
+        formControls.forEach(element => {
+            element.setDisabled(true);
+        });
+        // if(formcontext.getControl("cr431_approvalstatusstatehead").getValue() != 254460004 || formcontext.getControl("cr431_approvalstatusstatehead").getValue() != 254460005){
+        //     formcontext.getControl("cr431_approvalstatusstatehead").setDisabled(false);
+        // }
+    }
+    else if(currentuserid === AccountID){
+        formControls.forEach(element => {
+            element.setDisabled(true);
+        });
+        // if(formcontext.getControl("cr431_approvalstatusaccount").getValue() != 254460004 || formcontext.getControl("cr431_approvalstatusaccount").getValue() != 254460005 ){
+        //     formcontext.getControl("cr431_approvalstatusaccount").setDisabled(false);
+        // }
+    }else if(currentuserid === "{6603ee03-92cf-ec11-a7b6-000d3a0a6ffd}".toLocaleUpperCase()){
+        
+    }else{
+        formControls.forEach(element => {
+            element.setDisabled(true);
+        });
+    }
+}

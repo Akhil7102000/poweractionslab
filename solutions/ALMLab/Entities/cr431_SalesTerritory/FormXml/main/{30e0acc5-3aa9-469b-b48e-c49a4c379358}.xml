@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{30e0acc5-3aa9-469b-b48e-c49a4c379358}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls">
+      <tabs>
+        <tab verticallayout="true" id="{6200556a-63d6-4c94-81c8-1a0828865038}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{0cacb731-e258-4fde-8445-d5af6753b215}" columns="11">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{f77c654c-7563-4f0b-a71b-328ee87417df}">
+                        <labels>
+                          <label description="Territory Name" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="cr431_name" />
+                      </cell>
+                      <cell id="{396a282d-f8da-4ccb-9edf-a851e71d1dbe}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Territory Code" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_territorycode" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="cr431_territorycode" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{2409a5b1-70db-4dc8-b445-eca4a1238148}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Level" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_level" classid="{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}" datafieldname="cr431_level" disabled="false" />
+                      </cell>
+                      <cell locklevel="0" id="{e53941f7-5a34-47a7-8dd3-ee8eb7d5f915}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{1168b463-2b2e-4984-ab7b-d5be2cac7fec}" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                      <cell locklevel="0" id="{f5b4823c-25e7-41d6-a58a-c6fb1fec3975}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="_section_700" id="d77f87ce-0cae-4efc-adc1-1feb4eb21d0c" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="111" labelwidth="115">
+                  <labels>
+                    <label description="New Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{f3e36aee-9d3e-46c2-a2ab-aac1b61e447d}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Parent Zone" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_parentzone" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="cr431_parentzone" disabled="false" />
+                      </cell>
+                      <cell id="{c1c7340d-325b-49c5-8976-5edb64ac9c0a}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Parent State" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_parentstate" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="cr431_parentstate" disabled="false" />
+                      </cell>
+                      <cell id="{d50ebddc-469e-41a5-b4a8-07b6699abd02}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Parent Substate" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_parentsubstate" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="cr431_parentsubstate" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{6608569b-27d7-46cc-805a-3e22ecf5ca03}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Parent District" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_parentdistrict" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="cr431_parentdistrict" disabled="false" />
+                      </cell>
+                      <cell id="{ba1da4e3-7c08-4c14-8258-697982335b76}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Parent City" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_parentcity" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="cr431_parentcity" disabled="false" />
+                      </cell>
+                      <cell id="{6d0e584e-0410-45be-b07a-911fe44b45d7}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Parent Pincode" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_parentpincode" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="cr431_parentpincode" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{ea3c9966-58ae-42b8-ac84-2da28cd15f46}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{3d338fb6-1776-4b53-8e17-136cebb2f440}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{75ca0174-50cf-4850-bde8-f507e80f67cf}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{32331abe-d0a7-4624-8f1b-3315e7edc10e}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{1008ad44-7143-4b7a-86a4-5c0df544742b}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{3bd6ac07-8a88-495d-aff0-3a0025cee129}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{e58d949f-1cc2-4635-ba45-18eef57dd42b}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{df39a759-5c79-4488-bbfc-76b558c896ad}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

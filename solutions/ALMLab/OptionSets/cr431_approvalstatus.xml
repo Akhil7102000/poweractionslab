@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<optionset Name="cr431_approvalstatus" localizedName="Approval Status 1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <OptionSetType>picklist</OptionSetType>
+  <IsGlobal>1</IsGlobal>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <ExternalTypeName></ExternalTypeName>
+  <displaynames>
+    <displayname description="Approval Status 1" languagecode="1033" />
+  </displaynames>
+  <Descriptions>
+    <Description description="" languagecode="1033" />
+  </Descriptions>
+  <options>
+    <option value="254460000" ExternalValue="">
+      <labels>
+        <label description="Approved" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="254460001">
+      <labels>
+        <label description="Pending" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="254460002">
+      <labels>
+        <label description="Rejected" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="254460003">
+      <labels>
+        <label description="Awaiting Response" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+  </options>
+</optionset>

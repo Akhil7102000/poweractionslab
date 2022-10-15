@@ -1,0 +1,363 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{2a3b751a-44ee-463f-bfa6-569c69356a54}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls" shownavigationbar="false" showImage="false" maxWidth="1920">
+      <tabs>
+        <tab verticallayout="true" id="{3d124333-31bb-4ffa-a199-37e26a2dfbff}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{8f852148-6a62-4e11-8d2a-fbeb1b008cf0}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{2ef4499e-1374-421c-9514-ac1ea0c8a4a9}">
+                        <labels>
+                          <label description="Category Name" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="cr431_name" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{45f3af62-b8f3-47c1-a234-c72ab28b04af}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Category Code" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_categoryname" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="cr431_categoryname" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{46a98aaf-1f13-454a-b2f7-548edc2420a1}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Category Type" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_categorytype" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="cr431_categorytype" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{22d88000-373c-b33c-8085-8ba34bb30a1e}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Parent Category" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_parentcategory" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="cr431_parentcategory" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c4ff525d-51b4-4ff9-8926-a5dd5d89db65}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Details" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_details" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="cr431_details" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{67212dc9-3d76-4e9c-8f9e-21243fe920eb}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Sales Targets" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_salestargets" classid="{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}" datafieldname="cr431_salestargets" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{f5cf75c6-49ab-45d7-bad5-bea66916476a}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Level" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_level" classid="{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}" datafieldname="cr431_level" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0d0c14f2-8a27-4b3a-afcf-e254f38b76f6}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="PG ID" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_pgid" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="cr431_pgid" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c0960be1-6d18-4488-93c9-084007a7f512}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Image" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_image" classid="{71716B6C-711E-476C-8AB8-5D11542BFB47}" datafieldname="cr431_image" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{740e0fc5-034e-408b-b609-ab8b98053eed}" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_2" id="f1f2c4fb-2c18-4579-9b6a-677d4fc9281a" IsUserDefined="0" locklevel="0" showlabel="true">
+          <labels>
+            <label description="Product Item List" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="tab_2_section_1" id="ebe5460d-36a8-44fb-9657-e2ce700f8817" IsUserDefined="0" locklevel="0" showlabel="false" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Product Item List" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell locklevel="0" id="{4a6a7623-bc13-4c92-882f-ea5c295e9860}" rowspan="4" colspan="1" auto="false" showlabel="false">
+                        <labels>
+                          <label description="Product Item List" languagecode="1033" />
+                        </labels>
+                        <control indicationOfSubgrid="true" id="Subgrid_new_1" classid="{E7A81278-8635-4D9E-8D4D-59480B391C5B}">
+                          <parameters>
+                            <RecordsPerPage>4</RecordsPerPage>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <ChartGridMode>All</ChartGridMode>
+                            <TargetEntityType>cr431_productitem</TargetEntityType>
+                            <ViewId>{3245BF90-5769-4827-945D-1E09E931150C}</ViewId>
+                            <ViewIds>{3245BF90-5769-4827-945D-1E09E931150C}</ViewIds>
+                            <RelationshipName>cr431_cr431_productitem_cr431_PG1_cr431_c</RelationshipName>
+                            <VisualizationId>{26BB161F-ED2C-ED11-9DB0-002248D5DF9A}</VisualizationId>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_3" id="1fdfabca-16f0-4614-a38d-4a36b3103861" IsUserDefined="0" locklevel="0" showlabel="true">
+          <labels>
+            <label description="Categories" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="tab_3_section_1" id="083e2869-63e8-4d24-a209-3c9a4f675c93" IsUserDefined="0" locklevel="0" showlabel="false" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="New Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell locklevel="0" id="{8370bef3-7fe2-4966-b39a-87aa0a72488e}" rowspan="4" colspan="1" auto="false" showlabel="false">
+                        <labels>
+                          <label description="New SG control 1663007876180" languagecode="1033" />
+                        </labels>
+                        <control indicationOfSubgrid="true" id="Subgrid_new_2" classid="{E7A81278-8635-4D9E-8D4D-59480B391C5B}">
+                          <parameters>
+                            <RecordsPerPage>4</RecordsPerPage>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <ChartGridMode>All</ChartGridMode>
+                            <TargetEntityType>category</TargetEntityType>
+                            <ViewId>{D9F3C7F5-7E80-4DCE-B889-4D46E9CE9931}</ViewId>
+                            <ViewIds>{D9F3C7F5-7E80-4DCE-B889-4D46E9CE9931}</ViewIds>
+                            <RelationshipName>cr431_cr431_category_cr431_category_ParentCategory</RelationshipName>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_4" id="a9883790-4d47-438a-b04a-178e01703fdd" IsUserDefined="0" locklevel="0" showlabel="true">
+          <labels>
+            <label description="Stocks" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="tab_4_section_1" id="54c1a9de-21a0-42a7-9434-d0ceaeeec6ed" IsUserDefined="0" locklevel="0" showlabel="false" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="New Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell locklevel="0" id="{8f795833-98ae-4873-b47a-7dee0b8c7b67}" rowspan="4" colspan="1" auto="false" showlabel="false">
+                        <labels>
+                          <label description="New SG control 1663007916993" languagecode="1033" />
+                        </labels>
+                        <control indicationOfSubgrid="true" id="Subgrid_new_3" classid="{E7A81278-8635-4D9E-8D4D-59480B391C5B}">
+                          <parameters>
+                            <RecordsPerPage>4</RecordsPerPage>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <ChartGridMode>All</ChartGridMode>
+                            <TargetEntityType>cr431_stock</TargetEntityType>
+                            <ViewId>{6107A8C0-7FC0-4D25-B0A8-D9D7257056C1}</ViewId>
+                            <ViewIds>{6107A8C0-7FC0-4D25-B0A8-D9D7257056C1}</ViewIds>
+                            <RelationshipName>cr431_cr431_stock_ProductGroup_cr431_category</RelationshipName>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_5" id="6932344d-958b-4af8-9c3b-77e495548af3" IsUserDefined="0" locklevel="0" showlabel="true">
+          <labels>
+            <label description="Repositories" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="tab_5_section_1" id="659c661e-340d-40f2-834e-0e34723cc910" IsUserDefined="0" locklevel="0" showlabel="false" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="New Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell locklevel="0" id="{dba765d6-b100-4920-aa79-2f16434695a5}" rowspan="4" colspan="1" auto="false" showlabel="false">
+                        <labels>
+                          <label description="New SG control 1663008004815" languagecode="1033" />
+                        </labels>
+                        <control indicationOfSubgrid="true" id="Subgrid_new_4" classid="{E7A81278-8635-4D9E-8D4D-59480B391C5B}">
+                          <parameters>
+                            <RecordsPerPage>4</RecordsPerPage>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <ChartGridMode>All</ChartGridMode>
+                            <TargetEntityType>cr431_repository</TargetEntityType>
+                            <ViewId>{BAE34C42-34C8-4E64-B2BF-5D85C3A97B11}</ViewId>
+                            <ViewIds>{BAE34C42-34C8-4E64-B2BF-5D85C3A97B11}</ViewIds>
+                            <RelationshipName>cr431_cr431_repository_Category_cr431_category</RelationshipName>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{b4cd47c6-29bf-4bcc-a652-d1839acf01e7}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{2fecb8c7-3363-4d4d-bb91-e6c5f12b3664}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{348ae4bd-99b1-42ab-827c-5cab3e957d45}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{0c28ee02-ac0b-4817-8a97-33003d3261a7}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{3aa53b03-1f50-4c74-adff-90ca21d2cc3b}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{d6d4965b-1f0c-47d3-a762-6f2b8156f126}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{30209fde-2950-4ac7-993f-7d2c67875194}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{3635b4ec-2707-4bf4-ba57-6beb7069b0d0}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <Navigation>
+        <NavBar></NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

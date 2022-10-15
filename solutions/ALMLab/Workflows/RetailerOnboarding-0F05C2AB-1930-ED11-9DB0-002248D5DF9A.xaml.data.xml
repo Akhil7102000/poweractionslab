@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Workflow WorkflowId="{0f05c2ab-1930-ed11-9db0-002248d5df9a}" Name="Retailer Onboarding" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <XamlFileName>/Workflows/RetailerOnboarding-0F05C2AB-1930-ED11-9DB0-002248D5DF9A.xaml</XamlFileName>
+  <Type>1</Type>
+  <Subprocess>0</Subprocess>
+  <Category>4</Category>
+  <Mode>0</Mode>
+  <Scope>4</Scope>
+  <OnDemand>0</OnDemand>
+  <TriggerOnCreate>1</TriggerOnCreate>
+  <TriggerOnDelete>0</TriggerOnDelete>
+  <AsyncAutodelete>0</AsyncAutodelete>
+  <SyncWorkflowLogOnFailure>0</SyncWorkflowLogOnFailure>
+  <StateCode>0</StateCode>
+  <StatusCode>1</StatusCode>
+  <processorder>100</processorder>
+  <RunAs>1</RunAs>
+  <UniqueName>new_retailerbpf</UniqueName>
+  <IsTransacted>1</IsTransacted>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <BusinessProcessType>0</BusinessProcessType>
+  <IsCustomProcessingStepAllowedForOtherPublishers>1</IsCustomProcessingStepAllowedForOtherPublishers>
+  <ProcessTriggerScope>1</ProcessTriggerScope>
+  <PrimaryEntity>cr431_RetailersOnboarding</PrimaryEntity>
+  <LocalizedNames>
+    <LocalizedName languagecode="1033" description="Retailer Onboarding" />
+  </LocalizedNames>
+  <labels>
+    <steplabels id="{366789e0-0270-f5d4-46e7-3117b308fa8c}">
+      <label languagecode="1033" description="Pending For Approval" />
+    </steplabels>
+    <steplabels id="{cb5fbc52-0cc7-b3f0-1b5f-bc677d4e0ad7}">
+      <label languagecode="1033" description="State Head" />
+    </steplabels>
+    <steplabels id="{0abc03e9-07e8-43b4-afce-b23d83ef71a2}">
+      <label languagecode="1033" description="Zonal Head" />
+    </steplabels>
+    <steplabels id="{38a2bd2e-ad2d-40d2-aa1e-e2265fcdd345}">
+      <label languagecode="1033" description="Accounts" />
+    </steplabels>
+    <steplabels id="{85542e2c-555d-4d94-a7e9-dc4766a3da18}">
+      <label languagecode="1033" description="KYC Verification" />
+    </steplabels>
+    <steplabels id="{2c39f386-bade-4465-8c27-42ae05a53f49}">
+      <label languagecode="1033" description="KYC Verified" />
+    </steplabels>
+    <steplabels id="{769aea0f-59ff-4f83-92fc-c034731289ef}">
+      <label languagecode="1033" description="Financial Verification" />
+    </steplabels>
+    <steplabels id="{40d7cfd9-1a22-4092-ab09-a63694124db7}">
+      <label languagecode="1033" description="Financial Verified" />
+    </steplabels>
+    <steplabels id="{e18d14c3-6601-4de7-8e50-744b7fefa57a}">
+      <label languagecode="1033" description="Approved" />
+    </steplabels>
+    <steplabels id="{22c4c12e-a27b-41e0-abc5-5d4a47d7c2e6}">
+      <label languagecode="1033" description="status" />
+    </steplabels>
+    <steplabels id="{83ab9bd3-9bc4-44ec-905a-afc92a8d1575}">
+      <label languagecode="1033" description="Completed" />
+    </steplabels>
+    <steplabels id="{42673e55-d396-4039-9f5c-5095ce900837}">
+      <label languagecode="1033" description="Retailer Onboarding Close" />
+    </steplabels>
+    <steplabels id="{45896e71-4370-4d38-9a5e-c01e8b84fa64}">
+      <label languagecode="1033" description="Completed" />
+    </steplabels>
+    <steplabels id="{d3642d91-4b8e-46ef-9856-7dcadea0e712}">
+      <label languagecode="1033" description="Rejected" />
+    </steplabels>
+    <steplabels id="{199e97b6-10cc-48a8-ba10-cb8b3c31ea40}">
+      <label languagecode="1033" description="Completed" />
+    </steplabels>
+    <steplabels id="{ecb4f7cb-1ec3-4021-8ee6-749b3dad171e}">
+      <label languagecode="1033" description="Rejected" />
+    </steplabels>
+    <steplabels id="{70c155a7-1dcb-41f3-b521-6eb083aa383f}">
+      <label languagecode="1033" description="Completed" />
+    </steplabels>
+    <steplabels id="{aecf3300-e553-4ef1-9e81-a446ba140542}">
+      <label languagecode="1033" description="Close" />
+    </steplabels>
+    <steplabels id="{655e7d93-255d-4ea9-9da7-3ca6f50a5e6d}">
+      <label languagecode="1033" description="Completed" />
+    </steplabels>
+    <steplabels id="{120807cb-d5bb-4808-b3ed-b5c4b9623a42}">
+      <label languagecode="1033" description="Declaration Type" />
+    </steplabels>
+  </labels>
+  <ProcessTriggers>
+    <ProcessTrigger processtriggerid="{4068f5d1-3833-ed11-9db1-002248d5df9a}">
+      <controltype>1</controltype>
+      <methodid>{366789e0-0270-f5d4-46e7-3117b308fa8c}</methodid>
+      <scope>1</scope>
+      <controlname>cr431_approvalstatusstatehead</controlname>
+      <event>change</event>
+      <pipelinestage>0</pipelinestage>
+      <iscustomizable>1</iscustomizable>
+      <primaryentitytypecode>cr431_RetailersOnboarding</primaryentitytypecode>
+    </ProcessTrigger>
+    <ProcessTrigger processtriggerid="{4168f5d1-3833-ed11-9db1-002248d5df9a}">
+      <controltype>1</controltype>
+      <methodid>{366789e0-0270-f5d4-46e7-3117b308fa8c}</methodid>
+      <scope>1</scope>
+      <controlname>cr431_approvalstatuszonalhead</controlname>
+      <event>change</event>
+      <pipelinestage>0</pipelinestage>
+      <iscustomizable>1</iscustomizable>
+      <primaryentitytypecode>cr431_RetailersOnboarding</primaryentitytypecode>
+    </ProcessTrigger>
+    <ProcessTrigger processtriggerid="{4268f5d1-3833-ed11-9db1-002248d5df9a}">
+      <controltype>1</controltype>
+      <methodid>{366789e0-0270-f5d4-46e7-3117b308fa8c}</methodid>
+      <scope>1</scope>
+      <controlname>cr431_approvalstatusaccount</controlname>
+      <event>change</event>
+      <pipelinestage>0</pipelinestage>
+      <iscustomizable>1</iscustomizable>
+      <primaryentitytypecode>cr431_RetailersOnboarding</primaryentitytypecode>
+    </ProcessTrigger>
+    <ProcessTrigger processtriggerid="{4368f5d1-3833-ed11-9db1-002248d5df9a}">
+      <controltype>1</controltype>
+      <methodid>{85542e2c-555d-4d94-a7e9-dc4766a3da18}</methodid>
+      <scope>1</scope>
+      <controlname>cr431_kycverification</controlname>
+      <event>change</event>
+      <pipelinestage>0</pipelinestage>
+      <iscustomizable>1</iscustomizable>
+      <primaryentitytypecode>cr431_RetailersOnboarding</primaryentitytypecode>
+    </ProcessTrigger>
+    <ProcessTrigger processtriggerid="{4468f5d1-3833-ed11-9db1-002248d5df9a}">
+      <controltype>1</controltype>
+      <methodid>{769aea0f-59ff-4f83-92fc-c034731289ef}</methodid>
+      <scope>1</scope>
+      <controlname>cr431_financialverification</controlname>
+      <event>change</event>
+      <pipelinestage>0</pipelinestage>
+      <iscustomizable>1</iscustomizable>
+      <primaryentitytypecode>cr431_RetailersOnboarding</primaryentitytypecode>
+    </ProcessTrigger>
+    <ProcessTrigger processtriggerid="{4668f5d1-3833-ed11-9db1-002248d5df9a}">
+      <controltype>1</controltype>
+      <methodid>{e18d14c3-6601-4de7-8e50-744b7fefa57a}</methodid>
+      <scope>1</scope>
+      <controlname>cr431_approval</controlname>
+      <event>change</event>
+      <pipelinestage>0</pipelinestage>
+      <iscustomizable>1</iscustomizable>
+      <primaryentitytypecode>cr431_RetailersOnboarding</primaryentitytypecode>
+    </ProcessTrigger>
+  </ProcessTriggers>
+</Workflow>

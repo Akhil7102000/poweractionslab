@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{b227dadf-2f2f-ed11-9db0-002248d5d232}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="name" select="1" icon="1" preview="1">
+        <row name="result" id="accountid">
+          <cell name="name" width="200" />
+          <cell name="accountnumber" width="100" />
+          <cell name="primarycontactid" width="100" />
+          <cell name="telephone1" width="100" />
+          <cell name="cr431_accountzone" width="100" />
+          <cell name="cr431_state" width="100" />
+          <cell name="cr431_city" width="100" />
+          <cell name="createdon" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical" distinct="true">
+        <entity name="account">
+          <attribute name="name" />
+          <attribute name="accountid" />
+          <filter type="and">
+            <condition attribute="cr431_accounttype" operator="eq" value="254460000" />
+            <condition attribute="cr431_salepercentageachieved" operator="le" value="80" />
+          </filter>
+          <attribute name="accountnumber" />
+          <attribute name="primarycontactid" />
+          <attribute name="telephone1" />
+          <attribute name="cr431_accountzone" />
+          <attribute name="cr431_state" />
+          <attribute name="cr431_city" />
+          <attribute name="createdon" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Low Performing Retailers" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

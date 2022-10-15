@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{09db1144-a7f6-422f-90f1-1086fb1445df}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{93f5758d-37dc-4862-ab3f-613643d616f5}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{1daa9284-5f1c-469d-a5cd-cbc2b237947f}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{c9e8fba0-0c56-4d8b-8952-3308038bd431}">
+                        <labels>
+                          <label description="Code" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="cr431_name" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0d03b8c2-9b5e-b61c-022c-c9774a48ce6b}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Area Name" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_areaname" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="cr431_areaname" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{386c53da-c412-7c76-a563-ecdac62277ca}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Type" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_type" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="cr431_type" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{46960b4d-8ee7-9b03-cce7-2978778c0388}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Level" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_level" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="cr431_level" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{2842895c-d36b-db12-e997-1aab41cc1a23}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Territory Type" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_territorytype" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="cr431_territorytype" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{05292771-c1de-638d-b6e3-79104012785b}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Branch Type" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_branchtype" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="cr431_branchtype" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{63300b4a-fa04-4d9c-9316-72d4a8de97c5}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <Navigation>
+        <NavBar></NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <controlDescriptions />
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

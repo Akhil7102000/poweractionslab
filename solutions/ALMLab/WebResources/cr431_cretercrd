@@ -1,0 +1,70 @@
+function hide(executionContext){
+    var formcontext = executionContext.getFormContext();
+   // debugger;
+    var orderstaus=formcontext.getAttribute("cr431_orderstatus").getValue();
+
+   var orderstaus1=parseInt(orderstaus);
+   if(orderstaus === 254460000) // open
+   {
+      formcontext.getAttribute("cr431_ordersubstatus").setValue(254460000);
+   
+   }	
+   // if(test === 254460000) // open
+     
+     
+   else if(orderstaus === 254460003) // posted
+   formcontext.getAttribute("cr431_ordersubstatus").setValue(254460001)
+   {  
+       // formcontext.getAttribute("cr431_ordersubstatus").setValue(254460001);
+        //debugger;
+
+        //---------------------------------------Gathering Data-------------------(Start)--------//
+        let salesOrderGuidWithBrackets = formcontext.data.entity.getId(); 
+        let salesOrderGuidOnly = salesOrderGuidWithBrackets.substring(1,salesOrderGuidWithBrackets.length-1); 
+        //let CGST = formcontext.getAttribute("cr431_cgstamount").getValue();
+        var BillToParty = formcontext.getAttribute("cr431_billtoparty").getValue() === null ? null : formcontext.getAttribute("cr431_billtoparty").getValue()[0].id;
+      //  var ShipToParty = formcontext.getAttribute("cr431_shiptoparty").getValue() === null ? null : formcontext.getAttribute("cr431_shiptoparty").getValue()[0].id;
+      //  var ShippingAddress = formcontext.getAttribute("cr431_shippingaddress").getValue() === null ? null : formcontext.getAttribute("cr431_shippingaddress").getValue();
+     //   var IGSTAmount = formcontext.getAttribute("cr431_igstamount").getValue() === null ? null : formcontext.getAttribute("cr431_igstamount").getValue();
+     //   var CGSTAmount = formcontext.getAttribute("cr431_cgstamount").getValue() === null ? null : formcontext.getAttribute("cr431_cgstamount").getValue();
+    //    var SGSTAmount = formcontext.getAttribute("cr431_sgstamount").getValue() === null ? null : formcontext.getAttribute("cr431_sgstamount").getValue();
+     //   var TotalOrderAmount = formcontext.getAttribute("cr431_billamoount").getValue();
+        //--------------------------------------Gathering Data---------------------(End)--------//
+        
+         if(BillToParty === null){
+            //formcontext.getAttribute("cr431_orderstatus").setValue(254460001);
+            window.alert("Please fill all the required fields.");
+            Xrm.Page.data.save();
+         }
+        else{
+
+        Xrm.Page.data.save().then(function(){
+        debugger;
+            //------------------------------Merging data into local entity record-------------------(Start)--------//
+            var record = {};
+            record["cr431_SalesOrderNumber@odata.bind"] = "/accounts("+salesOrderGuidOnly+")";
+
+            if(BillToParty != null){
+                record["cr431_BillToParty@odata.bind"] = "/accounts("+BillToParty.substring(1,BillToParty.length-1)+")";
+            }
+            Xrm.WebApi.createRecord("cr431_invoice", record).then(  
+                function success(result) {
+                    window.alert("Invoice Created.");
+                },
+                function(error) {
+                    window.alert(error.message);
+                }
+                );
+                //------------------------------Creating record into targeted entity----------(End)--------// 
+            });
+           } 
+         }
+          
+            //------------------------------Merging data into local entity record-------------------(End)--------//
+
+            //-------------------------------Creating record into targeted entity----------(Start)--------//
+         
+     
+     
+
+}

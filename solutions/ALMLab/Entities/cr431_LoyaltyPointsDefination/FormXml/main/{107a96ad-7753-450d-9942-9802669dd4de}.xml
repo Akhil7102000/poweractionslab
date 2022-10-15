@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{107a96ad-7753-450d-9942-9802669dd4de}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls">
+      <tabs>
+        <tab verticallayout="true" id="{ae4c2bdf-b56f-4cef-9fba-30de80d4c73c}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{545b82bf-c447-4669-88be-f950bf67112c}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{567111de-ac45-45b9-a9aa-b6c2bc513422}">
+                        <labels>
+                          <label description="Loyalty Point No" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="cr431_name" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{efdd37e0-2dfa-4c4f-aefc-07517a51840f}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Range From" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_rangefrom" classid="{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}" datafieldname="cr431_rangefrom" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ae8c5372-22ac-4b9d-8cb3-74d13b17d2ea}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Range To" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_rangeto" classid="{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}" datafieldname="cr431_rangeto" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{26f3591b-87bd-4634-85b5-484eda434ec2}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Loyalty" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_loyalty" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="cr431_loyalty" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{cfb552cd-b82c-4c95-b73c-18cec657a77e}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Points" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_points" classid="{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}" datafieldname="cr431_points" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{127955a2-8533-470d-a929-31c9a4d49fe4}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Per Achievement" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_perachievement" classid="{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}" datafieldname="cr431_perachievement" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b681a4b2-c8f7-4525-8914-46f30d576538}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Upto Points" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_uptopoints" classid="{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}" datafieldname="cr431_uptopoints" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{5ed70ef9-476f-415a-acbb-e66c41e6e293}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Valid for Days" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_validfordays" classid="{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}" datafieldname="cr431_validfordays" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{7617a866-a5b0-4e3b-bb74-e01f21cc1386}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{81d4cc7a-df18-452b-9f1c-fe75f66cce15}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{9216ece1-d2dc-4dc5-88e9-cb7e0fea9528}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{9ccf084a-cdbb-401d-999a-ff72c9e9db13}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{2f9b2360-2a45-4cdf-a6d2-d41dbe2a3b40}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{96ba19fa-851d-4419-93f2-ed43f04cc016}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{1e3fbc35-ba13-4882-b50e-8a621e3962af}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{754c4eae-8d32-4b4d-a128-541f4aa3a224}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{5cbef7b1-78b5-48ee-b132-85a09c851eee}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

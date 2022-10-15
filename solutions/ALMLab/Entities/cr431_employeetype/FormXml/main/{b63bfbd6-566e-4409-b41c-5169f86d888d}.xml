@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{b63bfbd6-566e-4409-b41c-5169f86d888d}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls">
+      <tabs>
+        <tab verticallayout="true" id="{b459c7a6-96b0-4236-9c9f-77357494ccb7}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{670a3486-b4ad-43d3-940f-bddbf8b8ff84}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{bfbf5b7b-b959-4221-bdef-b72077a72861}">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="cr431_name" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e283105e-42a0-49ad-9e05-dee069f23e01}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{6e1cd641-31b1-9041-6ab7-191288b9ad86}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Division" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_division" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="cr431_division" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{89bd9029-0a37-4d73-8ee1-d1278c7b33ec}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Employee Type (GTM)" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_employeetypegtm" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="cr431_employeetypegtm" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{54b8211b-b5dc-3756-97d3-ad34c84b3c7e}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="LOB" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_lob" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="cr431_lob" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{f4dfacfd-1627-4621-857d-2e2aabe5d4b9}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Number of town selection" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_numberoftownselection" classid="{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}" datafieldname="cr431_numberoftownselection" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{53b6e95f-3dd0-4cea-968b-519a62b1941b}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Status" languagecode="1033" />
+                        </labels>
+                        <control id="statecode" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="statecode" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{51281327-b8e3-4bcc-af0d-a05e46d261da}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Visit End At" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_visitendat" classid="{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}" datafieldname="cr431_visitendat" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{db593f28-2b25-42cf-80c2-516720302783}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Visit Start At" languagecode="1033" />
+                        </labels>
+                        <control id="cr431_visitstartat" classid="{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}" datafieldname="cr431_visitstartat" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{5b51397c-3d7a-43d2-b331-ff0b0e4290bf}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{d3d2489a-3d99-469d-8a69-8b3ba21c8e07}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{9f3ca290-bcb7-47ac-a263-bc68374209e9}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{da538b2c-3fec-4f84-bc79-44cf09dd9f7a}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{31ee1dd1-6059-4832-8a9a-c38e0bba2fc8}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{d0bed6f4-beb5-4719-be01-76a51c29a03d}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{4633de1e-1b61-4c6f-b3b1-2f2da3b8abcb}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{fef3d13c-5644-4e34-9e7d-43132494aae0}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <Navigation>
+        <NavBar></NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

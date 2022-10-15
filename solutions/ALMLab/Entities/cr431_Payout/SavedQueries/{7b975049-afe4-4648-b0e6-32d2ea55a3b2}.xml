@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{7b975049-afe4-4648-b0e6-32d2ea55a3b2}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="cr431_name" select="1" icon="1" preview="1">
+        <row name="result" id="cr431_payoutid">
+          <cell name="cr431_name" width="112" />
+          <cell name="cr431_schemesheader" width="100" />
+          <cell name="cr431_schemeslab" width="100" />
+          <cell name="cr431_totalinvoiceamount" width="100" />
+          <cell name="cr431_dealer" width="100" />
+          <cell name="cr431_rewardamount" width="100" />
+          <cell name="createdon" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="cr431_payout">
+          <attribute name="cr431_payoutid" />
+          <attribute name="cr431_name" />
+          <order attribute="cr431_name" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="cr431_schemesheader" />
+          <attribute name="cr431_schemeslab" />
+          <attribute name="cr431_totalinvoiceamount" />
+          <attribute name="cr431_dealer" />
+          <attribute name="createdon" />
+          <attribute name="cr431_rewardamount" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Payouts" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

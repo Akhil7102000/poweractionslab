@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{f59df27f-652e-ed11-9db0-002248d5df9a}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="cr431_name" select="1" icon="1" preview="1">
+        <row name="result" id="cr431_sales_orderid">
+          <cell name="cr431_name" width="122" />
+          <cell name="cr431_orderfrom" width="100" />
+          <cell name="cr431_orderto" width="100" />
+          <cell name="cr431_orderdate" width="100" />
+          <cell name="cr431_orderstatusrail" width="100" />
+          <cell name="cr431_orderstatuslevel" width="100" />
+          <cell name="cr431_quantity" width="100" />
+          <cell name="cr431_beforetaxamount" width="100" />
+          <cell name="cr431_amountafterdiscount" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical" distinct="true">
+        <entity name="cr431_sales_order">
+          <attribute name="cr431_name" />
+          <attribute name="cr431_sales_orderid" />
+          <attribute name="cr431_orderfrom" />
+          <attribute name="cr431_orderto" />
+          <filter type="and">
+            <condition attribute="createdon" operator="last-month" />
+            <condition attribute="cr431_ordertype" operator="eq" value="254460000" />
+          </filter>
+          <attribute name="cr431_orderdate" />
+          <attribute name="cr431_orderstatusrail" />
+          <attribute name="cr431_orderstatuslevel" />
+          <attribute name="cr431_quantity" />
+          <attribute name="cr431_beforetaxamount" />
+          <attribute name="cr431_amountafterdiscount" />
+          <order attribute="cr431_orderdate" descending="true" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Distributor Order (Previous Month)" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<optionset Name="cr431_typeoftask" localizedName="Type Of Task" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <OptionSetType>picklist</OptionSetType>
+  <IsGlobal>1</IsGlobal>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <displaynames>
+    <displayname description="Type Of Task" languagecode="1033" />
+  </displaynames>
+  <Descriptions>
+    <Description description="" languagecode="1033" />
+  </Descriptions>
+  <options>
+    <option value="254460000" ExternalValue="">
+      <labels>
+        <label description="Get owner phone no" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="254460001" ExternalValue="">
+      <labels>
+        <label description="Call owner (first time)" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="254460002" ExternalValue="">
+      <labels>
+        <label description="Call owner (follow up)" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="254460003" ExternalValue="">
+      <labels>
+        <label description="Product pitching to owner" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="254460004" ExternalValue="">
+      <labels>
+        <label description="Product selection &amp; quantity finalization with owner" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="254460005" ExternalValue="">
+      <labels>
+        <label description="Product selection &amp; quantity finalization with Influencer" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="254460006" ExternalValue="">
+      <labels>
+        <label description="Give Quotation" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="254460007" ExternalValue="">
+      <labels>
+        <label description="Align with Contractor/ DMI" languagecode="1033" />
+      </labels>
+    </option>
+  </options>
+</optionset>

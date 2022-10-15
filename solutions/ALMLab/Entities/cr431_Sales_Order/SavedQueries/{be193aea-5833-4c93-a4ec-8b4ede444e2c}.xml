@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{be193aea-5833-4c93-a4ec-8b4ede444e2c}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="cr431_name" select="1" icon="1" preview="1">
+        <row name="result" id="cr431_sales_orderid">
+          <cell name="cr431_name" width="98" />
+          <cell name="cr431_orderdate" width="114" />
+          <cell name="cr431_orderfrom" width="138" />
+          <cell name="cr431_orderto" width="122" />
+          <cell name="cr431_ordertype" width="111" />
+          <cell name="cr431_shiptoparty" width="127" />
+          <cell name="cr431_billamoount" width="100" />
+          <cell name="cr431_orderstatus" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="cr431_sales_order">
+          <attribute name="cr431_sales_orderid" />
+          <attribute name="cr431_name" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="cr431_orderfrom" />
+          <attribute name="cr431_orderto" />
+          <attribute name="cr431_orderdate" />
+          <attribute name="cr431_ordertype" />
+          <order attribute="cr431_name" descending="true" />
+          <attribute name="cr431_billamoount" />
+          <attribute name="cr431_shiptoparty" />
+          <attribute name="cr431_orderstatus" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Sales Orders" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

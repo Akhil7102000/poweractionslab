@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Workflow WorkflowId="{bdf5fb6c-1c30-ed11-9db0-002248d5d232}" Name="Shipment" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <XamlFileName>/Workflows/Shipment-BDF5FB6C-1C30-ED11-9DB0-002248D5D232.xaml</XamlFileName>
+  <Type>1</Type>
+  <Subprocess>0</Subprocess>
+  <Category>4</Category>
+  <Mode>0</Mode>
+  <Scope>4</Scope>
+  <OnDemand>0</OnDemand>
+  <TriggerOnCreate>1</TriggerOnCreate>
+  <TriggerOnDelete>0</TriggerOnDelete>
+  <AsyncAutodelete>0</AsyncAutodelete>
+  <SyncWorkflowLogOnFailure>0</SyncWorkflowLogOnFailure>
+  <StateCode>0</StateCode>
+  <StatusCode>1</StatusCode>
+  <processorder>100</processorder>
+  <RunAs>1</RunAs>
+  <UniqueName>new_shipment</UniqueName>
+  <IsTransacted>1</IsTransacted>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <BusinessProcessType>0</BusinessProcessType>
+  <IsCustomProcessingStepAllowedForOtherPublishers>1</IsCustomProcessingStepAllowedForOtherPublishers>
+  <ProcessTriggerScope>1</ProcessTriggerScope>
+  <PrimaryEntity>cr431_Shipment</PrimaryEntity>
+  <LocalizedNames>
+    <LocalizedName languagecode="1033" description="Shipment" />
+  </LocalizedNames>
+  <labels>
+    <steplabels id="{01e20a33-4253-b475-3b09-773a4b5908bb}">
+      <label languagecode="1033" description="Shipment" />
+    </steplabels>
+    <steplabels id="{ba569923-8cc4-6824-1a39-e57afb550cfd}">
+      <label languagecode="1033" description="Shipment Status" />
+    </steplabels>
+    <steplabels id="{78d760c4-4fbc-4172-9b45-2940ba6730ff}">
+      <label languagecode="1033" description="In Transit" />
+    </steplabels>
+    <steplabels id="{7e07a056-2263-41b3-8498-b1db0bce62ac}">
+      <label languagecode="1033" description="Shipment Status" />
+    </steplabels>
+    <steplabels id="{491287ab-aad7-43b1-86cc-4561d0d50c01}">
+      <label languagecode="1033" description="Delivered" />
+    </steplabels>
+    <steplabels id="{d6fdc1a4-3558-4eb9-9f73-783a7957c3ff}">
+      <label languagecode="1033" description="Shipment Status" />
+    </steplabels>
+    <steplabels id="{8b861a5b-5225-4e04-82f9-bdcc47aa58ab}">
+      <label languagecode="1033" description="Delivered" />
+    </steplabels>
+    <steplabels id="{4a46ddfb-5075-4b41-88b8-a620e83ebe84}">
+      <label languagecode="1033" description="Shipment Status" />
+    </steplabels>
+    <steplabels id="{c37f6eb7-f27d-4f33-9f89-db87dd3c7800}">
+      <label languagecode="1033" description="Done" />
+    </steplabels>
+    <steplabels id="{dc1dd231-f328-4bed-819c-654a222cb5d5}">
+      <label languagecode="1033" description="Shipment Status" />
+    </steplabels>
+    <steplabels id="{aeddb3e7-be92-4700-b5d0-15b48bb09357}">
+      <label languagecode="1033" description="Delivered" />
+    </steplabels>
+    <steplabels id="{29c35f03-1eed-4c48-98fa-32c539211632}">
+      <label languagecode="1033" description="Shipment Status" />
+    </steplabels>
+    <steplabels id="{50622703-ada1-440b-9d3d-207088c66d87}">
+      <label languagecode="1033" description="Done" />
+    </steplabels>
+    <steplabels id="{6b0c3988-a843-4831-906c-0dc424861d3e}">
+      <label languagecode="1033" description="Shipment Status" />
+    </steplabels>
+    <steplabels id="{8c92f22a-9399-43ea-b77d-e3fcd1c3cb5f}">
+      <label languagecode="1033" description="Complete" />
+    </steplabels>
+    <steplabels id="{aab69fa1-59f4-46d1-b154-425d141907e8}">
+      <label languagecode="1033" description="Shipment Status" />
+    </steplabels>
+    <steplabels id="{8d77aaf6-5307-4cf0-8353-50db710acc86}">
+      <label languagecode="1033" description="Done" />
+    </steplabels>
+    <steplabels id="{0cbed40b-edd3-47ef-8ea5-83e3ddf4f342}">
+      <label languagecode="1033" description="Shipment Status" />
+    </steplabels>
+  </labels>
+  <ProcessTriggers>
+    <ProcessTrigger processtriggerid="{fdc5b2f9-2d30-ed11-9db0-002248d5d232}">
+      <controltype>1</controltype>
+      <methodid>{01e20a33-4253-b475-3b09-773a4b5908bb}</methodid>
+      <scope>1</scope>
+      <controlname>cr431_shipmentstatus</controlname>
+      <event>change</event>
+      <pipelinestage>0</pipelinestage>
+      <iscustomizable>1</iscustomizable>
+      <primaryentitytypecode>cr431_Shipment</primaryentitytypecode>
+    </ProcessTrigger>
+    <ProcessTrigger processtriggerid="{fec5b2f9-2d30-ed11-9db0-002248d5d232}">
+      <controltype>1</controltype>
+      <methodid>{78d760c4-4fbc-4172-9b45-2940ba6730ff}</methodid>
+      <scope>1</scope>
+      <controlname>cr431_shipmentstatus</controlname>
+      <event>change</event>
+      <pipelinestage>0</pipelinestage>
+      <iscustomizable>1</iscustomizable>
+      <primaryentitytypecode>cr431_Shipment</primaryentitytypecode>
+    </ProcessTrigger>
+    <ProcessTrigger processtriggerid="{ffc5b2f9-2d30-ed11-9db0-002248d5d232}">
+      <controltype>1</controltype>
+      <methodid>{491287ab-aad7-43b1-86cc-4561d0d50c01}</methodid>
+      <scope>1</scope>
+      <controlname>cr431_shipmentstatus</controlname>
+      <event>change</event>
+      <pipelinestage>0</pipelinestage>
+      <iscustomizable>1</iscustomizable>
+      <primaryentitytypecode>cr431_Shipment</primaryentitytypecode>
+    </ProcessTrigger>
+  </ProcessTriggers>
+</Workflow>
